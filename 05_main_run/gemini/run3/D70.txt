@@ -1,0 +1,173 @@
+```json
+{
+  "system_boundaries": [
+    {
+      "label": "Clinic",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Patient",
+      "details": null
+    },
+    {
+      "name": "Scheduler",
+      "details": null
+    },
+    {
+      "name": "Doctor",
+      "details": null
+    },
+    {
+      "name": "Clerk",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Cancel Appointment",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Make Appointment",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Request Medication",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Check Patient Record",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Pay Bill",
+      "abstract": false,
+      "extension_points": [
+        "more treatment"
+      ],
+      "details": null
+    },
+    {
+      "name": "Defer Payment",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Bill Insurance",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [
+    {
+      "base": "Make Appointment",
+      "included": "Check Patient Record",
+      "details": null
+    },
+    {
+      "base": "Request Medication",
+      "included": "Check Patient Record",
+      "details": null
+    }
+  ],
+  "extends": [
+    {
+      "extending": "Defer Payment",
+      "base": "Pay Bill",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    }
+  ],
+  "use_case_generalizations": [
+    {
+      "child": "Bill Insurance",
+      "parent": "Pay Bill",
+      "details": null
+    }
+  ],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Patient",
+      "use_case": "Cancel Appointment",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Patient",
+      "use_case": "Make Appointment",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Patient",
+      "use_case": "Request Medication",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Patient",
+      "use_case": "Pay Bill",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Scheduler",
+      "use_case": "Cancel Appointment",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Scheduler",
+      "use_case": "Make Appointment",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Doctor",
+      "use_case": "Request Medication",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Clerk",
+      "use_case": "Pay Bill",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}
+```

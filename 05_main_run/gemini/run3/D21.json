@@ -1,0 +1,197 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Travel agency",
+   "details": "Also contains a smaller 'System' label at the top center."
+  }
+ ],
+ "actors": [
+  {
+   "name": "",
+   "details": "Top-left unnamed actor"
+  },
+  {
+   "name": "",
+   "details": "Bottom-left unnamed actor"
+  },
+  {
+   "name": "",
+   "details": "Top-right unnamed actor"
+  },
+  {
+   "name": "Testing",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Book a tour",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Book airline ticket(s)",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Reserve a seat",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Deliver airline ticket(s)",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Arrange tour",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay travel agent",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay for airline ticket(s)",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Travel agent commission",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay for tour",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Pay travel agent",
+   "included": "Pay for airline ticket(s)",
+   "details": null
+  },
+  {
+   "base": "Pay travel agent",
+   "included": "Travel agent commission",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Book airline ticket(s)",
+   "base": "Book a tour",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Arrange tour",
+   "base": "Deliver airline ticket(s)",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Pay for tour",
+   "base": "Pay for airline ticket(s)",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "",
+   "use_case": "Book airline ticket(s)",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From top-left unnamed actor"
+  },
+  {
+   "actor": "",
+   "use_case": "Deliver airline ticket(s)",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From top-left unnamed actor"
+  },
+  {
+   "actor": "",
+   "use_case": "Pay travel agent",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From top-left unnamed actor"
+  },
+  {
+   "actor": "",
+   "use_case": "Book airline ticket(s)",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From bottom-left unnamed actor"
+  },
+  {
+   "actor": "",
+   "use_case": "Pay travel agent",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From bottom-left unnamed actor"
+  },
+  {
+   "actor": "",
+   "use_case": "Book airline ticket(s)",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From top-right unnamed actor"
+  },
+  {
+   "actor": "",
+   "use_case": "Reserve a seat",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From top-right unnamed actor"
+  },
+  {
+   "actor": "",
+   "use_case": "Pay for tour",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "From top-right unnamed actor"
+  },
+  {
+   "actor": "Testing",
+   "use_case": "Arrange tour",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

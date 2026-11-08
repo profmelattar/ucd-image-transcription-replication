@@ -1,0 +1,38 @@
+
+== STRICT ==
+type                              P      R     F1   n_gt n_pred
+System boundary                0.96   1.00   0.98    234  245
+Actor                          0.96   0.96   0.96    714  714
+Use case                       0.99   0.99   0.99   1545 1545
+Abstract use case              1.00   1.00   1.00      9    9
+Include                        0.97   0.97   0.97    327  327
+Extend                         1.00   1.00   1.00    180  180
+Extension point                1.00   1.00   1.00     48   48
+Extend condition               1.00   1.00   1.00     24   24
+UC generalization              0.87   0.87   0.87     90   90
+Actor generalization           1.00   0.97   0.98     87   84
+Bidirectional association      0.96   0.95   0.96   1314 1303
+Directed association           0.86   0.89   0.87    282  293
+Note                           0.71   0.90   0.79     81  103
+Other relationship             1.00   1.00   1.00     12   12
+Other dependency               1.00   1.00   1.00      3    3
+Other                          0.33   1.00   0.50      3    9
+
+== LENIENT ==
+type                              P      R     F1   n_gt n_pred
+System boundary                1.00   1.00   1.00    234  234
+Actor                          1.00   1.00   1.00    714  714
+Use case                       1.00   1.00   1.00   1545 1545
+Abstract use case              1.00   1.00   1.00      9    9
+Include                        1.00   1.00   1.00    327  327
+Extend                         1.00   1.00   1.00    180  180
+Extension point                1.00   1.00   1.00     48   48
+Extend condition               1.00   1.00   1.00     24   24
+UC generalization              0.97   0.97   0.97     90   90
+Actor generalization           1.00   0.97   0.98     87   84
+Bidirectional association      0.99   0.98   0.99   1314 1303
+Directed association           0.95   0.99   0.97    282  293
+Note                           0.71   0.90   0.79     81  103
+Other relationship             1.00   1.00   1.00     12   12
+Other dependency               1.00   1.00   1.00      3    3
+Other                          0.33   1.00   0.50      3    9

@@ -1,0 +1,87 @@
+{
+ "system_boundaries": [
+  {
+   "label": "ATM",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Bank customer",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Withdraw money",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Credit card confiscated",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Authentication",
+   "abstract": false,
+   "extension_points": [
+    "Extension Point X: Card confiscated following wrong PIN entered 3x"
+   ],
+   "details": null
+  },
+  {
+   "name": "PIN and account control",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Withdraw money",
+   "included": "Authentication",
+   "details": null
+  },
+  {
+   "base": "Authentication",
+   "included": "PIN and account control",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Credit card confiscated",
+   "base": "Authentication",
+   "extension_points": [
+    "Extension Point X: Card confiscated following wrong PIN entered 3x"
+   ],
+   "condition": "Condition: {3x wrong PIN}",
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Bank customer",
+   "use_case": "Withdraw money",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [
+  {
+   "text": "Condition: {3x wrong PIN} Extension Point: X",
+   "attached_to": "<<extend>> arrow from Credit card confiscated to Authentication",
+   "details": null
+  }
+ ],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

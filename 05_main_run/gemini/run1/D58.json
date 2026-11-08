@@ -1,0 +1,184 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Automatic Coding Style System",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Developer",
+   "details": null
+  },
+  {
+   "name": "CTO",
+   "details": null
+  },
+  {
+   "name": "GitHub",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Running tool locally",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Automatic feedback on commit",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "See improvements since last run",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Badges showing score",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Define coding guidelines",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Code should not be kept",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Show code recommendation",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Coding style should follow framework standards",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Coding style as suggestion",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Checking if coding guidelines are followed",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Running tool locally",
+   "included": "Show code recommendation",
+   "details": null
+  },
+  {
+   "base": "Automatic feedback on commit",
+   "included": "Show code recommendation",
+   "details": null
+  },
+  {
+   "base": "Show code recommendation",
+   "included": "Coding style should follow framework standards",
+   "details": null
+  },
+  {
+   "base": "Show code recommendation",
+   "included": "Coding style as suggestion",
+   "details": null
+  },
+  {
+   "base": "Show code recommendation",
+   "included": "Checking if coding guidelines are followed",
+   "details": null
+  }
+ ],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Developer",
+   "use_case": "Running tool locally",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Developer",
+   "use_case": "Automatic feedback on commit",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Developer",
+   "use_case": "See improvements since last run",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Developer",
+   "use_case": "Badges showing score",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "CTO",
+   "use_case": "Define coding guidelines",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "CTO",
+   "use_case": "Code should not be kept",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "GitHub",
+   "use_case": "Automatic feedback on commit",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "GitHub",
+   "use_case": "See improvements since last run",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

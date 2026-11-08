@@ -1,0 +1,111 @@
+{
+ "system_boundaries": [
+  {
+   "label": "SugiBib",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "User",
+   "details": null
+  },
+  {
+   "name": "SE-User",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Layout Graphs",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Display Graph",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Layout Software Engineering Diagrams",
+   "abstract": false,
+   "extension_points": [
+    "Diagrams"
+   ],
+   "details": null
+  },
+  {
+   "name": "Layout Class Diagrams",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Layout Use Case Diagrams",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Layout Graphs",
+   "included": "Display Graph",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Layout Class Diagrams",
+   "base": "Layout Software Engineering Diagrams",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Layout Use Case Diagrams",
+   "base": "Layout Software Engineering Diagrams",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [
+  {
+   "child": "Layout Software Engineering Diagrams",
+   "parent": "Layout Graphs",
+   "details": null
+  }
+ ],
+ "actor_generalizations": [
+  {
+   "child": "SE-User",
+   "parent": "User",
+   "details": null
+  }
+ ],
+ "associations": [
+  {
+   "actor": "User",
+   "use_case": "Layout Graphs",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": "*",
+   "details": null
+  },
+  {
+   "actor": "SE-User",
+   "use_case": "Layout Software Engineering Diagrams",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": "*",
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

@@ -1,0 +1,45 @@
+{
+  "system_boundaries": [],
+  "actors": [
+    {"name": "Site user", "details": null},
+    {"name": "Webmaster", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Search docs - full text", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Browse docs", "abstract": true, "extension_points": [], "details": null},
+    {"name": "View events", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Log in", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Upload docs", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Post new event to homepage", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Add user", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Download docs", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Preview doc", "abstract": true, "extension_points": [], "details": null},
+    {"name": "Manage folders", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Add company", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [
+    {"base": "Search docs - full text", "included": "Download docs", "details": null},
+    {"base": "Search docs - full text", "included": "Preview doc", "details": null},
+    {"base": "Preview doc", "included": "Browse docs", "details": null}
+  ],
+  "extends": [
+    {"extending": "Manage folders", "base": "Upload docs", "extension_points": [], "condition": null, "details": null},
+    {"extending": "Add company", "base": "Add user", "extension_points": [], "condition": null, "details": null}
+  ],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {"actor": "Site user", "use_case": "Search docs - full text", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Site user", "use_case": "Browse docs", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Site user", "use_case": "View events", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Site user", "use_case": "Log in", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Site user", "use_case": "Upload docs", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Webmaster", "use_case": "Upload docs", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Webmaster", "use_case": "Post new event to homepage", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Webmaster", "use_case": "Add user", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null}
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

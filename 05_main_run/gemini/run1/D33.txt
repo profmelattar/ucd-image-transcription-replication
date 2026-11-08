@@ -1,0 +1,52 @@
+{
+  "system_boundaries": [
+    {
+      "label": "Ticket vending machine",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Commuter",
+      "details": null
+    },
+    {
+      "name": "Bank",
+      "details": "Represented by an icon of a bank building."
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Purchase Ticket",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Commuter",
+      "use_case": "Purchase Ticket",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Bank",
+      "use_case": "Purchase Ticket",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..*",
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

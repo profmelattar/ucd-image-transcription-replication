@@ -1,0 +1,111 @@
+{
+ "id": "resp_09f3a787cf72525b006aef2148f64c87d2a9c6532bd814c907",
+ "access_programs": null,
+ "created_at": 1794056521.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_09f3a787cf72525b006aef214a26c887d2b764f8884bdbb12e",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq7yFSCcLeeBPZgBRroT8nCFLeNVQRXHFOfgN7MNjtuVUm5ob5x0-YkguhVS6Af2do6kzCkQMX8iY4eErYRHMVaVpI7yJDGP9WzqKUwHRmNTBYIUsXUbHW_WUTUX3wJouEiaDlVkgSQDzuU4IfxgvJjJ2i6loOfJc2TdtZkcZWRFg-8668If7oiN9jzkCltqHUqoS3_6kgSoKtHRZGW_hNFxt0UDJNu7lHDAGucgVYWkQ3HEQWaQUbKGT-YvWcTLuYgcylGOPDZsJqgxIE9l1gYo1dv02BEaNDbse-jLU2qwlEnG71nOJsinuHVlr6PvASEgHsZhcmewQxtTFPOa_znhyp197P3lVc4i13_wbNDfX4-lA08TP8XVWlTwDpv0S7D11OZQm1PGRGcjonZ6UNtuQrVYe9dI5tMPnmLhd51crD-B9gabsGOuupR0Ko_HpUzz5i8wHoqLtOmZSpG_KcXTGsMqaUx5Bd2mDmZ3UoqzyIzBOjn-GuiyeJfVTe_r6ruZAYpbet3HjJ6iBzwluhjGrmhFUazqo7MAA5-w4zTxslQQOzMTrmYdiBMGrz2PjYoIXHirqAoCuJBn8MO_4CSEm0eSdBDXDwf-zA1NyDEYU1NT3GCUElDwr36Yu1ImDkVUSzZOkHvhVLzCxl4QkPEvcvjsQtd0uQcjrXbJbHQ5WcNbYaWtMPurQdGuyAUrUspQEpRO4-y1AyddOYFY1VjF3t7vf1MjXteJ6EUkkh3Sgw6aqG_QpSQBQF0ff_-CwVMd-PwIq3WnqO_FnM9nU7C42njrjTCQZhyEKXpXcNqZtYOGKjOCOSuErewQEWMfoLM_mf8dkV7TpkePZthn9hDZzgecKQhseksGTdGfwHRfcUuKlR-uA5eC1m3AhSS75PzzvsD1G1dhWnBRaBIxXVrE5ivrR-BrpnIZ6w6LLFmv9mkeUF13tROBRssMWbIG1UA0Y0v_1ZhFNhIjhXAOKgMo5fH1biID_zfIvA9_WzTatQE-IK6VDXa3kN9IGwjzVWXlsb8oKx2Ecj4w6EpjCFzfHTEfIW_s0fTK8gpy2aHDaUeAoj8s-b1PjOtnhaaqLSSfbKLY0HrST-SN1-xtVZY8-XEXBmT9Sbmew3HkUtwiIKsqP4kaBOiG7W24wtZKh_kTXkxnPr6uu9ST3beVsxVVkzIDH0EWOnbJVKruaWvWShsGqI5sr3OXnmobYwytiXrEx12Fi1b1V8XZMzQWM0ol3aYFKaaDcJMzDV3C_fASYZL9Kf48-9olG9yDIeXPUmDvGYv39ywkKKKrkZUyAvkI0qpCdfPz-m1l4MXEieA0v-i0blXRzdiGCOQMrMg-aaQfydRDY4DVzQ5-p9Xi90m4GdsEklSL1fpec_TGvivmSC-BjqVRFDNey_i4eSCiT5h5osknkCsGGJtUio_YM6eS_YsHtnzHLDo7M5A8u_KF93mb0o2dy5kYnGXlZPRRjtgAJmAsLYU_ega6pSz5ldBcRnra3H6h1m-0gvN3jDBvdSeVL9PvPSwxhOiy3l1DQFllQZkJtOMp0-FzOoqqZ3KxddcTJgAaCYbLNQ6G7wIOtC4IVP4aqOGMFmcq7EryeUOkUfBFOToQXMxbQz3xqOkZR9UX4F8WdTTgp4OAljJMX1hHpdP4Cdcb2Ik3dscMducaZee33eGhgc4pwFbt1BBm2HEoYiwtcFE41SdQ035_281XnCCOhpaneDzNhXr0wv-amvLEmBT-dTeCOA9Lt3RySc8YFfsYK6cbo6FpRvo8MyLchj12Xu-JL0JBX_hJDOHVl8Jf4lKn78IqXrFPxhVIraXIY3s6pYgsDY9PPJzG4Dn0WnUfHqdvCyYD5s6O4VTNAljscHfVlzF-_biTPTkowXnb94AhKrkXDhq7NWRaWPiWrkSeniwqMoG3WUyT5WAoQ5cWVLNQ8l3rE2MHvtGJlaQy1uCoHfT2Y77OU6RqBRkMLZLUXfuPOdsANS-8uHVZl6R_epu9fbkFCwTZEs3eXm8eKAAgQdg0bOJQEmV5t8gh-8EJwPZ-ynQAaJoJ_Kzop5oqw8gFEwuIFioZn2k1NbV9ObhU2aJioCDod_vyHpiJ181Hfsg1YRzJCmFngeXf8VsiWJB2_cuTxSv8zaGmkUeoo-up67I_Pzj5cjOXGlkyu1jx5UhovnSKBscZEU8cSGaOA6WjtSncgLOetj0KVC2BXkIoFF4zeFvoGx4Kb-TpCfskWrcfhkmSfc1nS_5b7uENqIag75Qb7-fIAqlvTstrUiy-dmbU_5cNqkMPiPm69N2GujqLHb4tboi1HNNQoGei0fLRiJYeIOETWv5Ax4EO8HyBhONlhBVy4dlCGjo3XyWSt0vat68U_BD-JhcMsJWTYQfu5LhMewI_EL56M-iXIsAa4pBxTHujpDzumfZp12wjHCGkvVeY5Kg7J40tTW7WgThbIVHL7K73PKUKcHYATsH5F2O77Nyp_ho_FvgV7nNbYqHO8Sd6uNF5UOAkhKs7ElhYyhLjXr-ESLCYLcjcH_56oCj_3EJxOIX7r4MmRY9iI-PIHwn9enI02KW1bp1lkWwy5eLNq8uLrLj_baWmjrpwRdY1BZRX-oU6eaJuaa_UFRiy0ZtXp8D8WrOzUkZuSqTuiR3ugIMjvsH2AE4w==",
+   "status": null
+  },
+  {
+   "id": "msg_09f3a787cf72525b006aef214d4aa487d2878d90bda2fdee87",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"system_boundaries\": [\n    {\"label\": \"ATM\", \"details\": null}\n  ],\n  \"actors\": [\n    {\"name\": \"Bank customer\", \"details\": null}\n  ],\n  \"use_cases\": [\n    {\n      \"name\": \"Withdraw money\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"Authentication\",\n      \"abstract\": false,\n      \"extension_points\": [\n        \"X: Card confiscated following wrong PIN entered 3x\"\n      ],\n      \"details\": null\n    },\n    {\n      \"name\": \"Credit card confiscated\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"PIN and account control\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    }\n  ],\n  \"includes\": [\n    {\n      \"base\": \"Withdraw money\",\n      \"included\": \"Authentication\",\n      \"details\": null\n    },\n    {\n      \"base\": \"Authentication\",\n      \"included\": \"PIN and account control\",\n      \"details\": null\n    }\n  ],\n  \"extends\": [\n    {\n      \"extending\": \"Credit card confiscated\",\n      \"base\": \"Authentication\",\n      \"extension_points\": [\n        \"X: Card confiscated following wrong PIN entered 3x\"\n      ],\n      \"condition\": \"{3x wrong PIN}\",\n      \"details\": null\n    }\n  ],\n  \"use_case_generalizations\": [],\n  \"actor_generalizations\": [],\n  \"associations\": [\n    {\n      \"actor\": \"Bank customer\",\n      \"use_case\": \"Withdraw money\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    }\n  ],\n  \"notes\": [\n    {\n      \"text\": \"Condition: {3x wrong PIN} Extension Point: X\",\n      \"attached_to\": \"Credit card confiscated <<extend>> Authentication\",\n      \"details\": null\n    }\n  ],\n  \"other_relationships\": [],\n  \"other_dependencies\": [],\n  \"other\": []\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794056529.0,
+ "conversation": null,
+ "max_output_tokens": 25000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "type": "text"
+  },
+  "verbosity": "medium"
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 2476,
+  "input_tokens_details": {
+   "cache_write_tokens": 2473,
+   "cached_tokens": 0
+  },
+  "output_tokens": 558,
+  "output_tokens_details": {
+   "reasoning_tokens": 89
+  },
+  "total_tokens": 3034
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "presence_penalty": 0.0,
+ "store": true,
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "total_tokens": 0
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ }
+}

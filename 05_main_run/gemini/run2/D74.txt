@@ -1,0 +1,203 @@
+```json
+{
+  "system_boundaries": [],
+  "actors": [
+    {
+      "name": "user",
+      "details": null
+    },
+    {
+      "name": "admin",
+      "details": null
+    },
+    {
+      "name": "friend",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "what's app download",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "installation",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "terms and condition",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "verification",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "sucessfully verified",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "username update",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "profile picture update",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "status update",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "chats",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "calls",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "user",
+      "use_case": "what's app download",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "installation",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "verification",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "sucessfully verified",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "username update",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "profile picture update",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "status update",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "chats",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "user",
+      "use_case": "calls",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "admin",
+      "use_case": "terms and condition",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "admin",
+      "use_case": "verification",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "admin",
+      "use_case": "sucessfully verified",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "friend",
+      "use_case": "chats",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "friend",
+      "use_case": "calls",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}
+```

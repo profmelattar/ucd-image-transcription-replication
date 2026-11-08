@@ -1,0 +1,160 @@
+{
+ "system_boundaries": [
+  {
+   "label": null,
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "STANDARD USER",
+   "details": null
+  },
+  {
+   "name": "GUEST USER",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "GOOGLE SEARCH",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "IMAGES",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "MAPS",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "GOOGLE DRIVE",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "GMAIL",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "PLAY STORE",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "SIGN IN",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "GOOGLE DRIVE",
+   "included": "SIGN IN",
+   "details": "Dashed arrow labelled 'include' in a box, without guillemets"
+  },
+  {
+   "base": "GMAIL",
+   "included": "SIGN IN",
+   "details": "Dashed arrow labelled 'include' in a box, without guillemets"
+  },
+  {
+   "base": "PLAY STORE",
+   "included": "SIGN IN",
+   "details": "Dashed arrow labelled 'include' in a box, without guillemets"
+  }
+ ],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "STANDARD USER",
+   "use_case": "GOOGLE SEARCH",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "STANDARD USER",
+   "use_case": "IMAGES",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "STANDARD USER",
+   "use_case": "MAPS",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "STANDARD USER",
+   "use_case": "GOOGLE DRIVE",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "STANDARD USER",
+   "use_case": "GMAIL",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "STANDARD USER",
+   "use_case": "PLAY STORE",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "GUEST USER",
+   "use_case": "GOOGLE SEARCH",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "GUEST USER",
+   "use_case": "IMAGES",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "GUEST USER",
+   "use_case": "MAPS",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

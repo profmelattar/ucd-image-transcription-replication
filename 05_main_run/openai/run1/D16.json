@@ -1,0 +1,155 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Library Management System",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Librarian",
+   "details": null
+  },
+  {
+   "name": "Borrower",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Log in",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Return Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Borrow Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Manage Books",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Update Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Remove Books",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Search Books",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "View Book Details",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Log in",
+   "included": "Manage Books",
+   "details": null
+  },
+  {
+   "base": "Manage Books",
+   "included": "Add Book",
+   "details": null
+  },
+  {
+   "base": "Manage Books",
+   "included": "Update Book",
+   "details": null
+  },
+  {
+   "base": "Manage Books",
+   "included": "Remove Books",
+   "details": null
+  },
+  {
+   "base": "Manage Books",
+   "included": "Search Books",
+   "details": null
+  },
+  {
+   "base": "Manage Books",
+   "included": "View Book Details",
+   "details": null
+  }
+ ],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Librarian",
+   "use_case": "Log in",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Borrower",
+   "use_case": "Return Book",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Borrower",
+   "use_case": "Borrow Book",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Borrower",
+   "use_case": "Search Books",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Borrower",
+   "use_case": "View Book Details",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

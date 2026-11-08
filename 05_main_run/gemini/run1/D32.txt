@@ -1,0 +1,161 @@
+```json
+{
+  "system_boundaries": [
+    {
+      "label": "<<Business>> Airport",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Tour Guide",
+      "details": null
+    },
+    {
+      "name": "Minor Passenger",
+      "details": null
+    },
+    {
+      "name": "Passenger",
+      "details": null
+    },
+    {
+      "name": "Passenger With Special Needs",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Group Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Individual Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Counter Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Kiosk Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Baggage Handling",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Baggage Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Security Screening",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [
+    {
+      "base": "Group Check-In",
+      "included": "Individual Check-In",
+      "details": null
+    }
+  ],
+  "extends": [
+    {
+      "extending": "Baggage Check-In",
+      "base": "Individual Check-In",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    },
+    {
+      "extending": "Baggage Handling",
+      "base": "Counter Check-In",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    },
+    {
+      "extending": "Baggage Handling",
+      "base": "Kiosk Check-In",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    }
+  ],
+  "use_case_generalizations": [
+    {
+      "child": "Counter Check-In",
+      "parent": "Individual Check-In",
+      "details": null
+    },
+    {
+      "child": "Kiosk Check-In",
+      "parent": "Individual Check-In",
+      "details": null
+    }
+  ],
+  "actor_generalizations": [
+    {
+      "child": "Tour Guide",
+      "parent": "Passenger",
+      "details": null
+    },
+    {
+      "child": "Minor Passenger",
+      "parent": "Passenger",
+      "details": null
+    },
+    {
+      "child": "Passenger With Special Needs",
+      "parent": "Passenger",
+      "details": null
+    }
+  ],
+  "associations": [
+    {
+      "actor": "Tour Guide",
+      "use_case": "Group Check-In",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Passenger",
+      "use_case": "Individual Check-In",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Passenger",
+      "use_case": "Security Screening",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}
+```

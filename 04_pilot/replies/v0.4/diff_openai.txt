@@ -1,0 +1,2 @@
+D48  Extension point  MISSING (in ground truth, not in reply): receive notification | confirm demand
+D48  Extension point  EXTRA (in reply, not in ground truth): receive notifications | confirm demand

@@ -1,0 +1,111 @@
+{
+ "id": "resp_0b4b27b65ad8dd90006aef2104ae8087d2a58dd0a0a376e4a8",
+ "access_programs": null,
+ "created_at": 1794056452.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_0b4b27b65ad8dd90006aef2106295487d2b0a96bd5efd405b6",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq7yEQHSPbSnGRfYabeOBX0O2gvSDVphK7Uczhz6bUpRIedjDugpV1SiJylwdqxa3qttWHwdOP6sZJfU9yMVE0gjwk3ODwVaPlQfxX8NocMDW0qMgpusfpECC5zcJ6jO0yMX0ocdYszmUA-G_6VKcFudh337kBYya0UiUT7AC2pYBLDWMNONeWqY4tzu9rogbOsncUa0ZlOj4Pu8AXG6JzqItt-ojst1rMWGrKcn86-iG4gzet2oxBMzkxSGExlupwoX0MktbbrGgJmzk7UJ4Pyr-ZZmljrU8R6HAfkG_FxhhDKyoW9lWpni9BzhTasEMoIHCHEZo4sYuPIH7u-N9apB2ByhRLqtTVDr4hv6eZE0_ByxCtbJsVv6dlv9pjiGw6SbC987oPFH4Efg8QNScAfewD1sh9gzzp5p8anhod87XD6nJPBT-QoylUeMZPfsrislby83pD80iVKAQXrx0yww1lDi-dlFHvUUsKk0q9c-TyyRIA6pBHOEhi-BRIG8x6buunVv2U4tUg0kbcD62G3OhsgVud4Lx3jdVKMvrxgrxEyDetIm5mg4FIiHBg9zsRXeZn-UwQ7FNego_8nzbusmv0X4rCdRKnrqqmKL7ckuitTMyhrA8iaCvHFLqIwjuIvBa3aGRm2uQ3u8N3z5DD4ycAJEpCQl1e0k8znXyicLH9lQbxMad-xPXFcpn-mu0TSLSOEsZ5V-XzifaJzA3NzbPsrfqEtmtVgLIJXgXj72qMMPPu5-PUmpC01R_GC36UHtWdQL_PLl3cx3EmKsJ5ac8WmbHwdGvb8Pr3pUG6YCJkZasUidyOwyX8iNtdePSy0oWUaLG9_SSBM3SijCoF3hhrSBrX2fN3i2hMVOVtf3W6T0okRrjRvLZsYwjHS7r5Rq2q234YNupilcHhTTfW5ULSkxc5yNO7KyYU07Hgv8ctxDaiHC8ruQ4TsOOeju6hhzmsaMCtqqtK_ZxBuD5YAvb-F_bgAXxBHRF1isy58X_NHyILsb8724N16rqqTnwkY0glKQnzLJpb2F6bV1VW_pq5VYKLEs8UDOPvRrZgwcT2f7T8QhuoNgKZFP0S95jBk_4v2SgDU2hm_7IONP0IYaDxB0s_lRFgd2tOdQM0w1ufVPsTjWTwR9WtQJtZBHYs6eXKIaNdhf_UcjdNafhIS5yqOI3ewfVNIy5TC5ccb4_Z8UYSgMNam56dfpnTX2eV_zviV-1F1t_9x3XVN06XC-dck_TRfbVc5OTQZE7iDb6nYPQIp3f4D61eUxlyjZmLMuR7WtyhopftXiThaknQwateKoMBaqtmPRqe8zkprA7Dm5Ed0siNyQGmmC3dNegjVApc_K1_NwN0zWjq8cNP_QDu6F9S1Fbh8IYbAK2CLNMecYsKDXqcnOKociZM2VfubBXI64c6tN0h9iB0vVEyvvGnFTHvZYrJa3yH--FJhQxZFBoF9ZJNp7MHgdCc2V_hzW4WXfAgvL-pmTiA7b1p_-C6Kx3O9PC2XzL6uQ1tfL3B1wzhrbyElm8FGF94Km3mALZpIBx-_APZQmDr7HZy9CZ2c5cnAbyMRpxEu8Cn2nSgeCxzfZ1X2kmRUqBYVSByhhSpHtGsjWdDRi2p2N1jZ2rPtNwiCn2_8Ez_l1IXO8fklCiEOn0ZW77nnNuRd84vg_yeFNz_mYtxqgHwEnYvc8i0BTxwsjWiOh7Spcdkq2Ib-3TqOVMUhxzO1BkAHPH1aMJW9Fmb9drgrfBFpwXsOOLoJnuX4iKNKJ3WjsPtaki3AiGjmBQrYG93C5TzfND0MH-3f3MH0vIxZNsGLPIh2QbudzEgsqfJ2er7gm5iqC8aTTRUJRs2W5ZJgO3nJAk5D9JhR8eUxp_fEiTnktNEeeBSG4Nd1lSXrchK_qcxjQfUTCJNwBtNBtDw6PqYFljeZR22mmCF5j3s48hDpHVMxFBRDZL5512GqrXeSFwTdoyBWKZQyoyjYa2ktqVu0JEuQw75nPp5e1R_QcVYasxVYbPIEER86fR0t7M-_O4zzJO4dvjM2V6dOrEPHQ517cBrhJ0_vKUuo6TmbJt26638IfesNL0--ABp_tIfm5H_zhh6kUQ9uS_f3_gXYJcCu8nQ8s-a4SxvEE2EDWqaR9kTf0dngBc6tkA7lARMGwZhuLBLP3_LgGfAA-98RxvnfiOnRQRYLXiN2sKBGjSTwaagFLjRPoLusVYcOxGnCbTvzwdyW9jJd04xCoaP6st6JQyGJs29xucuiavZKd3TDYvL2voczGEFa6YmR-f4lC6BlColjh7m7UO5N3fay6v5XfaCAqJOqkqoAVb8JXlHadmogKdBrVzZJryJWW951hWAbPKup5CXziNvUl1G6N5gGebBUjm6kLmr4L60sit1dJLgNOXsif6vxQSuLiAQeqtELlpPPeTLK_r9friFjq8cnHBD_f46XM1qHjLb7NNExXXisG9ob0MFlZ0t0C_TX8NvO5bU5sl9JXwRdW2KWW6FHKxlEULKcJaXj0qbyDvG7QheESaX9BOpp6WVm4Y2Gx19y5TD41N_0d12urFYixam2O4KC0U6dG7mA8oTFbp5aX5VIk1_XA==",
+   "status": null
+  },
+  {
+   "id": "msg_0b4b27b65ad8dd90006aef2107be9c87d294ef3cd2e929a32a",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"system_boundaries\": [\n    {\"label\": \"Loan approval system\", \"details\": null}\n  ],\n  \"actors\": [\n    {\"name\": \"Loan officer\", \"details\": null},\n    {\"name\": \"Credit analyst\", \"details\": null},\n    {\"name\": \"Senior loan officer\", \"details\": null},\n    {\"name\": \"Loan applicant\", \"details\": null},\n    {\"name\": \"Loan administration clerk\", \"details\": null}\n  ],\n  \"use_cases\": [\n    {\"name\": \"Identify and discuss financing needs\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Compile loan application\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Verify loan application\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Prepare loan write up\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Generate approval\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Produce loan documents\", \"abstract\": false, \"extension_points\": [], \"details\": null}\n  ],\n  \"includes\": [],\n  \"extends\": [],\n  \"use_case_generalizations\": [],\n  \"actor_generalizations\": [],\n  \"associations\": [\n    {\n      \"actor\": \"Loan officer\",\n      \"use_case\": \"Identify and discuss financing needs\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Loan officer\",\n      \"use_case\": \"Compile loan application\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Loan officer\",\n      \"use_case\": \"Verify loan application\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Credit analyst\",\n      \"use_case\": \"Prepare loan write up\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Senior loan officer\",\n      \"use_case\": \"Verify loan application\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Senior loan officer\",\n      \"use_case\": \"Generate approval\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Loan applicant\",\n      \"use_case\": \"Identify and discuss financing needs\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Loan applicant\",\n      \"use_case\": \"Compile loan application\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Loan applicant\",\n      \"use_case\": \"Produce loan documents\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Loan administration clerk\",\n      \"use_case\": \"Produce loan documents\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    }\n  ],\n  \"notes\": [\n    {\n      \"text\": \"UML class diagrams Read more about structuring UML class diagrams here. And for additional help, watch this tutorial about basic UML class diagrams.\",\n      \"attached_to\": null,\n      \"details\": null\n    }\n  ],\n  \"other_relationships\": [],\n  \"other_dependencies\": [\n    {\n      \"from\": \"Produce loan documents\",\n      \"to\": \"Generate approval\",\n      \"label\": \"<<Exclude>>\",\n      \"details\": null\n    }\n  ],\n  \"other\": []\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794056463.0,
+ "conversation": null,
+ "max_output_tokens": 25000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "type": "text"
+  },
+  "verbosity": "medium"
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 3400,
+  "input_tokens_details": {
+   "cache_write_tokens": 3397,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1039,
+  "output_tokens_details": {
+   "reasoning_tokens": 78
+  },
+  "total_tokens": 4439
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "presence_penalty": 0.0,
+ "store": true,
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "total_tokens": 0
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ }
+}

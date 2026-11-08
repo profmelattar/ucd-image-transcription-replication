@@ -1,0 +1,110 @@
+{
+  "system_boundaries": [
+    {
+      "label": null,
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Library user",
+      "details": null
+    },
+    {
+      "name": "Librarian",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Register Book Loan",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Register Book Return",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Query book avalibility",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Add new Book",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Library user",
+      "use_case": "Register Book Loan",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Library user",
+      "use_case": "Register Book Return",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Library user",
+      "use_case": "Query book avalibility",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Librarian",
+      "use_case": "Register Book Loan",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Librarian",
+      "use_case": "Register Book Return",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Librarian",
+      "use_case": "Query book avalibility",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Librarian",
+      "use_case": "Add new Book",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

@@ -1,0 +1,35 @@
+D27  Bidirectional association  MISSING (in ground truth, not in reply): senior loan officer | verify loan application
+D27  Bidirectional association  EXTRA (in reply, not in ground truth): loan administration clerk | generate approval
+D38  Use case  MISSING (in ground truth, not in reply): register to car-to-share
+D38  Use case  MISSING (in ground truth, not in reply): record id card
+D38  Use case  MISSING (in ground truth, not in reply): record drivers license
+D38  Use case  MISSING (in ground truth, not in reply): record payment method
+D38  Use case  MISSING (in ground truth, not in reply): record voucher
+D38  Use case  MISSING (in ground truth, not in reply): conduct video call for verification
+D38  Use case  MISSING (in ground truth, not in reply): send confirmation
+D38  Use case  EXTRA (in reply, not in ground truth): record id card use case
+D38  Use case  EXTRA (in reply, not in ground truth): conduct video call for verification use case
+D38  Use case  EXTRA (in reply, not in ground truth): record drivers license use case
+D38  Use case  EXTRA (in reply, not in ground truth): register to car-to-share use case
+D38  Use case  EXTRA (in reply, not in ground truth): record payment method use case
+D38  Use case  EXTRA (in reply, not in ground truth): record voucher use case
+D38  Use case  EXTRA (in reply, not in ground truth): send confirmation use case
+D38  Include  MISSING (in ground truth, not in reply): register to car-to-share→send confirmation
+D38  Include  EXTRA (in reply, not in ground truth): register to car-to-share use case→send confirmation use case
+D38  Extend  MISSING (in ground truth, not in reply): conduct video call for verification→record id card
+D38  Extend  MISSING (in ground truth, not in reply): conduct video call for verification→record drivers license
+D38  Extend  EXTRA (in reply, not in ground truth): conduct video call for verification use case→record id card use case
+D38  Extend  EXTRA (in reply, not in ground truth): conduct video call for verification use case→record drivers license use case
+D38  Bidirectional association  MISSING (in ground truth, not in reply): customer | register to car-to-share
+D38  Bidirectional association  MISSING (in ground truth, not in reply): email system | send confirmation
+D38  Bidirectional association  EXTRA (in reply, not in ground truth): customer | register to car-to-share use case
+D38  Bidirectional association  EXTRA (in reply, not in ground truth): email system | send confirmation use case
+D38  Other relationship  MISSING (in ground truth, not in reply): record id card→register to car-to-share
+D38  Other relationship  MISSING (in ground truth, not in reply): record drivers license→register to car-to-share
+D38  Other relationship  MISSING (in ground truth, not in reply): record payment method→register to car-to-share
+D38  Other relationship  MISSING (in ground truth, not in reply): record voucher→register to car-to-share
+D38  Other relationship  EXTRA (in reply, not in ground truth): record id card use case→register to car-to-share use case
+D38  Other relationship  EXTRA (in reply, not in ground truth): record drivers license use case→register to car-to-share use case
+D38  Other relationship  EXTRA (in reply, not in ground truth): record payment method use case→register to car-to-share use case
+D38  Other relationship  EXTRA (in reply, not in ground truth): record voucher use case→register to car-to-share use case
+D48  Bidirectional association  EXTRA (in reply, not in ground truth): director | view statistics

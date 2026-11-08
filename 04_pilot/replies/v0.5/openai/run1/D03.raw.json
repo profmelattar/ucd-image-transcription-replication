@@ -1,0 +1,111 @@
+{
+ "id": "resp_0d2d4becaad5d172006aef24a3aa2487d29f62d09b4a2ca642",
+ "access_programs": null,
+ "created_at": 1794057379.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_0d2d4becaad5d172006aef24a5415887d292757d782fb3ccbf",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq7yS5kGTsF6bixbesDsJuRqHZkpmooavyIA72pdv7ODZFxzQDQx15Isb_cXeL9JISI4W0NL2OLFquylK4eja_VU-KzXHxmE8fTGGUMXFIpREtPkPC-6dgHNvwEOiTtPZ-IN5lNwMhZAUppNxEHgXxXpjQMTJrUPEDeM69wBo3uZ8pE4Lb8KQlwvuyLC1PA9SnSblm8MMqy5S_TPjvUTFdBIliH6YMvYxyIg5437ULOSY-iLHlrTMGZEAowYgiLYUHuJ6mThqN7a9nbLYLBxlqZcscsRq6c1caEljGGuA5aOQSB1halX6L6MjLFxzfzZEvBmV1hs2LYYdUfgXUi6QqmaF6A7K9Ana4muQ6Gl3evIINs0M9CTeDWVGhHFw410V77cDRowWqNeiaLuXBeHg00wafvQIXQKkpxmVRhT5Jeyh4svoU6tzi_HpOfcDlnj6EmT57gHsWbuQV-91Ur3ERTR4mJwEFx250ixZAbFCj0qrK6cVvCjbC1TBusW3iSit3jOWP0ZynpwjwnxMnhAo3Iw72x1mCdJ-jHd84EpRgiWISJ8g1jd8Bc54r2oJshaoy8AC0XTQPQdqCX117p1K34X6tRVVCRbostoK34wWB2epVijn5-BrOIpJmwiY3o3g_kTppYacBWqPTbD-PKi9isT5Jjgkd-QwxAG0dvXAUDZk6BfChQRYBIuVYeitWQFGW98nhvCDj3F6nBSq-5CLRxCuje_TOl9sBKSA0E9xGAuqPM0iSAf93T_DtcRfwe9u9AmlMGQfQRzW94jz7NWd1bfungX4eCd83EdpSO3vaHql0nUDqfTTJEpoORq3AELuqhtVWdgS4d5IzkPRKS9zdtSDwQ15Iteu-8vPclPvCiqaFTd2fdJOQrEXl9BkPJeULbb67KNFGz5_NrmdhDImhy2xKpkkekXgR1k_NmabRlYm4c1Ty_pMuLL4pfpcHEj03gdhTdFxSa7nSfsEvCsKR_LPBVsYrD3dUyYd-j9ZqjwJer_293SPERkH-2Vs-tncXL-9xVocFXLDMycegAIZFhXeJSqh26Ko3rbhtr-VHL5CxgiXp3IUj8jjbF-0gvAnwmDZ8al0JwClZRC1uMdt2405naaXrzDM9GUgnfdHCWpyi68kxdu04eIbwbhz5TIwtL4jUYMWA4_3PTAHS7fCO8bijjI0wSReZvJQXBMLtZfZcooZOd_IeHTq24JPf3Ogawq7oJz1P76zOxXAJiv3kC4k57GO7LQuXC1tPIJZxaFgXDv6tdRZybmCtEapTieFqg1Q0XilwtDx18EK4XHBIAHteFLwjKKH-F4_nMzpNvQ0A_2EAMY2zV7f4obTQghjl8Nt7KwBU0nw11bUKvRsaLs4k0AwRviCn8RfdFMg4rt1a_uGqtQymVqof6iOpwlriqCYLeU2B_i--BdoJdT_k8f5mdZSP-zs0_KI_TfSfkKL-Usu4NzFPlFK7vaDPLorqYon3g4vdK4FzGderrxq4m5DdnHwGYA7YKBY0VnODhz6wF0xReOWcTJXjnY8CiCvWyaXuwo7f2oJKAXvz4sx4kGJdZYi_frA_rhZ0oNouE9lMmpxxJug1G-uZZL0BuW8NpGhSFTEpHHKkeBDAFc1VH0ii6elwY_h7ve8bvxrsKnkobWCZZxVz0FCSHwgKM13ruTXBjS6wNBL2WLGLTVIM2RbvYVywwV9IYJfl4BMxepwCCbZJmMlgv6PI9COUWIAajXgVcGAjt328VAeh1c6qvkB5lF-O0YvRlAEnw9TRE8pHjyaQPsVW5l89x69PFupQ5c9urVm5ffNjsNXEEeCiDtjq-kfm7trrWMuBHhkYJ-oZZn9i5z99arqqnbl6d0tkPP4f9OXQRGMdWXwInNthG8_iyqTjRdQQd3QdTaqYYPW1zakBBkn_TUSKs8g0EFiFmfRiJQBqg3zE4j8BMTjHMSkEp_VMMIjGsvdy1NTjFTjbms7Ptq5mUTN0tuuWw_BtR1LvJk_lHzDv4bDd_7ARQws3XxiVFzbBzCkNs414W1yzm-OECiaZAR_uHfKDJZCqryHxaG5YN2Cw97weOFG4WNKCvhxfQuCSQ_i_e9ZozkLwr9JLof3pRbf_8FiNXPiJtrAvHx0RE-66vgwh9dqiKpxs4zUaX3RqNpJyLwkf-NmdZMUAnpvuIG01LupqPaDJ0jEnj2uyAbWQymyAbeJVNYZRkZZF-_3w8rNdEeTKgAo0eC23MIbY9oPlN-wid5zJy0bbOp0tE25XMBoEu8zhMLRLO13TBZ4nmkgobVXvVYaeGB2FUSfMiOMPt4dvLdfAzsAAchP4koATFl2P98NxuRtBWa4aE7FW9PpevWZRGrp3E5_1tbZ9Kil9QcysU6HSv5zsc_pwhYFNIKxYKJObXtAzndwuk4myz5PoGYCdWE-Yrm5KFAxf7PUf4GfDtLhGzbkPIAQHevw-GJZ6666xKm4mION-FKgLYvdNEOxwy0xaL-PdUbp37h37ySPYEtJXohD06F4rwukx3LZOSI-XnA5YRD7xd-D3c_owB2eqo7Xqu9ms9aACxGVvA7EYJRMtbfPIeafRGEnCOlZrzRXgX-l9PqSRu1MeUT91Vgw-PGuIXe3Ma-g97-Erse2s1IGLgUFfIGso5tdjvEurjRiL3kW_WKgNXOevcpvKjDAPqZ1pH73rZeqDmJAN-jzGtjcBW9IVRjYPePJXZspYUA5g6cxMmGgda1juyDI2DRr2JWO9q7sz_Jim09LrN7QuHGv7f09GmkXlvzLJi81i_WJPbCb6wjw-5T1gggMu-_tfXyZjd9b8MoTUs22unFgZUbvUU7H7bWkfcP1m7-6Nr5d44eSmX5lEanWoqwmmg4tiZW8p0rYowPMcuqluH0adcFiWv3aKixwz6J1jYIuHFm6kuqvz53kv6d3cqNV5mncM-7YsThUQ5CNqSrnb9YdnoRwKUeXBmgm3QWFmCQ6ARVapYZPvU-y3N5LvP6QlbCnRuDkHa_ubC4ce_Y16Nq5JA5a2BnqtO5HYxrxxDRDpMloyf64CNVywp5b15IbzMw_VLVnjwMAwKQ1-dY6NwTOkeovfjtN-fmsBrUcNYV8VGB6gRWOYeaFP9axBLXCw7UCrO-NYzCAGvys3lm-IiZXxZjlfg_DAu5LEiD3mze7oMbJ8DAynrGbcJC7-0lcjcj0JdJXPM4m4eDRUN42PJRFI42_0I5YpOIjLheRiWXuTtW396KOf8yFIdwaTuCqF_yx3mJGVVDOOX237MR-o4PPagYj-8_XEKWTHCpr4NRyzMNFGq6Vd-zlhM1_dzreo3ASPPxs5KspJ56hTFTxphnPYluWxOPrd9OxbNSfzCBgyKLQ8uy2_NXPSSBUuyqJhGRAQbcgBNxZySTBxMM-kUgPUQZcMS3VbfTbXyNRaXwhSCXIh5lWfpttz5gqP9dRjPudew7X_dx_K7g8WE1h3beGwargip_9k-RXDj4C0EpW05Ns3QdM3wQcga6Njt4SA5uqP8uFp1rciPjxEctzR4ruVZ4uQtekJntPT9Nhl3Jvs51WfdRTEX3sTxsJeTPATBhstsTmsYfFcZJ0J_yjrMSUzbVmgiLP4Z_-yxBqNn7nZqK7eNgQF8EMJbPQOVybpWcFsy5-Dam_aCxKef7eXpUw4fBlrufW-wyeX4o4xzULTLLn54tT5PnGT0sYii7Eb6eircXmFKDTVkzICLYHJtGSanq0OQCC2cCz6pR0ONoiQDQDsS0e1NgYtsS9uIcEAA_aPXJ9jC4aE9ihgGNtK-irHY6UK1HMWIpPSj8aZuBY_h8hTgaAzXGaQTD98S1Ke8nxJp7_50YaRQeox1bDahVODjbtWuCj6u_hKEXgdOKWMLKj-0gOoMU8DrQhIglAdkfLjzBLk4iwdrWcguHUZwFFk1K2qpYtxqytvwvpKglWW3PuLyxDSm4fyLZ3Q80deJI0beVtKNqPvYvaDFkMxoKqGhcmz6F6ds1pSlrl6lRgPC1YCNmwqp23WqPb6Dzp5YYjqYgedx4OX_TSTK7DdTpFg0sC2fQMeu3Pao0itGAIV3_x9x5me_KAWF0RhacSiv7MGGPBvd75BrYDGoxAkJdvGLCGHxzjKtEI9RTCgtGM2Dxv-nAfTpNhk9AnfuhfGHQQynErifKj2EqnPKjWRGMw69q6ZIyebhwMf3l7Qw080Z_QsnEAjoI4nTj7l3tRsJR_NsbbhHmMU0d-szNseOqH4-3bRsndj-wwb2jtSp57WrMhPG3UqAQgwVqOjvbjMg6K6Io_9UKtrx9GFVeS2IydMwAhJGT5C1BaJOVQ6fecWNd7l4hI0GUo6u4FbFTw7OMMAmULGvScpr3275VuMS2N9iEVkL0u6rgAIasjoPq6s4x7W3YliwrxJw5HbdlUNX91msKVdSQVZdJ8jcCyaQXhbFvon14MJwetMJVq_17o6MOgxw1ybQj_Xa11yDj3ybYEcFRq3zTQh6tq1QawSXbrmD3w_oh--CCl61v2-QoT_W6JP_wBegA==",
+   "status": null
+  },
+  {
+   "id": "msg_0d2d4becaad5d172006aef24ad804887d2a9105ab2d13f7ad1",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"system_boundaries\": [\n    {\"label\": \"Local Legends App\", \"details\": null}\n  ],\n  \"actors\": [\n    {\"name\": \"Content Consumer\", \"details\": null},\n    {\"name\": \"Content Creator\", \"details\": null},\n    {\"name\": \"Web Browser\", \"details\": null},\n    {\"name\": \"MongoDB Atlas\", \"details\": null},\n    {\"name\": \"Google Maps\", \"details\": null}\n  ],\n  \"use_cases\": [\n    {\"name\": \"Consent to GeoLocation\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"GeoLocate User\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Map Nearby Stories\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Read A Story\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Query Story Data\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Add New Story\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Pick Location\", \"abstract\": false, \"extension_points\": [], \"details\": null}\n  ],\n  \"includes\": [\n    {\"base\": \"GeoLocate User\", \"included\": \"Consent to GeoLocation\", \"details\": null},\n    {\"base\": \"Map Nearby Stories\", \"included\": \"GeoLocate User\", \"details\": null},\n    {\"base\": \"Map Nearby Stories\", \"included\": \"Query Story Data\", \"details\": null},\n    {\"base\": \"Add New Story\", \"included\": \"Query Story Data\", \"details\": null},\n    {\"base\": \"Add New Story\", \"included\": \"Pick Location\", \"details\": null}\n  ],\n  \"extends\": [\n    {\"extending\": \"Read A Story\", \"base\": \"Map Nearby Stories\", \"extension_points\": [], \"condition\": null, \"details\": null}\n  ],\n  \"use_case_generalizations\": [],\n  \"actor_generalizations\": [\n    {\"child\": \"Content Creator\", \"parent\": \"Content Consumer\", \"details\": \"Solid line with a filled triangular arrowhead rather than a hollow triangle.\"}\n  ],\n  \"associations\": [\n    {\"actor\": \"Content Consumer\", \"use_case\": \"Consent to GeoLocation\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Consumer\", \"use_case\": \"Map Nearby Stories\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Consumer\", \"use_case\": \"Read A Story\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Creator\", \"use_case\": \"Add New Story\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Creator\", \"use_case\": \"Pick Location\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Web Browser\", \"use_case\": \"GeoLocate User\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"MongoDB Atlas\", \"use_case\": \"Query Story Data\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Google Maps\", \"use_case\": \"Map Nearby Stories\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Google Maps\", \"use_case\": \"Pick Location\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null}\n  ],\n  \"notes\": [\n    {\n      \"text\": \"standard, but may help you depending on your audience. Standards provide a shared vocabulary so we understand each other, but they are also malleable for different scenarios.\",\n      \"attached_to\": null,\n      \"details\": \"The note is cropped at the top of the image; only the visible text is transcribed.\"\n    },\n    {\n      \"text\": \"Here\u2019s the source code that this diagram corresponds to\",\n      \"attached_to\": null,\n      \"details\": \"The connector continues beyond the image, so its attachment is not visible.\"\n    }\n  ],\n  \"other_relationships\": [],\n  \"other_dependencies\": [],\n  \"other\": []\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794057400.0,
+ "conversation": null,
+ "max_output_tokens": 25000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "type": "text"
+  },
+  "verbosity": "medium"
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 3965,
+  "input_tokens_details": {
+   "cache_write_tokens": 3962,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1273,
+  "output_tokens_details": {
+   "reasoning_tokens": 219
+  },
+  "total_tokens": 5238
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "presence_penalty": 0.0,
+ "store": true,
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "total_tokens": 0
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ }
+}

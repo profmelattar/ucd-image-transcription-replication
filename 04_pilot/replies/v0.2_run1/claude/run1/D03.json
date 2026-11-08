@@ -1,0 +1,207 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Local Legends App",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Content Consumer",
+   "details": null
+  },
+  {
+   "name": "Content Creator",
+   "details": null
+  },
+  {
+   "name": "Web Browser",
+   "details": null
+  },
+  {
+   "name": "MongoDB Atlas",
+   "details": null
+  },
+  {
+   "name": "Google Maps",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Consent to GeoLocation",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "GeoLocate User",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Map Nearby Stories",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Read A Story",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Query Story Data",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add New Story",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pick Location",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "GeoLocate User",
+   "included": "Consent to GeoLocation",
+   "details": null
+  },
+  {
+   "base": "Map Nearby Stories",
+   "included": "GeoLocate User",
+   "details": null
+  },
+  {
+   "base": "Map Nearby Stories",
+   "included": "Query Story Data",
+   "details": null
+  },
+  {
+   "base": "Add New Story",
+   "included": "Query Story Data",
+   "details": null
+  },
+  {
+   "base": "Add New Story",
+   "included": "Pick Location",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Read A Story",
+   "base": "Map Nearby Stories",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [
+  {
+   "child": "Content Creator",
+   "parent": "Content Consumer",
+   "details": "Drawn as a solid line with a filled arrowhead instead of a hollow triangle."
+  }
+ ],
+ "associations": [
+  {
+   "from": "Content Consumer",
+   "to": "Consent to GeoLocation",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "Content Consumer",
+   "to": "Map Nearby Stories",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "Content Consumer",
+   "to": "Read A Story",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "Web Browser",
+   "to": "GeoLocate User",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "Google Maps",
+   "to": "Map Nearby Stories",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "Google Maps",
+   "to": "Pick Location",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "MongoDB Atlas",
+   "to": "Query Story Data",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "Content Creator",
+   "to": "Add New Story",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  },
+  {
+   "from": "Content Creator",
+   "to": "Pick Location",
+   "directed": false,
+   "multiplicity_at_from": null,
+   "multiplicity_at_to": null,
+   "details": null
+  }
+ ],
+ "notes": [
+  {
+   "text": "[illegible] standard, but may help you depending on your audience. Standards provide a shared vocabulary so we understand each other, but they are also malleable for different scenarios.",
+   "attached_to": null,
+   "details": "Drawn as a sticky-note rectangle without a folded corner. The beginning of the text is cut off at the image edge."
+  },
+  {
+   "text": "Here's the source code that this diagram corresponds to",
+   "attached_to": null,
+   "details": "Drawn as a sticky-note rectangle without a folded corner. Its connector line leads outside the visible image, so the referenced element is not shown."
+  }
+ ],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

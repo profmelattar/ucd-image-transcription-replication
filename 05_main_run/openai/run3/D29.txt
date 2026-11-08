@@ -1,0 +1,54 @@
+{
+  "system_boundaries": [],
+  "actors": [
+    {"name": "Customer", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Open Account", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Deposit Funds", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Withdraw Funds", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Close Account", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Customer",
+      "use_case": "Open Account",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Deposit Funds",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Withdraw Funds",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Close Account",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

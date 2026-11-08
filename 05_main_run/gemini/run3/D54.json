@@ -1,0 +1,92 @@
+{
+ "system_boundaries": [
+  {
+   "label": "System",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Cellular Phone",
+   "details": null
+  },
+  {
+   "name": "Customer",
+   "details": null
+  },
+  {
+   "name": "External Phone Company",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Handle Message",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Handle Call",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Manage Bill",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Cellular Phone",
+   "use_case": "Handle Message",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Cellular Phone",
+   "use_case": "Handle Call",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "External Phone Company",
+   "use_case": "Handle Message",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "External Phone Company",
+   "use_case": "Handle Call",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Customer",
+   "use_case": "Manage Bill",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

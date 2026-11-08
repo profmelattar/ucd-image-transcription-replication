@@ -1,0 +1,102 @@
+{
+  "system_boundaries": [
+    {
+      "label": "Passenger Services",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Check-In Representative",
+      "details": null
+    },
+    {
+      "name": "Passenger",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Issuing Boarding Pass",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Automated Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Express Check-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [
+    {
+      "base": "Check-In",
+      "included": "Issuing Boarding Pass",
+      "details": null
+    },
+    {
+      "base": "Automated Check-In",
+      "included": "Issuing Boarding Pass",
+      "details": null
+    },
+    {
+      "base": "Express Check-In",
+      "included": "Issuing Boarding Pass",
+      "details": null
+    }
+  ],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Check-In Representative",
+      "use_case": "Check-In",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Passenger",
+      "use_case": "Check-In",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Passenger",
+      "use_case": "Automated Check-In",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Passenger",
+      "use_case": "Express Check-In",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

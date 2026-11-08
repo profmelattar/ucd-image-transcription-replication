@@ -1,0 +1,111 @@
+{
+ "system_boundaries": [],
+ "actors": [],
+ "use_cases": [
+  {
+   "name": "View Items",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Search Items",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Browse Items",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "View Recommended Items",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add to Shopping Cart",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Customer Authentication",
+   "abstract": true,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add to Wish List",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "View Recommended Items",
+   "included": "Customer Authentication",
+   "details": null
+  },
+  {
+   "base": "Add to Wish List",
+   "included": "Customer Authentication",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Search Items",
+   "base": "View Items",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Browse Items",
+   "base": "View Items",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "View Recommended Items",
+   "base": "View Items",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Add to Shopping Cart",
+   "base": "View Items",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Add to Wish List",
+   "base": "View Items",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Customer Authentication",
+   "base": "Add to Shopping Cart",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

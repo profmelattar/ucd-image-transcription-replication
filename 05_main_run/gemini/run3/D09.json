@@ -1,0 +1,96 @@
+{
+ "system_boundaries": [
+  {
+   "label": null,
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Customer",
+   "details": null
+  },
+  {
+   "name": "Kiosk Engineer",
+   "details": null
+  },
+  {
+   "name": "Kiosk Representative",
+   "details": null
+  },
+  {
+   "name": "Central Computer",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Maintain Kiosk",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Use Kiosk",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Analysis",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Customer",
+   "use_case": "Use Kiosk",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": "0..*",
+   "multiplicity_at_use_case": "0..*",
+   "details": null
+  },
+  {
+   "actor": "Kiosk Engineer",
+   "use_case": "Maintain Kiosk",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": "1..*",
+   "multiplicity_at_use_case": "0..*",
+   "details": null
+  },
+  {
+   "actor": "Kiosk Representative",
+   "use_case": "Maintain Kiosk",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": "1..4",
+   "multiplicity_at_use_case": "0..*",
+   "details": null
+  },
+  {
+   "actor": "Central Computer",
+   "use_case": "Use Kiosk",
+   "arrow_points_to": "actor",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": "0..*",
+   "details": null
+  },
+  {
+   "actor": "Central Computer",
+   "use_case": "Analysis",
+   "arrow_points_to": "actor",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": "0..*",
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

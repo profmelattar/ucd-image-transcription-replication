@@ -1,0 +1,153 @@
+{
+  "system_boundaries": [
+    {"label": "Loan approval system", "details": null}
+  ],
+  "actors": [
+    {"name": "Loan officer", "details": null},
+    {"name": "Credit analyst", "details": null},
+    {"name": "Senior loan officer", "details": null},
+    {"name": "Loan applicant", "details": null},
+    {"name": "Loan administration clerk", "details": null}
+  ],
+  "use_cases": [
+    {
+      "name": "Identify and discuss financing needs",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Compile loan application",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Verify loan application",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Prepare loan write up",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Generate approval",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Produce loan documents",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Loan officer",
+      "use_case": "Identify and discuss financing needs",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Loan officer",
+      "use_case": "Compile loan application",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Loan officer",
+      "use_case": "Verify loan application",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Credit analyst",
+      "use_case": "Prepare loan write up",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Senior loan officer",
+      "use_case": "Verify loan application",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Senior loan officer",
+      "use_case": "Generate approval",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Loan applicant",
+      "use_case": "Identify and discuss financing needs",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Loan applicant",
+      "use_case": "Compile loan application",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Loan applicant",
+      "use_case": "Produce loan documents",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Loan administration clerk",
+      "use_case": "Produce loan documents",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [
+    {
+      "text": "UML class diagrams Read more about structuring UML class diagrams here. And for additional help, watch this tutorial about basic UML class diagrams.",
+      "attached_to": null,
+      "details": null
+    }
+  ],
+  "other_relationships": [],
+  "other_dependencies": [
+    {
+      "from": "Produce loan documents",
+      "to": "Generate approval",
+      "label": "<<Exclude>>",
+      "details": null
+    }
+  ],
+  "other": []
+}

@@ -1,0 +1,40 @@
+{
+ "id": "msg_011CgobnNACyBUyUd3CUJYKV",
+ "container": null,
+ "content": [
+  {
+   "signature": "CAQSngoKEAgTGAI4AUIIdGhpbmtpbmcSDM5j5a83AjcPKY0yhxoMZNeKnDaGnwoML1dYIjCWJSZEcac3XZqs2Hr1wWLvVkGXxj8TNudW1BjcR13poFOpyFb6TzIPE9TvArOKpBIquwmcbV+STRQjNYakX7lqtFcoGDzzutjazC5aVqbv17N9jWK/FbUmgnVVTMZ+RssXwvop15TjCiwFVy+z7Dhl0tYDokDNH5+FiA8ZRgUcMex0whMWBmpQJqpPebEziNL9KMg4UND/NIwW7delObzS8PUGP1hyq9ThFKWyM33ssaGXauDXpG1WBDGgpVVFsZNFJLCCery7n+D2w2hH4ffn3nr0muoJbw0AOecn6FgiKS//LJ/Ab5iUdqxGBxcD6aG8yA/O1Uby3yAW4Hn5Wb/FPQrWkqgUW0Idtty2jnrpQBTTI0M0EIroc4iiM3xBO93OJICGc8kf4iexYYAwRtB8ocNP68egJUUFh9zalL4fzCnlDxOzqp7HCDvThW4xuuNtHbeltYK+9q0pXN0FdhArLcKWL3jdptpWhPW2XSEMnOfhMaVpZS5Gy5M4wXOAJNk6PMbAm9yhwNbIuXV522KEjbsMM4VnGzZnLksmS+vQNVl8JP6eNvygYFuYSGP04IkciJl7MyfnGt3lqUr8TP2KN4JJ6P6/sMMo+/Bsy2rcuFUte38PpolzLTQRB3tB1JI1YrWXWeDKLTnVaL8SPt2zAHIMB/04DYrBjU4CBMOzoMzDPJdbqU9b1cc6lO5gg+rWochumC5UOXLGPC4/jYlyge2Kh8g9AtugmK0TtMID2MFoBb7hOVNUIkhkqSpFmxqvDtwZ+ZbfxTUFLPNduMggTVfb3iOSPFXD9ttscPwcwDarWl5Hb4TIjBEA5b9OQpGo1NB3+Z63tLfSW+2jzbUdo5Zs/lfi+/6ZgwSmKgrF3laFGcpB7ldcWFoQriPqoy3tWZ3Ncs2p1cvmXiponYZKJM0EAEv7r+5CCuvujeetND1xPx/xfp/0qBfcStgaX+cdbPg2Rcrva7kc3UPBSFBODou7EMJVnPKuFh62GaFcNhDl1rC66PSVXPf1Pwm5MBLerqkWPqL1BwOx53oAJs/S0KSCXmCHGZd0DKTOdFwTyaCK8eu1gJn65WGK/wYwW636l5sjnTVsae1hJ3T8DCWfD+pZPWTKUvwrRakZxiztyeaAUfO0GjJ30TAXUjK3IpWqXtqZc5DxXntHtLQLQR2mz6zESZzHRcPG/7A7bivvADJOXzIEqEZsbbBMdG+qjlErjlObLHlTr+RewBrCWcLG6cPrU5npq4NHQTXEoJPXUhOxMZOdzHIuni5uDnXTbU1gLFPruR2rpiU43PKv6lwjOqXqlkDYl9o2ZwWNgdnlntJCqLT0N/p3NQbFI/Vhb9dhA8O7d6qW/XsKEOB0UlANQ7TdN0XFNfT2HT7JiXu08uEaAHM7psMNJy9do0mg0Z39rHVhaJiQxKWJZXYJorq4SwD4W/JE1GYllSBv6eAMPmiwrqFF2a4OHx0vCdE5ai8CwLj/+AxTJvFlbqyKKYMpDpawdp9CDfol3hiBvSqzM35m/5VNzapRb+HGAHkJ4huI9LPsYTaEsKh5oiNMi3X2NpYzqxUrbMENQbUH+bgV++Oum9A6imE2U2i33PHYvdXKy6IzLTKGVgJLju22jQxSafmyARxbDWoUhRIbZ2kCKRZATyIeDmkWXkobeOoVpbH7E+RUheCcKyBDR6ZTIhgB",
+   "thinking": "",
+   "type": "thinking"
+  },
+  {
+   "citations": null,
+   "text": "{\"system_boundaries\": [{\"label\": \"ATM\", \"details\": null}], \"actors\": [{\"name\": \"Bank customer\", \"details\": null}], \"use_cases\": [{\"name\": \"Withdraw money\", \"abstract\": false, \"extension_points\": [], \"details\": null}, {\"name\": \"Credit card confiscated\", \"abstract\": false, \"extension_points\": [], \"details\": null}, {\"name\": \"Authentication\", \"abstract\": false, \"extension_points\": [\"X: Card confiscated following wrong PIN entered 3x\"], \"details\": null}, {\"name\": \"PIN and account control\", \"abstract\": false, \"extension_points\": [], \"details\": null}], \"includes\": [{\"base\": \"Withdraw money\", \"included\": \"Authentication\", \"details\": null}, {\"base\": \"Authentication\", \"included\": \"PIN and account control\", \"details\": null}], \"extends\": [{\"extending\": \"Credit card confiscated\", \"base\": \"Authentication\", \"extension_points\": [\"X: Card confiscated following wrong PIN entered 3x\"], \"condition\": \"{3x wrong PIN}\", \"details\": null}], \"use_case_generalizations\": [], \"actor_generalizations\": [], \"associations\": [{\"actor\": \"Bank customer\", \"use_case\": \"Withdraw money\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null}], \"notes\": [{\"text\": \"Condition: {3x wrong PIN} Extension Point: X\", \"attached_to\": \"<<extend>> relationship from Credit card confiscated to Authentication\", \"details\": null}], \"other_relationships\": [], \"other_dependencies\": [], \"other\": []}",
+   "type": "text"
+  }
+ ],
+ "diagnostics": null,
+ "model": "claude-opus-5-5",
+ "role": "assistant",
+ "stop_details": null,
+ "stop_reason": "end_turn",
+ "stop_sequence": null,
+ "type": "message",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3133,
+  "output_tokens": 815,
+  "output_tokens_details": {
+   "thinking_tokens": 273
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

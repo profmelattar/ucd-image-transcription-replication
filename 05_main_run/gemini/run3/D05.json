@@ -1,0 +1,335 @@
+{
+ "system_boundaries": [],
+ "actors": [
+  {
+   "name": "Student",
+   "details": null
+  },
+  {
+   "name": "Financial Institution",
+   "details": null
+  },
+  {
+   "name": "Grade Admistrator",
+   "details": null
+  },
+  {
+   "name": "Instructor",
+   "details": null
+  },
+  {
+   "name": "Post Office",
+   "details": null
+  },
+  {
+   "name": "Registrar",
+   "details": null
+  },
+  {
+   "name": "Researcher",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Obtain Student Grant",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Obtain Student Loan",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Reimburse Course Fees",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay Fees",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Drop out of School",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Graduate From School",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Enroll in seminar",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Drop seminar",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Attend seminar",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Finish seminar",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Distribute Transcripts",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Distribute Fee Schedule",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Distribute Schedules",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Distribute Information to Students",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Apply for Grant",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Input student marks",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Print Teaching Schedule",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Teach Seminar",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [
+  {
+   "extending": "Distribute Transcripts",
+   "base": "Distribute Information to Students",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Distribute Fee Schedule",
+   "base": "Distribute Information to Students",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Distribute Schedules",
+   "base": "Distribute Information to Students",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Student",
+   "use_case": "Obtain Student Grant",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Obtain Student Loan",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Reimburse Course Fees",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Pay Fees",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Drop out of School",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Graduate From School",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Enroll in seminar",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Drop seminar",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Attend seminar",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Finish seminar",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Financial Institution",
+   "use_case": "Obtain Student Grant",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Financial Institution",
+   "use_case": "Obtain Student Loan",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Financial Institution",
+   "use_case": "Reimburse Course Fees",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Financial Institution",
+   "use_case": "Pay Fees",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Grade Admistrator",
+   "use_case": "Input student marks",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Instructor",
+   "use_case": "Print Teaching Schedule",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Instructor",
+   "use_case": "Teach Seminar",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Post Office",
+   "use_case": "Distribute Information to Students",
+   "arrow_points_to": "actor",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Registrar",
+   "use_case": "Drop seminar",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Researcher",
+   "use_case": "Apply for Grant",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

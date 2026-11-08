@@ -1,0 +1,73 @@
+{
+  "system_boundaries": [{"label": "<<System: Doorle Stock>>", "details": null}],
+  "actors": [
+    {"name": "Administrator", "details": null},
+    {"name": "Director", "details": null},
+    {"name": "Warehouse Manager", "details": null},
+    {"name": "Stock Manager", "details": null},
+    {"name": "User", "details": null}
+  ],
+  "use_cases": [
+    {"name": "set Privileges", "abstract": false, "extension_points": [], "details": null},
+    {"name": "register Account", "abstract": false, "extension_points": ["alert", "receive Notification"], "details": null},
+    {"name": "modify Account", "abstract": false, "extension_points": [], "details": null},
+    {"name": "monitor log File", "abstract": false, "extension_points": [], "details": null},
+    {"name": "display Account", "abstract": false, "extension_points": [], "details": null},
+    {"name": "delete Account", "abstract": false, "extension_points": ["alert", "receive Notification"], "details": null},
+    {"name": "Oversea services", "abstract": false, "extension_points": [], "details": null},
+    {"name": "manage Department", "abstract": false, "extension_points": [], "details": null},
+    {"name": "receive Notification", "abstract": false, "extension_points": [], "details": null},
+    {"name": "view statistics", "abstract": false, "extension_points": [], "details": null},
+    {"name": "treat Demand", "abstract": false, "extension_points": [], "details": null},
+    {"name": "trace stock Demand", "abstract": false, "extension_points": [], "details": null},
+    {"name": "confirm Demand", "abstract": false, "extension_points": ["receive notification"], "details": null},
+    {"name": "manage IT products", "abstract": false, "extension_points": [], "details": null},
+    {"name": "handle stock management", "abstract": false, "extension_points": ["manage IT products", "manage consumable products", "track product"], "details": null},
+    {"name": "manage consumable products", "abstract": false, "extension_points": [], "details": null},
+    {"name": "organize consumable hardware", "abstract": false, "extension_points": [], "details": null},
+    {"name": "organize consumable software", "abstract": false, "extension_points": [], "details": null},
+    {"name": "authenticate", "abstract": false, "extension_points": ["log Out"], "details": null},
+    {"name": "log Out", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [
+    {"base": "set Privileges", "included": "register Account", "details": null},
+    {"base": "modify Account", "included": "display Account", "details": null},
+    {"base": "delete Account", "included": "display Account", "details": null},
+    {"base": "handle stock management", "included": "manage IT products", "details": null}
+  ],
+  "extends": [
+    {"extending": "receive Notification", "base": "register Account", "extension_points": [], "condition": null, "details": null},
+    {"extending": "receive Notification", "base": "delete Account", "extension_points": [], "condition": null, "details": null},
+    {"extending": "receive Notification", "base": "confirm Demand", "extension_points": [], "condition": null, "details": null},
+    {"extending": "manage consumable products", "base": "handle stock management", "extension_points": [], "condition": null, "details": null},
+    {"extending": "log Out", "base": "authenticate", "extension_points": [], "condition": null, "details": null}
+  ],
+  "use_case_generalizations": [
+    {"child": "organize consumable hardware", "parent": "manage consumable products", "details": null},
+    {"child": "organize consumable software", "parent": "manage consumable products", "details": null}
+  ],
+  "actor_generalizations": [
+    {"child": "Administrator", "parent": "User", "details": null},
+    {"child": "Director", "parent": "User", "details": null},
+    {"child": "Warehouse Manager", "parent": "User", "details": null},
+    {"child": "Stock Manager", "parent": "User", "details": null}
+  ],
+  "associations": [
+    {"from": "Administrator", "to": "set Privileges", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Administrator", "to": "modify Account", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Administrator", "to": "monitor log File", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Administrator", "to": "delete Account", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Director", "to": "Oversea services", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Director", "to": "manage Department", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Warehouse Manager", "to": "view statistics", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Warehouse Manager", "to": "treat Demand", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Warehouse Manager", "to": "trace stock Demand", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Warehouse Manager", "to": "confirm Demand", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "Stock Manager", "to": "handle stock management", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null},
+    {"from": "User", "to": "authenticate", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null}
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

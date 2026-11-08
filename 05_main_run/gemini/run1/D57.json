@@ -1,0 +1,231 @@
+{
+ "system_boundaries": [
+  {
+   "label": "System",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Member",
+   "details": null
+  },
+  {
+   "name": "Librarian",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Inquiry for Membership",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Request for Book Issue",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Request for Book Return",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay Fine",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Search Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Cancel Membership",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Issue Membership Card",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Issue Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Maintain Book Records",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Remove Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Update Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Return Book",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Charge Late Return Fine",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Update Member Details",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Maintain Book Records",
+   "included": "Add Book",
+   "details": null
+  },
+  {
+   "base": "Maintain Book Records",
+   "included": "Remove Book",
+   "details": null
+  },
+  {
+   "base": "Maintain Book Records",
+   "included": "Update Book",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Pay Fine",
+   "base": "Request for Book Return",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Charge Late Return Fine",
+   "base": "Return Book",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Member",
+   "use_case": "Inquiry for Membership",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Member",
+   "use_case": "Request for Book Issue",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Member",
+   "use_case": "Request for Book Return",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Member",
+   "use_case": "Search Book",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Librarian",
+   "use_case": "Cancel Membership",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Librarian",
+   "use_case": "Issue Membership Card",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Librarian",
+   "use_case": "Issue Book",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Librarian",
+   "use_case": "Maintain Book Records",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Librarian",
+   "use_case": "Return Book",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Librarian",
+   "use_case": "Update Member Details",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

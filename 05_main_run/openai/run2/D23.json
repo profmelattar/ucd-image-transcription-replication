@@ -1,0 +1,115 @@
+{
+ "system_boundaries": [],
+ "actors": [
+  {
+   "name": "Registrar",
+   "details": null
+  },
+  {
+   "name": "Applicant",
+   "details": null
+  },
+  {
+   "name": "Student",
+   "details": null
+  },
+  {
+   "name": "International Student",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Enroll in University",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Enroll in Seminar",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Perform Security Check",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Enroll Family Member in University",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Enroll in University",
+   "included": "Enroll in Seminar",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Perform Security Check",
+   "base": "Enroll in University",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [
+  {
+   "child": "Enroll Family Member in University",
+   "parent": "Enroll in University",
+   "details": null
+  }
+ ],
+ "actor_generalizations": [
+  {
+   "child": "International Student",
+   "parent": "Student",
+   "details": null
+  }
+ ],
+ "associations": [
+  {
+   "actor": "Registrar",
+   "use_case": "Enroll in University",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Applicant",
+   "use_case": "Enroll in University",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Enroll in University",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "International Student",
+   "use_case": "Perform Security Check",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

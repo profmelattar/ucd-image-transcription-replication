@@ -1,0 +1,193 @@
+{
+ "system_boundaries": [],
+ "actors": [
+  {
+   "name": "Guest",
+   "details": null
+  },
+  {
+   "name": "Student",
+   "details": null
+  },
+  {
+   "name": "Teacher",
+   "details": null
+  },
+  {
+   "name": "Payment system",
+   "details": null
+  },
+  {
+   "name": "Administrator",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Register / Login",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Browse courses",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Sign for course",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay for course",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Grade",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Browse grades",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Create course",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Manage users",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Manage courses",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Sign for course",
+   "included": "Browse courses",
+   "details": null
+  },
+  {
+   "base": "Sign for course",
+   "included": "Pay for course",
+   "details": null
+  },
+  {
+   "base": "Grade",
+   "included": "Browse grades",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Create course",
+   "base": "Manage courses",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [
+  {
+   "child": "Student",
+   "parent": "Guest",
+   "details": "Drawn as a dashed line with a hollow triangular arrowhead pointing to Guest."
+  }
+ ],
+ "associations": [
+  {
+   "actor": "Guest",
+   "use_case": "Register / Login",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Guest",
+   "use_case": "Browse courses",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Sign for course",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Browse grades",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Payment system",
+   "use_case": "Pay for course",
+   "arrow_points_to": "actor",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Teacher",
+   "use_case": "Grade",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Teacher",
+   "use_case": "Create course",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Teacher",
+   "use_case": "Manage courses",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Administrator",
+   "use_case": "Manage users",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

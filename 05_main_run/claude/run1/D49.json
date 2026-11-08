@@ -1,0 +1,249 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Banking System",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "User",
+   "details": null
+  },
+  {
+   "name": "Web Merchant",
+   "details": null
+  },
+  {
+   "name": "Bank Employee",
+   "details": null
+  },
+  {
+   "name": "Retail Institution",
+   "details": null
+  },
+  {
+   "name": "Bank Database",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Transaction",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Invalid Card",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Insert Card",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Invalid PIN",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "PIN Validation",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Invalid Login",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "ATM Transaction",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Online Transaction",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Logout",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Login",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Client Desktop Transaction",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Transaction",
+   "included": "Insert Card",
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "base": "ATM Transaction",
+   "included": "Insert Card",
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "base": "ATM Transaction",
+   "included": "PIN Validation",
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "base": "Online Transaction",
+   "included": "Login",
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "base": "Online Transaction",
+   "included": "Logout",
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "base": "Client Desktop Transaction",
+   "included": "Login",
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "base": "Client Desktop Transaction",
+   "included": "Logout",
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Invalid Card",
+   "base": "Insert Card",
+   "extension_points": [],
+   "condition": null,
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "extending": "Invalid PIN",
+   "base": "PIN Validation",
+   "extension_points": [],
+   "condition": null,
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  },
+  {
+   "extending": "Invalid Login",
+   "base": "Login",
+   "extension_points": [],
+   "condition": null,
+   "details": "Dashed line appears to have arrowheads at both ends; direction inferred"
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [
+  {
+   "child": "Web Merchant",
+   "parent": "User",
+   "details": null
+  },
+  {
+   "child": "Bank Employee",
+   "parent": "User",
+   "details": null
+  }
+ ],
+ "associations": [
+  {
+   "actor": "User",
+   "use_case": "Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "User",
+   "use_case": "ATM Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "User",
+   "use_case": "Online Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Retail Institution",
+   "use_case": "Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Bank Database",
+   "use_case": "Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Bank Database",
+   "use_case": "ATM Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Bank Database",
+   "use_case": "Online Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Bank Database",
+   "use_case": "Client Desktop Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Bank Employee",
+   "use_case": "Client Desktop Transaction",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

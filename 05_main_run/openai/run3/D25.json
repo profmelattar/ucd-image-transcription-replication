@@ -1,0 +1,177 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Broadcasting System",
+   "details": null
+  },
+  {
+   "label": "broadcast",
+   "details": "Drawn as a tabbed package rectangle enclosing use cases."
+  },
+  {
+   "label": "maintenance",
+   "details": "Drawn as a tabbed package rectangle enclosing use cases."
+  },
+  {
+   "label": "discussion",
+   "details": "Drawn as a tabbed package rectangle enclosing use cases."
+  },
+  {
+   "label": "broadcast",
+   "details": "Drawn as a tabbed package rectangle enclosing use cases."
+  }
+ ],
+ "actors": [
+  {
+   "name": "General Member",
+   "details": null
+  },
+  {
+   "name": "Member",
+   "details": null
+  },
+  {
+   "name": "Premium Member",
+   "details": null
+  },
+  {
+   "name": "Administrator",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Watch Archived Programs",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Watch Live Programs",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Upload TV Programs",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Archive TV Programs",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Update Timetable",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Join Program Discussion",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Subscribe to Newsletter",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Deliver Newsletter",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [
+  {
+   "child": "General Member",
+   "parent": "Member",
+   "details": null
+  },
+  {
+   "child": "Premium Member",
+   "parent": "Member",
+   "details": null
+  }
+ ],
+ "associations": [
+  {
+   "actor": "General Member",
+   "use_case": "Watch Archived Programs",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Member",
+   "use_case": "Watch Live Programs",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Premium Member",
+   "use_case": "Join Program Discussion",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Premium Member",
+   "use_case": "Subscribe to Newsletter",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Administrator",
+   "use_case": "Upload TV Programs",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Administrator",
+   "use_case": "Archive TV Programs",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Administrator",
+   "use_case": "Update Timetable",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Administrator",
+   "use_case": "Deliver Newsletter",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

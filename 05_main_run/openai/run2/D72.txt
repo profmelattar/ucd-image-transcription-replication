@@ -1,0 +1,45 @@
+{
+  "system_boundaries": [
+    {"label": "Use Case Diagram for Online Gaming Platform", "details": null}
+  ],
+  "actors": [
+    {"name": "Player", "details": null},
+    {"name": "Game Developer", "details": null},
+    {"name": "Admin", "details": null},
+    {"name": "Payment System", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Register", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Login/Logout", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Update Profile", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Join Game", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Play Game", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Submit Game", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Approve/Reject Games", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Monitor Game Activities", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Manage Users", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Process Payments", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Handle Refunds", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {"actor": "Player", "use_case": "Register", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Player", "use_case": "Login/Logout", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Player", "use_case": "Update Profile", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Player", "use_case": "Join Game", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Player", "use_case": "Play Game", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Game Developer", "use_case": "Submit Game", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Admin", "use_case": "Approve/Reject Games", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Admin", "use_case": "Monitor Game Activities", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Admin", "use_case": "Manage Users", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Payment System", "use_case": "Process Payments", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Payment System", "use_case": "Handle Refunds", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null}
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

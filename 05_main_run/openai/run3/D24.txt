@@ -1,0 +1,74 @@
+{
+  "system_boundaries": [
+    {
+      "label": "Weather Service",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Customer",
+      "details": null
+    },
+    {
+      "name": "mobile application",
+      "details": "Represented by a photograph of a mobile phone rather than a standard UML actor symbol."
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Weather Forecast",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Radar Map",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Customer",
+      "use_case": "Weather Forecast",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Radar Map",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "mobile application",
+      "use_case": "Weather Forecast",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "mobile application",
+      "use_case": "Radar Map",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

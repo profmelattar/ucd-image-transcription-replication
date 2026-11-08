@@ -1,0 +1,104 @@
+{
+ "system_boundaries": [
+  {
+   "label": "User Management Subsystem",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Software Process Group",
+   "details": null
+  },
+  {
+   "name": "Process Owner",
+   "details": null
+  },
+  {
+   "name": "User",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Personalize Page",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Set member group",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Set Asset Protection",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Change Process Owner",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [
+  {
+   "child": "Process Owner",
+   "parent": "Software Process Group",
+   "details": null
+  }
+ ],
+ "associations": [
+  {
+   "actor": "Software Process Group",
+   "use_case": "Personalize Page",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Software Process Group",
+   "use_case": "Set member group",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Process Owner",
+   "use_case": "Set Asset Protection",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Process Owner",
+   "use_case": "Change Process Owner",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "User",
+   "use_case": "Personalize Page",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

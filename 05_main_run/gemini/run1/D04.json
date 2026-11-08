@@ -1,0 +1,157 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Online Shopping System",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Customer",
+   "details": null
+  },
+  {
+   "name": "Authentication",
+   "details": null
+  },
+  {
+   "name": "Identity Provider",
+   "details": null
+  },
+  {
+   "name": "Credit Payment Service",
+   "details": null
+  },
+  {
+   "name": "PayPal",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "View items",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Make purchase",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Complete checkout",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Log in",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Make purchase",
+   "included": "View items",
+   "details": null
+  },
+  {
+   "base": "Make purchase",
+   "included": "Complete checkout",
+   "details": null
+  }
+ ],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Customer",
+   "use_case": "View items",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Customer",
+   "use_case": "Make purchase",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Customer",
+   "use_case": "Log in",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Authentication",
+   "use_case": "View items",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Authentication",
+   "use_case": "Complete checkout",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Identity Provider",
+   "use_case": "View items",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Identity Provider",
+   "use_case": "Complete checkout",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Identity Provider",
+   "use_case": "Log in",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Credit Payment Service",
+   "use_case": "Complete checkout",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "PayPal",
+   "use_case": "Complete checkout",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

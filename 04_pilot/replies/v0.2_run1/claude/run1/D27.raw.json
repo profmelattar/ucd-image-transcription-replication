@@ -1,0 +1,40 @@
+{
+ "id": "msg_011CgoaKarqGVq7ApHhr4xJk",
+ "container": null,
+ "content": [
+  {
+   "signature": "CAQSuQoKEAgTGAI4AUIIdGhpbmtpbmcSDMrvNFOcm7oeGbhoRBoM0EkGigE1dmWg5iMiIjCbUbTangwhX0dFzqOWyIDWpYtKgIdwvgHvTYEaCasGdFwQID+zyVC3/AlNsYnn/skq1gksI8Ul6VdVw2rAW4k2dYgRjrI+seei7/D9FoHrmupMsy77gMO2t5l+wEUHkEk1Ya8pPmXWW/2sgVOQI5z/XBZr8tp21vDXFd0t1KvXj3vaCdSplvRv8YiN3EOQIcWPbmQ+HZQaVkGqGHO/rSvWulaDa78w0oeIyW0xv+Tl805a2Qffw9vlHyGjp8FYXsOYYoe7dAMfHEjjtDqaen9pc10pD2xGaxXL8oYQjNyTN4yt07dB2Qidb2Il0HFcprEUNntG/k1Ym78wSywTfgYDuPMcFamO4Q0fvgGU1AlVJ5Ei97CU3TI4LcdlPyjHL5Xtg6AFZkZ4lq0UyP5LRvS+5zK3k5BsPEsqzsAFl4Gsjg5qS7lnLYue/FeF/eke6BbQyRTARlKA+pW4wMYw+7YMyN93YQosusUwSG+KVfBhGpUBrJnknNHaTkgrgAg7fDvuelEA01iQkKljv/t+YwyduSTibJaP0Y6L0mBAViIghOgBuqMhvVorS953jYoAG1pXPOyB0p6f9Y/W5q4DaH+iTWGQa6c4GWFCt27KuJjRGsoRbO4KiyySz9bkLHnizTIQFxAWI/b1v8Ieqzj6sEdKG3pYJCQM1LCWLL+yJ6waQuKIqn79rwJ97E0EhGQ7f1vLMYC/Vyh7QM7SpTKJ19C6WmTRbCe1jFqR7TcZ2m1Zpj4wUF/gnjx/7kEqb6hmLyMMD8xKkAhjKQ7+ZLlBjggBE/Mfy+zSHizo8tQbB+uuf0Npa1Bq3oq3fqND60twhj9pzQW9S4GSSG68vaaoT12Jv2FwvsWoyL6qg0Kiwy6/VoU+xmCoLjjPbXayiPJtdgWLEV23m974gvoTrzLxGlzWwWSY5DLrSqGh35z/SbmH7E0SinP5UcLsXqLeh132MQVBb3k91Sje9r9bKhtb6LiZjB5vRE8793AwKFWptB60FNgYLLdge9aqePhv/qOIjoIIvz8AxlPWAnuoyvDfq0H/k8kMGFa4v0eDdyYIbRK5KzaAmFth9+h48hI2zK2GPkbn3qPxjqRyzm+faj6sWEswXVKWH7b/RYKaIer28KGEjPuEeMDMj3eV0P3D3LfvIuK1spBFw+Lgsvo6TOJvXVmhIj6ynybEhx3Bfqm6RIlzA0GjTrBoKDRkeomsSQ043asjeQJr+6P6/BV1B4qTtXbqixbZofWmoWg9Wu0yL5fPorflUcRMm+ypH8ABf40qlzo6lm0iDOWEyU/uf2wbiaoT5gHmtAdaHQyYtKpyPLetiK1+0ju/99fjYy/qPHv9lw5rBxUIvWUIiZqc2mht7POLS0Uq4JscsTqgHsVB+TPOl23lBFvM2KrP9gkvXVeBvDEQZdGydtIdrc7ImIFLdwJhxAob4Dy9sa7fIWi9u/idysbV0JI5H8MO3cXh5FeztBiXLLRsra9AVNhAFfkrDvQcaaR3NFlUZtfV3DiRu4/l9+xsAeLcoO+VGeAO0oewdXsNBnFp4j6mBf2yWmbGTVF2jQormhwUpMcNcLixF5AGS6tAOpcpIOS20N5hQswTZ5nfvb1LMzRKd1qldqQ0BNMNwuhogFd9c7NlHWZxGKVz+QbG0qTzHhkw+RyGCTBgO55t5CqcYd5LNsaEPDwqKlZSkZ8H8z0xvgt/r3eX0RLY40m7br9UAuEWSRgB",
+   "thinking": "",
+   "type": "thinking"
+  },
+  {
+   "citations": null,
+   "text": "{\"system_boundaries\": [{\"label\": \"Loan approval system\", \"details\": null}], \"actors\": [{\"name\": \"Loan officer\", \"details\": null}, {\"name\": \"Credit analyst\", \"details\": null}, {\"name\": \"Senior loan officer\", \"details\": null}, {\"name\": \"Loan applicant\", \"details\": null}, {\"name\": \"Loan administration clerk\", \"details\": null}], \"use_cases\": [{\"name\": \"Identify and discuss financing needs\", \"abstract\": false, \"extension_points\": [], \"details\": null}, {\"name\": \"Compile loan application\", \"abstract\": false, \"extension_points\": [], \"details\": null}, {\"name\": \"Verify loan application\", \"abstract\": false, \"extension_points\": [], \"details\": null}, {\"name\": \"Prepare loan write up\", \"abstract\": false, \"extension_points\": [], \"details\": null}, {\"name\": \"Generate approval\", \"abstract\": false, \"extension_points\": [], \"details\": null}, {\"name\": \"Produce loan documents\", \"abstract\": false, \"extension_points\": [], \"details\": null}], \"includes\": [], \"extends\": [], \"use_case_generalizations\": [], \"actor_generalizations\": [], \"associations\": [{\"from\": \"Loan officer\", \"to\": \"Identify and discuss financing needs\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Loan officer\", \"to\": \"Compile loan application\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Loan officer\", \"to\": \"Verify loan application\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Loan applicant\", \"to\": \"Identify and discuss financing needs\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Loan applicant\", \"to\": \"Compile loan application\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Loan applicant\", \"to\": \"Produce loan documents\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Credit analyst\", \"to\": \"Prepare loan write up\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Senior loan officer\", \"to\": \"Verify loan application\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Senior loan officer\", \"to\": \"Generate approval\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}, {\"from\": \"Loan administration clerk\", \"to\": \"Produce loan documents\", \"directed\": false, \"multiplicity_at_from\": null, \"multiplicity_at_to\": null, \"details\": null}], \"notes\": [], \"other_relationships\": [], \"other_dependencies\": [{\"from\": \"Produce loan documents\", \"to\": \"Generate approval\", \"label\": \"<<Exclude>>\", \"details\": \"Dashed line with open arrowhead pointing to Generate approval, labelled <<Exclude>>, which is not a standard UML use case relationship.\"}], \"other\": [{\"description\": \"UML class diagrams: Read more about structuring UML class diagrams here. And for additional help, watch this tutorial about basic UML class diagrams.\", \"attached_to\": null}]}",
+   "type": "text"
+  }
+ ],
+ "diagnostics": null,
+ "model": "claude-opus-5-5",
+ "role": "assistant",
+ "stop_details": null,
+ "stop_reason": "end_turn",
+ "stop_sequence": null,
+ "type": "message",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3907,
+  "output_tokens": 1448,
+  "output_tokens_details": {
+   "thinking_tokens": 263
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

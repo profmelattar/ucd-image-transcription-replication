@@ -1,0 +1,160 @@
+{
+  "system_boundaries": [],
+  "actors": [
+    {
+      "name": "Business User",
+      "details": null
+    },
+    {
+      "name": "Casual User",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Create private room",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Invite users",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Register",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Login",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Send message in chat",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Create public room",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Select video file",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Join room",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [
+    {
+      "base": "Create private room",
+      "included": "Invite users",
+      "details": null
+    },
+    {
+      "base": "Create private room",
+      "included": "Send message in chat",
+      "details": null
+    },
+    {
+      "base": "Create private room",
+      "included": "Select video file",
+      "details": null
+    },
+    {
+      "base": "Create public room",
+      "included": "Send message in chat",
+      "details": null
+    },
+    {
+      "base": "Create public room",
+      "included": "Select video file",
+      "details": null
+    },
+    {
+      "base": "Join room",
+      "included": "Select video file",
+      "details": null
+    }
+  ],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Business User",
+      "use_case": "Create private room",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Business User",
+      "use_case": "Register",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Business User",
+      "use_case": "Login",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Casual User",
+      "use_case": "Register",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Casual User",
+      "use_case": "Login",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Casual User",
+      "use_case": "Create public room",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Casual User",
+      "use_case": "Join room",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

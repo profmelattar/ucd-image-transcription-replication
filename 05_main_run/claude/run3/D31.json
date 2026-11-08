@@ -1,0 +1,126 @@
+{
+ "system_boundaries": [
+  {
+   "label": null,
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "user",
+   "details": null
+  },
+  {
+   "name": "admin",
+   "details": null
+  },
+  {
+   "name": "pizza hut",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "select registeration option",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "enter name, age, email and number of customer",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "create customer with login name and password",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "email customer about account registration",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "user registration notification",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [
+  {
+   "child": "admin",
+   "parent": "user",
+   "details": null
+  }
+ ],
+ "associations": [
+  {
+   "actor": "admin",
+   "use_case": "select registeration option",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "admin",
+   "use_case": "enter name, age, email and number of customer",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "admin",
+   "use_case": "user registration notification",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "pizza hut",
+   "use_case": "enter name, age, email and number of customer",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "pizza hut",
+   "use_case": "create customer with login name and password",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "pizza hut",
+   "use_case": "email customer about account registration",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "pizza hut",
+   "use_case": "user registration notification",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

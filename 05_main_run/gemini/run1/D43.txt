@@ -1,0 +1,117 @@
+```json
+{
+  "system_boundaries": [
+    {
+      "label": "Cellular Telephone",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Cellular network",
+      "details": null
+    },
+    {
+      "name": "User",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Place phone call",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Receive phone call",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Use scheduler",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Place conference call",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Receive additional call",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [
+    {
+      "extending": "Place conference call",
+      "base": "Place phone call",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    },
+    {
+      "extending": "Receive additional call",
+      "base": "Receive phone call",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    }
+  ],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Cellular network",
+      "use_case": "Place phone call",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Cellular network",
+      "use_case": "Receive phone call",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "Place phone call",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "Receive phone call",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "Use scheduler",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}
+```

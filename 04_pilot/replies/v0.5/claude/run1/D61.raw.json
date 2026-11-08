@@ -1,0 +1,40 @@
+{
+ "id": "msg_011CgodXUF95KNrFyp9DMDgL",
+ "container": null,
+ "content": [
+  {
+   "signature": "CAQSuwkKEAgTGAI4AUIIdGhpbmtpbmcSDFWrBTkTCiJ1uWTQ1xoMFwH/FxFGD3xGMzgoIjDe1mmmWsraVCke4PmqetdRbmO2H5uzospmRcUFYcm5eJJaH9wpSI9FzG92RbV4STQq2AjiKYVsbh0ZkjUXz+e/fGU5hHX5hq5du7F7uz1/Vmbc5i/oJZpBGJr61WoXyxp74OuJtZv6G4Q8PpadhoDjQ8cwNAbux7+t1yrCiO9vTcP0f5SK2kLOqGmWL9xawlDlLb1RJ+CtdMq3emuuyVch/3Lm69k0eZSlusatgohZYdXY3SNYkQ24yPczuq0Tpt77IqJQdP8Brz0DIWo6MBMSryOwzJ0BCdGTbA4xmLKTXJekpNBPlepIDUnzgfj7nVU48i15XiOHXg2Gr5X/Ky5yCibulTl+fFsq+IEEqaOpPOb/zptbaauoVaT34YoyXGuFn54CNLcp5R05EPekmiJxP/HUzr0gBbYKEjGwZvri3+rJUdtohGHmRlD5Z/Xdw8/YV2DlRsg0AYR2LdrZxNSoztnhK5n/u9K0d2fKx23QajFnvJ8OEGRkGEBQiSEyz9aTHbXUy8EkeA5inMiHz/+vfuaMMBBKYL39Vv24L2HlmdIgGEWO8owWtlMh8i0rSLh8VdyWRNMOGdt3ZH4WbCW5KhlcPvqNpO74day+Qq61GPDFNXpZUp9iBWwMVkhkNuTSW9jd9szJsKlJxjpSTLmjNctax+UXuLEvTxnM++FcXVPOPKFAZYTt/nVgMaaZOnSiWN7wGlRgszWPuZEaJAOk1BcZ3nlvUSvfhMsEamBoSg9/Niwf1/QUxZZZh/HhLy/ajtijacrvtGs4lmp8xUOAPFkN89SKxjZ1T5G+V+yDKojd61bC1BhHG/vSCyEGZaWK/455p8nDuGK29BA+fUDIxrnd9j/seIDb4f88opTQk6m6c7yLklc9bZqxcPXXzfiw2zimgaMJhwSse2vZLyQyDYX8ZG5jZ+Cdr1V1aTr5uPphfy/pQDsOUTkgRBc2ROPL1RKo/cbQGXS5e6XT/KsXXnd0RK7dFQBuu6mMfGR8y9z2dTqiSgR6JIUc+F7QLRIAo3XUAa6Gclzs5OEuVedomVKiaKEILneWbeTMvsEeLMXaFrvXMbKwWNoqCMXGDAQf42ch96gIJIFkZgvqBXBv0EuCM8XG9Z0btsyC/s8MsudDiVZtu3adZU264uJdoOX2+FadfZejgC75afttcR81gCRCeT15U1nPSeMeWsV4pm24tXexzNSP/WvZBxx2O1r8jejrT+kkrNYKCGqi2xzvbd9xoMCN3KDG5azpbpt3z40vKUa7+J6ILL11KCpIIo/wN9kVVwcniI+O/GQ14xWT8++ELOVqYP/GOKsYo/PVeQwNGRx4uTitxE7SbcWO070nKWKeL1cl6gRj5VhFxPuTN9Tidc6a0dfZoNtN4mvMlRnkKLiYSwXJ5WGEZNf1sNol1M3tfVLH8OpkzTw2XPVSJWnG9bp5nPB+cAJqpPKm5SRx05WEGkfg77iFYaKnw7DU1ke9nbvSBp95tjeTgjLZl0G0m73ExbA/2jdkz+HDEJmmDRPa5xcqTMUSCxbxG6shiIszne1KyEOH9BgB",
+   "thinking": "",
+   "type": "thinking"
+  },
+  {
+   "citations": null,
+   "text": "{\"system_boundaries\":[{\"label\":\"ATM\",\"details\":null}],\"actors\":[{\"name\":\"Bank customer\",\"details\":null}],\"use_cases\":[{\"name\":\"Withdraw money\",\"abstract\":false,\"extension_points\":[],\"details\":null},{\"name\":\"Authentication\",\"abstract\":false,\"extension_points\":[\"X: Card confiscated following wrong PIN entered 3x\"],\"details\":null},{\"name\":\"Credit card confiscated\",\"abstract\":false,\"extension_points\":[],\"details\":null},{\"name\":\"PIN and account control\",\"abstract\":false,\"extension_points\":[],\"details\":null}],\"includes\":[{\"base\":\"Withdraw money\",\"included\":\"Authentication\",\"details\":null},{\"base\":\"Authentication\",\"included\":\"PIN and account control\",\"details\":null}],\"extends\":[{\"extending\":\"Credit card confiscated\",\"base\":\"Authentication\",\"extension_points\":[\"X: Card confiscated following wrong PIN entered 3x\"],\"condition\":\"{3x wrong PIN}\",\"details\":null}],\"use_case_generalizations\":[],\"actor_generalizations\":[],\"associations\":[{\"actor\":\"Bank customer\",\"use_case\":\"Withdraw money\",\"arrow_points_to\":null,\"multiplicity_at_actor\":null,\"multiplicity_at_use_case\":null,\"details\":null}],\"notes\":[{\"text\":\"Condition: {3x wrong PIN} Extension Point: X\",\"attached_to\":\"<<extend>> relationship from Credit card confiscated to Authentication\",\"details\":null}],\"other_relationships\":[],\"other_dependencies\":[],\"other\":[]}",
+   "type": "text"
+  }
+ ],
+ "diagnostics": null,
+ "model": "claude-opus-5-5",
+ "role": "assistant",
+ "stop_details": null,
+ "stop_reason": "end_turn",
+ "stop_sequence": null,
+ "type": "message",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3189,
+  "output_tokens": 756,
+  "output_tokens_details": {
+   "thinking_tokens": 236
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

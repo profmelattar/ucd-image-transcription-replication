@@ -1,0 +1,96 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Sales Order System",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Customer",
+   "details": null
+  },
+  {
+   "name": "Sales Manager",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Check Order Status",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Login",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Place Order",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Settle Payment",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Process Insufficient Credit",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Settle Payment by Cheque",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Settle Payment by Credit Card",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Customer",
+   "use_case": "Place Order",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": "1",
+   "multiplicity_at_use_case": "1",
+   "details": null
+  },
+  {
+   "actor": "Customer",
+   "use_case": "Settle Payment",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": "1",
+   "multiplicity_at_use_case": "1",
+   "details": null
+  },
+  {
+   "actor": "Sales Manager",
+   "use_case": "Process Insufficient Credit",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": "1",
+   "multiplicity_at_use_case": "1",
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

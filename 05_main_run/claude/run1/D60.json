@@ -1,0 +1,210 @@
+{
+ "system_boundaries": [
+  {
+   "label": null,
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Tuto",
+   "details": "Name is cut off at the right edge of the image; only 'Tuto' is visible (probably 'Tutor')."
+  },
+  {
+   "name": "Student",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Define controversial issue",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Invent argumentation",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Assess argumentation",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "write up arguments",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "comment on arguments and essay",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Student",
+   "use_case": "Define controversial issue",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Invent argumentation",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "Assess argumentation",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Student",
+   "use_case": "write up arguments",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": "The line from Student runs into the 'Interactive Template' box and continues from the bottom of that box to the use case, so it appears to pass behind the box."
+  },
+  {
+   "actor": "Student",
+   "use_case": "comment on arguments and essay",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Tuto",
+   "use_case": "Define controversial issue",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Tuto",
+   "use_case": "Assess argumentation",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Tuto",
+   "use_case": "comment on arguments and essay",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [
+  {
+   "text": "Interactive Template",
+   "attached_to": "Define controversial issue",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Commenting area",
+   "attached_to": "Define controversial issue",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Interactive Template",
+   "attached_to": "Invent argumentation",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "draw area",
+   "attached_to": "Invent argumentation",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Diagra",
+   "attached_to": "Invent argumentation",
+   "details": "Text is truncated by the box border (a partial second line is cut off, probably 'Diagram'). Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "coach\u2019s feedback",
+   "attached_to": "Invent argumentation",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Interactive Template",
+   "attached_to": "Assess argumentation",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Commenting area",
+   "attached_to": "Assess argumentation",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Diagra",
+   "attached_to": "Assess argumentation",
+   "details": "Text is truncated by the box border (probably 'Diagram'). Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "coach\u2019s feedback",
+   "attached_to": "Assess argumentation",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Interactive Template",
+   "attached_to": "write up arguments",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Essay editor",
+   "attached_to": "write up arguments",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Diagra",
+   "attached_to": "write up arguments",
+   "details": "Text is truncated by the box border (probably 'Diagram'). Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Commenting area",
+   "attached_to": "write up arguments",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Essay editor",
+   "attached_to": "comment on arguments and essay",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Diagra",
+   "attached_to": "comment on arguments and essay",
+   "details": "Text is truncated by the box border (probably 'Diagram'). Box connected by a dotted line ending in a filled dot on the use case border."
+  },
+  {
+   "text": "Commenting area",
+   "attached_to": "comment on arguments and essay",
+   "details": "Box connected by a dotted line ending in a filled dot on the use case border."
+  }
+ ],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

@@ -1,0 +1,91 @@
+{
+  "system_boundaries": [
+    {
+      "label": "System Boundary",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Customer",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Login",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Register with Book Shop",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [
+    {
+      "extending": "Register with Book Shop",
+      "base": "Login",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    }
+  ],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Customer",
+      "use_case": "Login",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Register with Book Shop",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [
+    {
+      "text": "Actors are users of the services provided by Use Cases",
+      "attached_to": "Customer",
+      "details": null
+    },
+    {
+      "text": "One use case can extend the functionality of another.",
+      "attached_to": null,
+      "details": "Attached to the extend relationship between Register with Book Shop and Login"
+    },
+    {
+      "text": "A Use Case is a discrete interaction betrween a user and the system.",
+      "attached_to": "Register with Book Shop",
+      "details": null
+    }
+  ],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": [
+    {
+      "description": "Sequence Diagrams : Sequence Diagram for Login",
+      "attached_to": null
+    },
+    {
+      "description": "Communication Diagrams : Communication Diagram for Login",
+      "attached_to": null
+    },
+    {
+      "description": "UML 2.0 Tutorial Page - Use Cases",
+      "attached_to": null
+    }
+  ]
+}

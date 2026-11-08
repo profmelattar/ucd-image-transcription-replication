@@ -1,0 +1,246 @@
+D03  Bidirectional association  MISSING (in ground truth, not in reply): content consumer | read a story
+D04  Bidirectional association  MISSING (in ground truth, not in reply): authentication | log in
+D04  Bidirectional association  EXTRA (in reply, not in ground truth): identity provider | log in
+D05  Bidirectional association  MISSING (in ground truth, not in reply): financial institution | pay fees
+D08  Directed association  MISSING (in ground truth, not in reply): waiter | serve food
+D08  Directed association  MISSING (in ground truth, not in reply): client | eat food
+D10  UC generalization  MISSING (in ground truth, not in reply): check file→exit presentation
+D10  UC generalization  EXTRA (in reply, not in ground truth): exit presentation→check file
+D11  Directed association  MISSING (in ground truth, not in reply): sales person | sales report
+D11  Directed association  MISSING (in ground truth, not in reply): product manager | browse catalog
+D11  Directed association  MISSING (in ground truth, not in reply): pointed-haired boss | view orders
+D11  Directed association  EXTRA (in reply, not in ground truth): sales person | browse catalog
+D11  Directed association  EXTRA (in reply, not in ground truth): product manager | view orders
+D16  Bidirectional association  MISSING (in ground truth, not in reply): borrower | search books
+D16  Bidirectional association  MISSING (in ground truth, not in reply): borrower | view book details
+D16  Bidirectional association  EXTRA (in reply, not in ground truth): borrower | log in
+D16  Directed association  EXTRA (in reply, not in ground truth): borrower | search books
+D16  Directed association  EXTRA (in reply, not in ground truth): borrower | view book details
+D21  Extend  MISSING (in ground truth, not in reply): pay for airline ticket(s)→pay for tour
+D21  Extend  EXTRA (in reply, not in ground truth): pay for tour→pay for airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply):  | pay for airline ticket
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | book airline ticket(s)
+D21  Directed association  MISSING (in ground truth, not in reply):  | book airline ticket
+D22  Extend condition  MISSING (in ground truth, not in reply): amount over $10,000 | calculate bonus→deposit funds
+D23  UC generalization  MISSING (in ground truth, not in reply): enroll family member in university→enroll in university
+D23  Other relationship  EXTRA (in reply, not in ground truth): enroll family member in university→enroll in university
+D27  Bidirectional association  MISSING (in ground truth, not in reply): senior loan officer | verify loan application
+D27  Bidirectional association  EXTRA (in reply, not in ground truth): credit analyst | verify loan application
+D40  Other  EXTRA (in reply, not in ground truth): communication diagrams : communication diagram for login
+D40  Other  EXTRA (in reply, not in ground truth): uml 2.0 tutorial page - use cases
+D47  Include  MISSING (in ground truth, not in reply): preview doc→browse docs
+D47  Include  EXTRA (in reply, not in ground truth): browse docs→preview doc
+D47  Actor generalization  MISSING (in ground truth, not in reply): webmaster→site user
+D48  Bidirectional association  EXTRA (in reply, not in ground truth): director | view statistics
+D48  Bidirectional association  EXTRA (in reply, not in ground truth): director | treat demand
+D49  Include  MISSING (in ground truth, not in reply): atm transaction→insert card
+D49  Include  EXTRA (in reply, not in ground truth): atm transaction→transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): user | atm transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): user | online transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): bank database | transaction
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): user | insert card
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): user | login
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): bank database | pin validation
+D51  Bidirectional association  MISSING (in ground truth, not in reply): sales force | manages clients
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | generates project schedule
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | logs activity
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | reports status
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | query status
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | manages clients
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | manages project
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | generates project schedule
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | logs activity
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | manages team
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | reports status
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | query status
+D60  Actor  MISSING (in ground truth, not in reply): tutor
+D60  Actor  EXTRA (in reply, not in ground truth): tuto
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | define controversial issue
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | assess argumentation
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | comment on arguments and essay
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | define controversial issue
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | assess argumentation
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | write up arguments
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | comment on arguments and essay
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D67  Bidirectional association  MISSING (in ground truth, not in reply): customer | reconcile transactions
+D67  Bidirectional association  MISSING (in ground truth, not in reply): sponsoring financial institution | process customer bill
+D67  Bidirectional association  EXTRA (in reply, not in ground truth): sponsoring financial institution | reconcile transactions
+D70  Bidirectional association  MISSING (in ground truth, not in reply): scheduler | make appointment
+D04  Bidirectional association  MISSING (in ground truth, not in reply): identity provider | view items
+D04  Bidirectional association  EXTRA (in reply, not in ground truth): identity provider | log in
+D08  Directed association  MISSING (in ground truth, not in reply): waiter | serve food
+D08  Directed association  MISSING (in ground truth, not in reply): client | eat food
+D10  UC generalization  MISSING (in ground truth, not in reply): check file→exit presentation
+D10  UC generalization  EXTRA (in reply, not in ground truth): exit presentation→check file
+D11  Directed association  MISSING (in ground truth, not in reply): sales person | order robot models
+D11  Directed association  MISSING (in ground truth, not in reply): product manager | browse catalog
+D11  Directed association  EXTRA (in reply, not in ground truth): sales person | browse catalog
+D11  Directed association  EXTRA (in reply, not in ground truth): product manager | order robot models
+D12  Extend  MISSING (in ground truth, not in reply): create course→manage courses
+D12  Extend  EXTRA (in reply, not in ground truth): manage courses→create course
+D21  Extend  MISSING (in ground truth, not in reply): pay for airline ticket(s)→pay for tour
+D21  Extend  EXTRA (in reply, not in ground truth): pay for tour→pay for airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply):  | pay for airline ticket
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | book airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | arrange tour
+D21  Directed association  MISSING (in ground truth, not in reply):  | book airline ticket
+D23  UC generalization  MISSING (in ground truth, not in reply): enroll family member in university→enroll in university
+D23  Other relationship  EXTRA (in reply, not in ground truth): enroll family member in university→enroll in university
+D25  Bidirectional association  MISSING (in ground truth, not in reply): premium member | join program discussion
+D25  Bidirectional association  EXTRA (in reply, not in ground truth): member | join program discussion
+D27  Bidirectional association  MISSING (in ground truth, not in reply): senior loan officer | verify loan application
+D27  Bidirectional association  EXTRA (in reply, not in ground truth): credit analyst | verify loan application
+D40  Other  EXTRA (in reply, not in ground truth): communication diagrams : communication diagram for login
+D40  Other  EXTRA (in reply, not in ground truth): uml 2.0 tutorial page - use cases
+D44  Note  EXTRA (in reply, not in ground truth): actor
+D44  Note  EXTRA (in reply, not in ground truth): system boundary
+D44  Note  EXTRA (in reply, not in ground truth): relationship
+D44  Note  EXTRA (in reply, not in ground truth): private
+D47  Include  MISSING (in ground truth, not in reply): preview doc→browse docs
+D47  Include  EXTRA (in reply, not in ground truth): browse docs→preview doc
+D47  Actor generalization  MISSING (in ground truth, not in reply): webmaster→site user
+D49  Bidirectional association  MISSING (in ground truth, not in reply): user | atm transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): user | online transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): bank database | transaction
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): user | insert card
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): user | login
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): bank database | pin validation
+D51  Bidirectional association  MISSING (in ground truth, not in reply): sales force | manages clients
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | generates project schedule
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | logs activity
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | reports status
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | query status
+D51  Directed association  MISSING (in ground truth, not in reply): buyer | query status
+D51  Directed association  EXTRA (in reply, not in ground truth): buyer | shows properties
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | manages clients
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | generates project schedule
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | logs activity
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | reports status
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | manage administrative tasks
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | query status
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tutor | invent argumentation
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tutor | write up arguments
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D61  Extend condition  MISSING (in ground truth, not in reply): {3x wrong pin} | credit card confiscated→authentication
+D61  Extend condition  EXTRA (in reply, not in ground truth): condition: {3x wrong pin} | credit card confiscated→authentication
+D67  Bidirectional association  MISSING (in ground truth, not in reply): customer | reconcile transactions
+D67  Bidirectional association  MISSING (in ground truth, not in reply): sponsoring financial institution | process customer bill
+D67  Bidirectional association  EXTRA (in reply, not in ground truth): sponsoring financial institution | reconcile transactions
+D70  Note  EXTRA (in reply, not in ground truth): system name
+D70  Note  EXTRA (in reply, not in ground truth): system boundary
+D70  Note  EXTRA (in reply, not in ground truth): include use case
+D70  Note  EXTRA (in reply, not in ground truth): extend use case
+D70  Note  EXTRA (in reply, not in ground truth): extension point
+D70  Note  EXTRA (in reply, not in ground truth): generalization
+D70  Note  EXTRA (in reply, not in ground truth): child use case
+D04  Bidirectional association  MISSING (in ground truth, not in reply): authentication | complete checkout
+D05  Bidirectional association  MISSING (in ground truth, not in reply): post office | distribute information to students
+D05  Bidirectional association  MISSING (in ground truth, not in reply): registrar | distribute information to students
+D05  Directed association  EXTRA (in reply, not in ground truth): post office | distribute information to students
+D08  Directed association  MISSING (in ground truth, not in reply): waiter | serve food
+D08  Directed association  MISSING (in ground truth, not in reply): client | eat food
+D10  UC generalization  MISSING (in ground truth, not in reply): check file→exit presentation
+D10  UC generalization  EXTRA (in reply, not in ground truth): exit presentation→check file
+D11  Directed association  MISSING (in ground truth, not in reply): product manager | browse catalog
+D11  Directed association  MISSING (in ground truth, not in reply): pointed-haired boss | view orders
+D11  Directed association  EXTRA (in reply, not in ground truth): sales person | browse catalog
+D11  Directed association  EXTRA (in reply, not in ground truth): product manager | view orders
+D11  Directed association  EXTRA (in reply, not in ground truth): product manager | order robot models
+D12  Bidirectional association  MISSING (in ground truth, not in reply): teacher | manage courses
+D12  Bidirectional association  MISSING (in ground truth, not in reply): administrator | manage users
+D12  Directed association  EXTRA (in reply, not in ground truth): teacher | manage courses
+D12  Directed association  EXTRA (in reply, not in ground truth): administrator | manage users
+D21  Extend  MISSING (in ground truth, not in reply): deliver airline ticket(s)→arrange tour
+D21  Extend  MISSING (in ground truth, not in reply): pay for airline ticket(s)→pay for tour
+D21  Extend  EXTRA (in reply, not in ground truth): arrange tour→deliver airline ticket(s)
+D21  Extend  EXTRA (in reply, not in ground truth): pay for tour→pay for airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply):  | pay for airline ticket
+D21  Bidirectional association  MISSING (in ground truth, not in reply): testing | pay for tour
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | book airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | pay for tour
+D21  Directed association  MISSING (in ground truth, not in reply):  | book airline ticket
+D23  UC generalization  MISSING (in ground truth, not in reply): enroll family member in university→enroll in university
+D23  Bidirectional association  EXTRA (in reply, not in ground truth): registrar | enroll in university
+D23  Directed association  MISSING (in ground truth, not in reply): registrar | enroll in university
+D23  Other relationship  EXTRA (in reply, not in ground truth): enroll family member in university→enroll in university
+D25  Bidirectional association  MISSING (in ground truth, not in reply): premium member | join program discussion
+D25  Bidirectional association  EXTRA (in reply, not in ground truth): member | join program discussion
+D27  Bidirectional association  MISSING (in ground truth, not in reply): senior loan officer | verify loan application
+D27  Bidirectional association  MISSING (in ground truth, not in reply): loan applicant | produce loan documents
+D27  Bidirectional association  EXTRA (in reply, not in ground truth): credit analyst | verify loan application
+D27  Bidirectional association  EXTRA (in reply, not in ground truth): loan applicant | generate approval
+D35  Bidirectional association  MISSING (in ground truth, not in reply): authentication | single sign-on
+D37  Bidirectional association  MISSING (in ground truth, not in reply): international student | enroll international student
+D37  Directed association  EXTRA (in reply, not in ground truth): international student | enroll international student
+D40  Other  EXTRA (in reply, not in ground truth): communication diagrams : communication diagram for login
+D40  Other  EXTRA (in reply, not in ground truth): uml 2.0 tutorial page - use cases
+D47  Include  MISSING (in ground truth, not in reply): preview doc→browse docs
+D47  Include  EXTRA (in reply, not in ground truth): browse docs→preview doc
+D47  Actor generalization  MISSING (in ground truth, not in reply): webmaster→site user
+D48  Bidirectional association  MISSING (in ground truth, not in reply): administrator | modify account
+D49  Bidirectional association  MISSING (in ground truth, not in reply): user | atm transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): bank database | transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): bank database | online transaction
+D49  Bidirectional association  MISSING (in ground truth, not in reply): bank database | client desktop transaction
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): user | insert card
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): bank database | pin validation
+D49  Bidirectional association  EXTRA (in reply, not in ground truth): bank database | login
+D51  Bidirectional association  MISSING (in ground truth, not in reply): sales force | manages clients
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | generates project schedule
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | logs activity
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | reports status
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | query status
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | manages clients
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | manages project
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | manages team
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | query status
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | generates project schedule
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | markets property
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | shows properties
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | manage administrative tasks
+D55  Use case  MISSING (in ground truth, not in reply): manage posts
+D60  Actor  MISSING (in ground truth, not in reply): tutor
+D60  Actor  EXTRA (in reply, not in ground truth): tuto
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | define controversial issue
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | assess argumentation
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | comment on arguments and essay
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | define controversial issue
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | invent argumentation
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | assess argumentation
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | write up arguments
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | comment on arguments and essay
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D61  Extension point  MISSING (in ground truth, not in reply): x: card confiscated following wrong pin entered 3x | authentication
+D61  Extension point  EXTRA (in reply, not in ground truth): extension point x: card confiscated following wrong pin entered 3x | authentication
+D61  Extend condition  MISSING (in ground truth, not in reply): {3x wrong pin} | credit card confiscated→authentication
+D61  Extend condition  EXTRA (in reply, not in ground truth): condition: {3x wrong pin} | credit card confiscated→authentication
+D67  Bidirectional association  MISSING (in ground truth, not in reply): customer | reconcile transactions
+D67  Bidirectional association  MISSING (in ground truth, not in reply): sponsoring financial institution | process customer bill
+D67  Bidirectional association  EXTRA (in reply, not in ground truth): sponsoring financial institution | reconcile transactions
+D69  Bidirectional association  MISSING (in ground truth, not in reply): authentication | client register
+D69  Bidirectional association  MISSING (in ground truth, not in reply): identity provider | checkout
+D69  Bidirectional association  EXTRA (in reply, not in ground truth): authentication | make purchase
+D69  Bidirectional association  EXTRA (in reply, not in ground truth): identity provider | client register
+D74  Bidirectional association  EXTRA (in reply, not in ground truth): user | terms and condition

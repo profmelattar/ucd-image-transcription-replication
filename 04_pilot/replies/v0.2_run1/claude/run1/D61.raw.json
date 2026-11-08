@@ -1,0 +1,40 @@
+{
+ "id": "msg_011CgoaNmbpQgtxbnaaXPgC7",
+ "container": null,
+ "content": [
+  {
+   "signature": "CAQS6QoKEAgTGAI4AUIIdGhpbmtpbmcSDIUIYxCefR2D306R1xoMiAIUosC7MBrLKEw+IjCobvpuwUiNM707jNM0n9q+MOpQ2VZ73cG+qNvgUAhB5j5Y8jUE1r+LkqU9/nmXYb8qhgpnAe65kJuCqZFfekxJ8CpbClHBKoblA1YPsgrGkzJb88sWXeobVFSrORLsAZUWIYfFK2HbWvABXwZoLdTVOc2GcyxFets/JXm2IdhtcZNt1Lv7El01ymT/1TJnerJucMuTxUNkj3Jpo3An/qNg7+/+jRml+vACdA0tkfxiZWuKoH2xxW/qxNH7to3cmqSPhgItTBBaDj0Sq8qvTAFtjyimccBZ3Vuk4BERsRX8ryr3/SRzXVNARx0VIYjM2MOTBYefrcjNA3q9fMXKjfVFRHVnWqc/DbmdWGiKkbicOIlle9j7t3QXJ5w3ArFx2IEOMnwbepX70ficQ4onj/zpf7b/+aHmWnFEFk4Uh/3BcqUZcN6FAXz8hrYFEydDOde1gwxB3vI90eXoj0/Ui3fvUJiHqUV5AeqnNljv+zW8Yp4WezRgJFKKUNteYRgZ2t+Qg6lkzNAWP6c7c2UEB+v0C1pvADyC94Jk6mbxYxftg3a5XuLioXtJdM7rNyeydRYT8BH1qiHhmlj+0BuaUu7ACvzDLAi+4w7m6iDVerYXGikLZGkWQtfSJIdhbGW1wYaQ4/bE7aC5s9Wn5MneggNcHz2P+fx8WBsIXrdqnMG9x97wMpqn8Mttu81+QamkgvE06h7Oa3jkXCJMKjaeyG7FVxpzSu92jsj9lOeyxtQ920QqAlqM3o5OObYBl2wCO1hTPDUnylYhn8r5q6HqPHy7baPWoEpCQccXdWR/c+WSB2p+W1DV/HaKZsh7gUe0ha1hrWkmlHvkNynIzQUHDzJFt5CY6gbfnbivDDXL90LmqbSRoezV3C43smGbIHCI5wLt2dlIPj3A3Z/9OS0SQvpSQcxdyZaZ0UL4ceZjpv6sYxWBQzzU0p9F1dQyUPcVB1/IbakWpYwoo17Hy2mhnqW1mPq/FcFpp+eQrEY/Fil2h+T5EXALJGymodeJSlrvWaMPK2nHSZ93tLwn5G0I6lhbeAUxyTDYrWNHar6zc49LASeAmc5YIWEkrXt3e5tVaFUB2ivgwiKodaqGLK1ltrtcJ/XtqWWQHA2AT0IlTaB1GEC0NElUeEFhMifyY6BkskmOXZ6UzqTAE4iFgLOp+aWUNuA3OJdbmaqhzqCw1xgaX895FCVLUDP85CHiximshs42erSG+gS/SpZaBp76G/BHNoqifXcI9701Qdw1nLvx8RxQGc4w7LaSM6zXBiqru4XPq3+bVU0P4wDwsEyt+aRWpUBlLDTpEKCNU3lwPxKt0d+If+tV0dc2imMB0Ms/vMsE+sX7NdGiQq1Z8ees1FDU8ub55gXVIfMB8ukiTJTKvu43RWksTWRB47wDa2Yy4Ws0x3fb8ASnXOhOAhJaQYVC8M79sB0Hl73cpIYcIhXuRFfSkUA7vk9xcOZTZPguCs6RhftCCz6x6RuZsj4KiQa13p4KQ5mTvthL1YWD/e5eXjG3DX10NciTnaQhHiUG412KGgRh2xo37b9Y5T4/cmqu7jiQy+9xOpioLO/B84J4mxTg473zq7yaFVywnGMdOxQsaX+5uyWkJxMAYcmMnXsUph9XHzRXwZMmtkpEtKbluMV/FZwL0FN/tURWYh/6FhtusxXUj0pcV/dEhOcDHnOdw5sO2620UfFu15T3BozatYQ0/g/e3SgbR39eUL6cwsT3LL2jtz4YpaCxGapqDu+ODTcwLxgSwUu0VN5hKUXePS8aTQ+wvdnoCBgB",
+   "thinking": "",
+   "type": "thinking"
+  },
+  {
+   "citations": null,
+   "text": "{\"system_boundaries\":[{\"label\":\"ATM\",\"details\":null}],\"actors\":[{\"name\":\"Bank customer\",\"details\":null}],\"use_cases\":[{\"name\":\"Withdraw money\",\"abstract\":false,\"extension_points\":[],\"details\":null},{\"name\":\"Credit card confiscated\",\"abstract\":false,\"extension_points\":[],\"details\":null},{\"name\":\"Authentication\",\"abstract\":false,\"extension_points\":[\"X: Card confiscated following wrong PIN entered 3x\"],\"details\":\"Compartment is headed 'Extension Point' (singular).\"},{\"name\":\"PIN and account control\",\"abstract\":false,\"extension_points\":[],\"details\":null}],\"includes\":[{\"base\":\"Withdraw money\",\"included\":\"Authentication\",\"details\":null},{\"base\":\"Authentication\",\"included\":\"PIN and account control\",\"details\":null}],\"extends\":[{\"extending\":\"Credit card confiscated\",\"base\":\"Authentication\",\"extension_points\":[\"X\"],\"condition\":\"{3x wrong PIN}\",\"details\":null}],\"use_case_generalizations\":[],\"actor_generalizations\":[],\"associations\":[{\"from\":\"Bank customer\",\"to\":\"Withdraw money\",\"directed\":false,\"multiplicity_at_from\":null,\"multiplicity_at_to\":null,\"details\":null}],\"notes\":[{\"text\":\"Condition: {3x wrong PIN} Extension Point: X\",\"attached_to\":\"<<extend>> relationship from Credit card confiscated to Authentication\",\"details\":null}],\"other_relationships\":[],\"other_dependencies\":[],\"other\":[]}",
+   "type": "text"
+  }
+ ],
+ "diagnostics": null,
+ "model": "claude-opus-5-5",
+ "role": "assistant",
+ "stop_details": null,
+ "stop_reason": "end_turn",
+ "stop_sequence": null,
+ "type": "message",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2932,
+  "output_tokens": 807,
+  "output_tokens_details": {
+   "thinking_tokens": 297
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

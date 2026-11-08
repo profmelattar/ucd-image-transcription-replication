@@ -1,0 +1,111 @@
+{
+ "id": "resp_08c7b0247750e416006aef251a148087d2bb8347964395e25b",
+ "access_programs": null,
+ "created_at": 1794057498.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_08c7b0247750e416006aef251b41bc87d2b33c8a9adf4351c2",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq7yUlIOLh8tc2Snd5SuO5cTY4QVgidbio4JJRKxxvPhcgKeaCYqv0m6hTWeJith4Yinuf3PLqMaWw1UY2a2WeS65JKJ8IByP-BGKsHDVQMbxIybVg99Xyq2mwaSb9ReApyUPUBrvbnh9GuEdO0uXicskGL86sEmUy71HgBDQA3-VEWSEVoy88wNT0bsjNjzuwepA4tmmy6fpNyGREc6m0vYMb4o-16Kt0EcOcTQ9hw4OHs1k4PEgZUCZlsskeGEZuWjarEm09B19vmSl5WmJyNpLUuPN73FYXLg4oSUajcKUZLNjKAKKcsj9Etea04V9gm1hVlhJVtq8iSJMQIm5qVat366qxpRA80e5hX4ml9khjrdtbJBGVXTqejVoqlX3sGGk3YkL-4_MKi0GxagUdffBmIfg6N3xAHvnNX8zWhZ73xqT4ICBEDI6_KP3QiYLhf2otjxKQSJXtaumt_vj4L39dM6tJftUVGUcDDiMjat41Nh9b5J7ZcsncI0lJalFNQr_0iwbC6scq22kKncq0JEKNkNU-c4SwYYbUcB6jqxc3zpJIDIG5B_mwfue9djEtrePvMTyAdgjw1JPfwExkOnY99kPm1b3Kb84CZS7JIBQg6THMvWCqPMrKceH2K6LzvhHdvK1lgd5mWQefATW3WR9OJGAGoYHrl_atlyjkRtEiOF6XJWpVvrHdgTQUOHmjNNSGGK3nm8lIm1BAQKh0w4D5aYCz2Cm38_6AId6rs-kshPk1B2jMiFaPydUREZebqulH45unZp7Y2-dkrN8P9ntH35RioQkBe3947Jx0J7DppOJ3X1NKEQZl9QI_XVzsyjVDhrQhtlLTzX-x-VOQ68r2_Us2zzOEWo8CW01_hchwZWfbg5mcI1xddNmsb_cZkLvSSAPAxNrF4BIGJumUxr53BAsAiimw1YhaVlmCQUaz89AloZrUl_2QeBA9CZkXJ-icyn4zgIByFtO_Wq1mHiSnIyQFGVnUik9MS18aPKn2bkz8D2BA4Hms8Ot0GHSpceDtXxHnlfxhwknEcWx_yrVUp7QuxKCsetZRJmIYnhF7dx2HqoWQTUBQ-8h7edsuPt6SvF9n0w7hqQDjmXAFo7rSb7LDSyF_GC6zwSXXnPA35FxEe8Ca4Jth2CXUv9kw-8WiyMjWtQ_sNsffbQQvNsatJw2VtGuMgqulIBOc46QRsay27yeQW2Z1WM7xNqg0X-EAWN1J5bHpgHLIMp36hDqenmq-SCPKVSLwayyuA8XBj17zblc497HDySca1LQ8HwSe2ga6DZT_jFKZ-KsNRr_0PBQzTnbfGJEHarJ5nf_QcQlVTj6cTiBfVzc4Jagh57cAWdd5aEjXig1EXSc9g0NV1SgPey0xx1nVKGLnnwZy-8WLhhzPRzGBgkHCDouQ1G2XqAhIYVOW7nwea8AlNWIKrkzY0SeOPvulZQO97wXzbU36wks4_nGzPzZKk54W-HNz6rvP8H269om7PGsRU63SLvmV7z_AEcxVGR1zvXxR3AN247691eDzGBNggbgbIsgmz0-w7m4ZJfPK1OxgdzBCNZy0VdFEen35kr5ReqVRZMUDdWOcQkChJ-00XaVZGOSjVJSHddT8VYA7GZ_2tP5jxeXb8VuVwTy2MUrP_OOWp_rTFjYxGMjBD6KIqAyWmjg93OVrRJ-CYEsZYb_ulY1-0tnhWY4Ebl5eEupAg6sUGoltfpNQuvTnKa83noLuklwJbLHmUaYGdeXOLJkWeKMYUtmX8ukEWADIFCbnH-alj9G6NAtR3u4AAhbKTuEaJgbvsy0Ajvc_8Z7fqklfp3wwum6ey4yTL-hsGT5mUAGL__zqAzBRWDUAHoFZY5J_xceB0Bj23JJqfco4xL5Rrbik1LzJUEDjcvFA4f0LcBmNOsu9UQHHPAMPEKV15VeXf967LSMOEnxAaoQYe70SL6I8Bnok4abcNND3EnXOnoUuwrZUvOpBttm7H1ebK6zbNL5PBdywjottw0njMU6hQUtbHbkeZ5d8dmFyMMd0lMcrf75esQa1uZPQpNInvzjexYVnMAQXTIHIWKhRnfjm1JIbFAM1BTRQdQf9b5LlUqBb81w-r43XuOgTchZJV6MyruY4Dsx3NbWxf84QSBLKpewiyu4ANTAQt2bKkQNE-b0RuTwIexhT38tMORs8HY353xjTB5fj2aovrePT8ocoieHvaLO8OQetrinleNuxgzsJhcnNRjp31nTP4AQSVBGVBglDq-PpBmyzRvAkQn8v7FlPLM2ghXgQFYIGAoEfIvz4pppGWNLTOXk-pHuXyOb0qPPfF72J5J_QPCzzp7BkcT_2YzcY0p5pKbiFK3qnE_EBJj17EkkwJ9JVNYK8_pZcoIedOsd4YmhS98_P8P2p2Mt6pnVHzhucFdIqcmCizDZ0agGx5mnQH1dY4tpIVwxpK6JsMbcuqQuviKTMxIPOVt_XYchuoebLggz6ny-jqXNcNU2ZOwl4lpXlgi0Y7JK_YOcnETTGFdfwHzutFR7ETD9iqXrcGGJNcZlYgm180O-9I0vGH0zWgPFyeXQowPPZunb7s4wq8EA47SEYhL2pKRCLBkLdtJQHqwd_bCAhW1NL-fsYdEDh-xSDW40pEjQKWN4Z1Bd7tnkltjYVkbDnz-MzKqj4--gYMAK_BV0oVzZ6bfmbjx_QVFuSIw3Eh9xSmIrBQb4amcxnlUemtci-TEpHjocLWUGD4xarBVFxHArTE3mz8oR7p_a-aKvcSF_yOYeapcjhA1Pu6hDGYts-9AcjZ_kCnoWSmySUTQETeKOs55BRwHTGRrC4aBvHzqrl_u1Me_QS10WkWKRdypMyOp3On323JspVJFFlGP2ohUaK__W_58TfudNcmQN011bz7MNCTX3peqJk1RIyk5yzLmA3PpOrXvna8dQ7G141puZE32SnxbVYrH4o19937nik_ZsMssMZyCnf6Bfedbpp_PdMiFBC9aig6f1RUtqKEwlbYkrbV_W0fyQOp0L3GVA4DAKFoNNXBzGXgOXNc36QAckBdacDkdaiM8at_hQPiBywQY18zgW8cZRO6jEy4Jcy49lKbYwNHkT0A2sjbaZvfe8h6YrOEjxP3J9z9iwkFl-4l-RHhy0B0VNvM6CP9PJTr9ZFjl2njtBbvPmpcvemZByU-mTmjF04EoOEF4Dcr-nh1DAGdMOeBB_NcweuJeG3QWoHYhL7RIjPin5dsWf1FVfDxcr0oQRgXlY151me_apEYUq8JyNd9I0zkLKbIwBj0-lR",
+   "status": null
+  },
+  {
+   "id": "msg_08c7b0247750e416006aef25200ae087d292bea5d07af6682a",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"system_boundaries\": [\n    {\"label\": \"ATM\", \"details\": null}\n  ],\n  \"actors\": [\n    {\"name\": \"Bank customer\", \"details\": null}\n  ],\n  \"use_cases\": [\n    {\n      \"name\": \"Withdraw money\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"Credit card confiscated\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"Authentication\",\n      \"abstract\": false,\n      \"extension_points\": [\n        \"X: Card confiscated following wrong PIN entered 3x\"\n      ],\n      \"details\": null\n    },\n    {\n      \"name\": \"PIN and account control\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    }\n  ],\n  \"includes\": [\n    {\n      \"base\": \"Withdraw money\",\n      \"included\": \"Authentication\",\n      \"details\": null\n    },\n    {\n      \"base\": \"Authentication\",\n      \"included\": \"PIN and account control\",\n      \"details\": null\n    }\n  ],\n  \"extends\": [\n    {\n      \"extending\": \"Credit card confiscated\",\n      \"base\": \"Authentication\",\n      \"extension_points\": [\n        \"X: Card confiscated following wrong PIN entered 3x\"\n      ],\n      \"condition\": \"{3x wrong PIN}\",\n      \"details\": null\n    }\n  ],\n  \"use_case_generalizations\": [],\n  \"actor_generalizations\": [],\n  \"associations\": [\n    {\n      \"actor\": \"Bank customer\",\n      \"use_case\": \"Withdraw money\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    }\n  ],\n  \"notes\": [\n    {\n      \"text\": \"Condition: {3x wrong PIN} Extension Point: X\",\n      \"attached_to\": \"Credit card confiscated <<extend>> Authentication\",\n      \"details\": null\n    }\n  ],\n  \"other_relationships\": [],\n  \"other_dependencies\": [],\n  \"other\": []\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794057508.0,
+ "conversation": null,
+ "max_output_tokens": 25000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "type": "text"
+  },
+  "verbosity": "medium"
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 2506,
+  "input_tokens_details": {
+   "cache_write_tokens": 2503,
+   "cached_tokens": 0
+  },
+  "output_tokens": 609,
+  "output_tokens_details": {
+   "reasoning_tokens": 140
+  },
+  "total_tokens": 3115
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "presence_penalty": 0.0,
+ "store": true,
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "total_tokens": 0
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ }
+}

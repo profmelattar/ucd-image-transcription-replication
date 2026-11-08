@@ -1,0 +1,126 @@
+```json
+{
+  "system_boundaries": [
+    {
+      "label": null,
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Writer",
+      "details": null
+    },
+    {
+      "name": "Editor",
+      "details": null
+    },
+    {
+      "name": "Proofreader",
+      "details": null
+    },
+    {
+      "name": "Agent",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "DRAFT",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "REVIEW",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "SUGGEST",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "REVISE",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "SELL",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Writer",
+      "use_case": "DRAFT",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Writer",
+      "use_case": "REVISE",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Editor",
+      "use_case": "REVIEW",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Editor",
+      "use_case": "SUGGEST",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Proofreader",
+      "use_case": "REVIEW",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Proofreader",
+      "use_case": "SUGGEST",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Agent",
+      "use_case": "SELL",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}
+```

@@ -1,0 +1,136 @@
+{
+ "system_boundaries": [
+  {
+   "label": null,
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Customer",
+   "details": null
+  },
+  {
+   "name": "Email System",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Register to Car-to-Share",
+   "abstract": false,
+   "extension_points": [],
+   "details": "The ellipse also contains a separate \"Use Case\" label."
+  },
+  {
+   "name": "Record ID card",
+   "abstract": false,
+   "extension_points": [],
+   "details": "The ellipse also contains a separate \"Use Case\" label."
+  },
+  {
+   "name": "Record drivers license",
+   "abstract": false,
+   "extension_points": [],
+   "details": "The ellipse also contains a separate \"Use Case\" label."
+  },
+  {
+   "name": "Conduct video call for verification",
+   "abstract": false,
+   "extension_points": [],
+   "details": "The ellipse also contains a separate \"Use Case\" label."
+  },
+  {
+   "name": "Record payment method",
+   "abstract": false,
+   "extension_points": [],
+   "details": "The ellipse also contains a separate \"Use Case\" label."
+  },
+  {
+   "name": "Record voucher",
+   "abstract": false,
+   "extension_points": [],
+   "details": "The ellipse also contains a separate \"Use Case\" label."
+  },
+  {
+   "name": "Send confirmation",
+   "abstract": false,
+   "extension_points": [],
+   "details": "The ellipse also contains a separate \"Use Case\" label."
+  }
+ ],
+ "includes": [
+  {
+   "base": "Register to Car-to-Share",
+   "included": "Send confirmation",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Conduct video call for verification",
+   "base": "Record ID card",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Conduct video call for verification",
+   "base": "Record drivers license",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Customer",
+   "use_case": "Register to Car-to-Share",
+   "arrow_points_to": "both",
+   "multiplicity_at_actor": "1",
+   "multiplicity_at_use_case": "1",
+   "details": "The association is labelled <<communicate>>."
+  },
+  {
+   "actor": "Email System",
+   "use_case": "Send confirmation",
+   "arrow_points_to": "both",
+   "multiplicity_at_actor": "1",
+   "multiplicity_at_use_case": "1",
+   "details": "The association is labelled <<communicate>>."
+  }
+ ],
+ "notes": [
+  {
+   "text": "New promo at Easter",
+   "attached_to": "Record voucher",
+   "details": null
+  }
+ ],
+ "other_relationships": [
+  {
+   "from": "Record ID card",
+   "to": "Register to Car-to-Share",
+   "details": "Unlabelled solid arrow with a filled arrowhead."
+  },
+  {
+   "from": "Record drivers license",
+   "to": "Register to Car-to-Share",
+   "details": "Unlabelled solid arrow with a filled arrowhead."
+  },
+  {
+   "from": "Record payment method",
+   "to": "Register to Car-to-Share",
+   "details": "Unlabelled solid arrow with a filled arrowhead."
+  },
+  {
+   "from": "Record voucher",
+   "to": "Register to Car-to-Share",
+   "details": "Unlabelled solid arrow with a filled arrowhead."
+  }
+ ],
+ "other_dependencies": [],
+ "other": []
+}

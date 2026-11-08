@@ -1,0 +1,87 @@
+{
+ "sdk_http_response": {
+  "headers": {
+   "x-gemini-service-tier": "standard",
+   "content-type": "application/json; charset=UTF-8",
+   "vary": "Origin, X-Origin, Referer",
+   "content-encoding": "gzip",
+   "date": "Sat, 07 Nov 2026 13:21:31 GMT",
+   "server": "scaffolding on HTTPServer2",
+   "x-xss-protection": "0",
+   "x-frame-options": "SAMEORIGIN",
+   "x-content-type-options": "nosniff",
+   "server-timing": "gfet4t7; dur=13543",
+   "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+   "transfer-encoding": "chunked"
+  },
+  "body": null
+ },
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "media_resolution": null,
+      "code_execution_result": null,
+      "executable_code": null,
+      "file_data": null,
+      "function_call": null,
+      "function_response": null,
+      "inline_data": null,
+      "text": "{\n  \"system_boundaries\": [\n    {\n      \"label\": \"<<System: Doorfe Stock>>\",\n      \"details\": null\n    }\n  ],\n  \"actors\": [\n    {\n      \"name\": \"Administrator\",\n      \"details\": null\n    },\n    {\n      \"name\": \"Director\",\n      \"details\": null\n    },\n    {\n      \"name\": \"Warehouse Manager\",\n      \"details\": null\n    },\n    {\n      \"name\": \"Stock Manager\",\n      \"details\": null\n    },\n    {\n      \"name\": \"User\",\n      \"details\": null\n    }\n  ],\n  \"use_cases\": [\n    {\n      \"name\": \"set Privileges\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"register Account\",\n      \"abstract\": false,\n      \"extension_points\": [\n        \"alert\",\n        \"receive Notification\"\n      ],\n      \"details\": null\n    },\n    {\n      \"name\": \"monitor log File\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"modify Account\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"display Account\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"delete Account\",\n      \"abstract\": false,\n      \"extension_points\": [\n        \"alert\",\n        \"receive Notification\"\n      ],\n      \"details\": null\n    },\n    {\n      \"name\": \"Oversea services\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"manage Department\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"view statistics\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"treat Demand\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"trace stock Demand\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"confirm Demand\",\n      \"abstract\": false,\n      \"extension_points\": [\n        \"receive notification\"\n      ],\n      \"details\": null\n    },\n    {\n      \"name\": \"receive Notification\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"manage IT products\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"handle stock management\",\n      \"abstract\": false,\n      \"extension_points\": [\n        \"manage IT products\",\n        \"manage consumable products\",\n        \"track product\"\n      ],\n      \"details\": null\n    },\n    {\n      \"name\": \"manage consumable products\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"organize consumable hardware\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"organize consumable software\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    },\n    {\n      \"name\": \"authenticate\",\n      \"abstract\": false,\n      \"extension_points\": [\n        \"log Out\"\n      ],\n      \"details\": null\n    },\n    {\n      \"name\": \"log Out\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": null\n    }\n  ],\n  \"includes\": [\n    {\n      \"base\": \"set Privileges\",\n      \"included\": \"register Account\",\n      \"details\": null\n    },\n    {\n      \"base\": \"modify Account\",\n      \"included\": \"display Account\",\n      \"details\": null\n    },\n    {\n      \"base\": \"delete Account\",\n      \"included\": \"display Account\",\n      \"details\": null\n    },\n    {\n      \"base\": \"handle stock management\",\n      \"included\": \"manage IT products\",\n      \"details\": null\n    }\n  ],\n  \"extends\": [\n    {\n      \"extending\": \"receive Notification\",\n      \"base\": \"register Account\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    },\n    {\n      \"extending\": \"receive Notification\",\n      \"base\": \"delete Account\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    },\n    {\n      \"extending\": \"receive Notification\",\n      \"base\": \"confirm Demand\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    },\n    {\n      \"extending\": \"manage consumable products\",\n      \"base\": \"handle stock management\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    },\n    {\n      \"extending\": \"log Out\",\n      \"base\": \"authenticate\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    }\n  ],\n  \"use_case_generalizations\": [\n    {\n      \"child\": \"organize consumable hardware\",\n      \"parent\": \"manage consumable products\",\n      \"details\": null\n    },\n    {\n      \"child\": \"organize consumable software\",\n      \"parent\": \"manage consumable products\",\n      \"details\": null\n    }\n  ],\n  \"actor_generalizations\": [\n    {\n      \"child\": \"Administrator\",\n      \"parent\": \"User\",\n      \"details\": null\n    },\n    {\n      \"child\": \"Director\",\n      \"parent\": \"User\",\n      \"details\": null\n    },\n    {\n      \"child\": \"Warehouse Manager\",\n      \"parent\": \"User\",\n      \"details\": null\n    },\n    {\n      \"child\": \"Stock Manager\",\n      \"parent\": \"User\",\n      \"details\": null\n    }\n  ],\n  \"associations\": [\n    {\n      \"actor\": \"Administrator\",\n      \"use_case\": \"set Privileges\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Administrator\",\n      \"use_case\": \"modify Account\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Administrator\",\n      \"use_case\": \"monitor log File\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Administrator\",\n      \"use_case\": \"delete Account\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Director\",\n      \"use_case\": \"Oversea services\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Director\",\n      \"use_case\": \"manage Department\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Warehouse Manager\",\n      \"use_case\": \"view statistics\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Warehouse Manager\",\n      \"use_case\": \"treat Demand\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Warehouse Manager\",\n      \"use_case\": \"trace stock Demand\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Warehouse Manager\",\n      \"use_case\": \"confirm Demand\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Stock Manager\",\n      \"use_case\": \"handle stock management\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"User\",\n      \"use_case\": \"authenticate\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    }\n  ],\n  \"notes\": [],\n  \"other_relationships\": [],\n  \"other_dependencies\": [],\n  \"other\": []\n}",
+      "thought": null,
+      "thought_signature": "EnMKcQFpFH0TgitBxbjztiRm5Joc1NB1SJT34VZbvTy5ncaeLSISD8Mv6SeGIYU6CtwclPONLVVMDLmCxgMV6rUOPOggmAVglXdtYRD7iGH7VKPaHtjn8XsJ9d1aHhfwlRXL2V1TixfKkbhTU6HZ06zQv_e8",
+      "video_metadata": null,
+      "tool_call": null,
+      "tool_response": null,
+      "part_metadata": null,
+      "audio_transcription": null,
+      "media_processing": null,
+      "speech_metadata": null
+     }
+    ],
+    "role": "model"
+   },
+   "citation_metadata": null,
+   "finish_message": null,
+   "token_count": null,
+   "finish_reason": "STOP",
+   "grounding_metadata": null,
+   "avg_logprobs": null,
+   "index": 0,
+   "logprobs_result": null,
+   "safety_ratings": null,
+   "url_context_metadata": null,
+   "continuation_token": null
+  }
+ ],
+ "create_time": null,
+ "model_version": "gemini-3.1-pro-preview",
+ "prompt_feedback": null,
+ "response_id": "zyXvapeAB8uknsEP5KWs8Q0",
+ "usage_metadata": {
+  "cache_tokens_details": null,
+  "cached_content_token_count": null,
+  "candidates_token_count": 2400,
+  "candidates_tokens_details": null,
+  "prompt_token_count": 2617,
+  "prompt_tokens_details": [
+   {
+    "modality": "IMAGE",
+    "token_count": 1080
+   },
+   {
+    "modality": "TEXT",
+    "token_count": 1537
+   }
+  ],
+  "thoughts_token_count": null,
+  "tool_use_prompt_token_count": null,
+  "tool_use_prompt_tokens_details": null,
+  "total_token_count": 5017,
+  "traffic_type": null
+ },
+ "model_status": null,
+ "automatic_function_calling_history": [],
+ "parsed": null
+}

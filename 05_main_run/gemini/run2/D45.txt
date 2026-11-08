@@ -1,0 +1,118 @@
+{
+  "system_boundaries": [
+    {
+      "label": "Telephone Catalog",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Customer",
+      "details": null
+    },
+    {
+      "name": "Supervisor",
+      "details": null
+    },
+    {
+      "name": "Salesperson",
+      "details": null
+    },
+    {
+      "name": "Shipping Clerk",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "EstablishCredit",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "PlaceOrder",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "CheckStatus",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Fill Orders",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Customer",
+      "use_case": "EstablishCredit",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "PlaceOrder",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "CheckStatus",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Supervisor",
+      "use_case": "EstablishCredit",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Salesperson",
+      "use_case": "PlaceOrder",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Salesperson",
+      "use_case": "CheckStatus",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Shipping Clerk",
+      "use_case": "Fill Orders",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

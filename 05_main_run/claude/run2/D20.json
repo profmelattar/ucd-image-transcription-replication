@@ -1,0 +1,137 @@
+{
+ "system_boundaries": [],
+ "actors": [
+  {
+   "name": "Manager",
+   "details": "Drawn as a pictogram of a person holding a document instead of a stick figure"
+  },
+  {
+   "name": "Sales Assistant",
+   "details": "Drawn as a pictogram of a person at a cash register instead of a stick figure"
+  },
+  {
+   "name": "Customer",
+   "details": "Drawn as a pictogram of a person pushing a shopping cart instead of a stick figure"
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Add User",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "View Report",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add Product",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add Customer",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Record sale",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Update stock list",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Manager",
+   "use_case": "Add User",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Manager",
+   "use_case": "View Report",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Manager",
+   "use_case": "Add Product",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Manager",
+   "use_case": "Add Customer",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Sales Assistant",
+   "use_case": "Add Customer",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Sales Assistant",
+   "use_case": "Record sale",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Sales Assistant",
+   "use_case": "Update stock list",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Customer",
+   "use_case": "Add Customer",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Customer",
+   "use_case": "Record sale",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

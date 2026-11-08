@@ -1,0 +1,47 @@
+{
+  "system_boundaries": [
+    {"label": "Online Shopping", "details": null}
+  ],
+  "actors": [
+    {"name": "Web Customer", "details": null},
+    {"name": "Registered Customer", "details": null},
+    {"name": "New Customer", "details": null},
+    {"name": "Authentication", "details": null},
+    {"name": "Identity Provider", "details": null},
+    {"name": "Credit Payment Service", "details": null},
+    {"name": "PayPal", "details": null}
+  ],
+  "use_cases": [
+    {"name": "View Items", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Make Purchase", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Checkout", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Client Register", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [
+    {"base": "Make Purchase", "included": "View Items", "details": null},
+    {"base": "Make Purchase", "included": "Checkout", "details": null}
+  ],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [
+    {"child": "Registered Customer", "parent": "Web Customer", "details": null},
+    {"child": "New Customer", "parent": "Web Customer", "details": null}
+  ],
+  "associations": [
+    {"actor": "Registered Customer", "use_case": "View Items", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Registered Customer", "use_case": "Make Purchase", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "New Customer", "use_case": "View Items", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "New Customer", "use_case": "Client Register", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Authentication", "use_case": "View Items", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Authentication", "use_case": "Checkout", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Authentication", "use_case": "Client Register", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Identity Provider", "use_case": "View Items", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Identity Provider", "use_case": "Checkout", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Credit Payment Service", "use_case": "Checkout", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "PayPal", "use_case": "Checkout", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null}
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

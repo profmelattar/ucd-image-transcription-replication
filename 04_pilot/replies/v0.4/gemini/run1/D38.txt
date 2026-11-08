@@ -1,0 +1,138 @@
+```json
+{
+  "system_boundaries": [
+    {
+      "label": null,
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Customer",
+      "details": null
+    },
+    {
+      "name": "Email System",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Record ID card Use Case",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Conduct video call for verification Use Case",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Record drivers license Use Case",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Register to Car-to-Share Use Case",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Record payment method Use Case",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Record voucher Use Case",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Send confirmation Use Case",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [
+    {
+      "base": "Register to Car-to-Share Use Case",
+      "included": "Send confirmation Use Case",
+      "details": "Dashed red arrow"
+    }
+  ],
+  "extends": [
+    {
+      "extending": "Conduct video call for verification Use Case",
+      "base": "Record ID card Use Case",
+      "extension_points": [],
+      "condition": null,
+      "details": "Dashed green arrow"
+    },
+    {
+      "extending": "Conduct video call for verification Use Case",
+      "base": "Record drivers license Use Case",
+      "extension_points": [],
+      "condition": null,
+      "details": "Dashed green arrow"
+    }
+  ],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Customer",
+      "use_case": "Register to Car-to-Share Use Case",
+      "arrow_points_to": "both",
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "1",
+      "details": "Labeled <<communicate>>"
+    },
+    {
+      "actor": "Email System",
+      "use_case": "Send confirmation Use Case",
+      "arrow_points_to": "both",
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "1",
+      "details": "Labeled <<communicate>>"
+    }
+  ],
+  "notes": [
+    {
+      "text": "New promo at Easter",
+      "attached_to": "Record voucher Use Case",
+      "details": null
+    }
+  ],
+  "other_relationships": [
+    {
+      "from": "Record ID card Use Case",
+      "to": "Register to Car-to-Share Use Case",
+      "details": "Solid black arrow"
+    },
+    {
+      "from": "Record drivers license Use Case",
+      "to": "Register to Car-to-Share Use Case",
+      "details": "Solid black arrow"
+    },
+    {
+      "from": "Record payment method Use Case",
+      "to": "Register to Car-to-Share Use Case",
+      "details": "Solid black arrow"
+    },
+    {
+      "from": "Record voucher Use Case",
+      "to": "Register to Car-to-Share Use Case",
+      "details": "Solid black arrow"
+    }
+  ],
+  "other_dependencies": [],
+  "other": []
+}
+```

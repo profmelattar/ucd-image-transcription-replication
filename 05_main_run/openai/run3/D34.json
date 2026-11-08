@@ -1,0 +1,88 @@
+{
+ "system_boundaries": [],
+ "actors": [
+  {
+   "name": "ATM Technician",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Maintenance",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Repair",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Replenishing",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Upgrades",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Diagnostics",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Maintenance",
+   "included": "Replenishing",
+   "details": null
+  },
+  {
+   "base": "Maintenance",
+   "included": "Upgrades",
+   "details": null
+  },
+  {
+   "base": "Maintenance",
+   "included": "Diagnostics",
+   "details": null
+  },
+  {
+   "base": "Repair",
+   "included": "Diagnostics",
+   "details": null
+  }
+ ],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "ATM Technician",
+   "use_case": "Maintenance",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "ATM Technician",
+   "use_case": "Repair",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

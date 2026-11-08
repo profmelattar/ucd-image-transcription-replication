@@ -1,0 +1,85 @@
+{
+  "system_boundaries": [
+    {
+      "label": "Application",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "User",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Exit presentation",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Check file",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Save slide",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "New slide",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Open presentation",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [
+    {
+      "child": "Exit presentation",
+      "parent": "Check file",
+      "details": null
+    },
+    {
+      "child": "Save slide",
+      "parent": "Check file",
+      "details": null
+    },
+    {
+      "child": "New slide",
+      "parent": "Check file",
+      "details": null
+    },
+    {
+      "child": "Open presentation",
+      "parent": "Check file",
+      "details": null
+    }
+  ],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "User",
+      "use_case": "Check file",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

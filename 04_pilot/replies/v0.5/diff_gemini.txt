@@ -1,0 +1,8 @@
+D03  Bidirectional association  MISSING (in ground truth, not in reply): content consumer | read a story
+D12  Bidirectional association  MISSING (in ground truth, not in reply): teacher | manage courses
+D12  Directed association  EXTRA (in reply, not in ground truth): teacher | manage courses
+D27  Bidirectional association  MISSING (in ground truth, not in reply): loan officer | verify loan application
+D27  Bidirectional association  MISSING (in ground truth, not in reply): credit analyst | prepare loan write up
+D27  Bidirectional association  MISSING (in ground truth, not in reply): senior loan officer | verify loan application
+D27  Bidirectional association  EXTRA (in reply, not in ground truth): loan officer | prepare loan write up
+D27  Bidirectional association  EXTRA (in reply, not in ground truth): credit analyst | verify loan application

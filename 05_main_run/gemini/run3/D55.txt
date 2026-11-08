@@ -1,0 +1,230 @@
+{
+  "system_boundaries": [],
+  "actors": [
+    {
+      "name": "General",
+      "details": null
+    },
+    {
+      "name": "Poster",
+      "details": null
+    },
+    {
+      "name": "Manager",
+      "details": null
+    },
+    {
+      "name": "Admin",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Read Threads",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Read Forums",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Read Posts",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Manage Posts",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Create Posts",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Edit Posts",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Manage Threads",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Close Thread",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Delete Threads",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Delete Posts",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Manage Forums",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Create Forums",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Edit Forums",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Delete Forums",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [
+    {
+      "child": "Create Posts",
+      "parent": "Manage Posts",
+      "details": null
+    },
+    {
+      "child": "Edit Posts",
+      "parent": "Manage Posts",
+      "details": null
+    },
+    {
+      "child": "Close Thread",
+      "parent": "Manage Threads",
+      "details": null
+    },
+    {
+      "child": "Delete Threads",
+      "parent": "Manage Threads",
+      "details": null
+    },
+    {
+      "child": "Delete Posts",
+      "parent": "Manage Posts",
+      "details": null
+    },
+    {
+      "child": "Create Forums",
+      "parent": "Manage Forums",
+      "details": null
+    },
+    {
+      "child": "Edit Forums",
+      "parent": "Manage Forums",
+      "details": null
+    },
+    {
+      "child": "Delete Forums",
+      "parent": "Manage Forums",
+      "details": null
+    }
+  ],
+  "actor_generalizations": [
+    {
+      "child": "Poster",
+      "parent": "General",
+      "details": "Actor generalization labeled with '<<inherits>>'"
+    },
+    {
+      "child": "Manager",
+      "parent": "Poster",
+      "details": "Actor generalization labeled with '<<inherits>>'"
+    },
+    {
+      "child": "Admin",
+      "parent": "Manager",
+      "details": "Actor generalization labeled with '<<inherits>>'"
+    }
+  ],
+  "associations": [
+    {
+      "actor": "General",
+      "use_case": "Read Threads",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "General",
+      "use_case": "Read Forums",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "General",
+      "use_case": "Read Posts",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Poster",
+      "use_case": "Manage Posts",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Manager",
+      "use_case": "Manage Threads",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Manager",
+      "use_case": "Manage Posts",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Admin",
+      "use_case": "Manage Forums",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

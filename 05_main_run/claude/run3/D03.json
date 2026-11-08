@@ -1,0 +1,207 @@
+{
+ "system_boundaries": [
+  {
+   "label": "Local Legends App",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Content Consumer",
+   "details": null
+  },
+  {
+   "name": "Content Creator",
+   "details": null
+  },
+  {
+   "name": "Web Browser",
+   "details": null
+  },
+  {
+   "name": "MongoDB Atlas",
+   "details": null
+  },
+  {
+   "name": "Google Maps",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Consent to GeoLocation",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "GeoLocate User",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Map Nearby Stories",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Read A Story",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Query Story Data",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Add New Story",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pick Location",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "GeoLocate User",
+   "included": "Consent to GeoLocation",
+   "details": null
+  },
+  {
+   "base": "Map Nearby Stories",
+   "included": "GeoLocate User",
+   "details": null
+  },
+  {
+   "base": "Map Nearby Stories",
+   "included": "Query Story Data",
+   "details": null
+  },
+  {
+   "base": "Add New Story",
+   "included": "Query Story Data",
+   "details": null
+  },
+  {
+   "base": "Add New Story",
+   "included": "Pick Location",
+   "details": null
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Read A Story",
+   "base": "Map Nearby Stories",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [
+  {
+   "child": "Content Creator",
+   "parent": "Content Consumer",
+   "details": "Drawn as a solid line with a filled arrowhead instead of a hollow triangle."
+  }
+ ],
+ "associations": [
+  {
+   "actor": "Content Consumer",
+   "use_case": "Consent to GeoLocation",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Content Consumer",
+   "use_case": "Map Nearby Stories",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Content Consumer",
+   "use_case": "Read A Story",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Web Browser",
+   "use_case": "GeoLocate User",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Google Maps",
+   "use_case": "Map Nearby Stories",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Google Maps",
+   "use_case": "Pick Location",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "MongoDB Atlas",
+   "use_case": "Query Story Data",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Content Creator",
+   "use_case": "Add New Story",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Content Creator",
+   "use_case": "Pick Location",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [
+  {
+   "text": "standard, but may help you depending on your audience. Standards provide a shared vocabulary so we understand each other, but they are also malleable for different scenarios.",
+   "attached_to": null,
+   "details": "Note is cut off at the top edge of the image; the beginning of the text is not visible and the first visible line is partially cropped."
+  },
+  {
+   "text": "Here's the source code that this diagram corresponds to",
+   "attached_to": null,
+   "details": "A connector line leads from the note off the bottom edge of the image; its target is not visible."
+  }
+ ],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

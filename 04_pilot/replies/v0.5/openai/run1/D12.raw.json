@@ -1,0 +1,111 @@
+{
+ "id": "resp_0401bc95d4139f96006aef24b99b2887d2bb8716ccb7463706",
+ "access_programs": null,
+ "created_at": 1794057401.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_0401bc95d4139f96006aef24bb75f887d2ac69a92792985e0d",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq7yTISCvKTbXISEtHWFalgUu28-mVHgAxsuyEddLw_imi32fmLCyiPRfsC2Lf4b-x7wEYBjozAyuz9nReQBZw3KtAmU-bMqqjH7I3ewBhMfauf6iYCEUGVwXX0ZzVztknhv99qVgx4NNTlymaEwml8TjfRoGq2b494ClSOghDSMQYjq9PgdzIe_rd3tK8ltShpCiqLgeXk5pG3aKr21d2HdaJ_OToOvnFtNHVOJ4uE4UX4K9DTd2O9eI8uajJAB5NAWS86uAFvqHeudMKrax3OqF89DGLCBz6iuC2peCKyMMsx_9UDGgDEBg8yqBCraLDkQf5_AODk7a00O_lLs-SlS5WHLqg8s_M-skbxK138_qfIByAmv_fzdQ285tKbFwMPLxl5Vihd-6xiZBZQpjl8DTA9HZZUCebhoHnfLIxGnkmFvOPu--aRbp6HTSLxKHjkGF2AU5qIlydzkLGm-PXEYTICELyXnApct7_PAzqUS4K9VlsUh--wmVW9e3wqnW2BDL-o1RExAutOw_66iELPgYYIFalLCkEVI4h2jBYv97wZuW6HUIaFPpnp80DYgxq39o_YyC9qrJbT5rhp1oUKw8LHFJn8cT8IwSAaQ0LLpv6w_AlHr18FiJ-5BJ673v-eCzqh9NLI9k3CgWZlZTA86MOJ3N8Sq0DZFVzC3BBPDlcvkzU05oyAiDxDn5WtrMOWAiVRfgaFJsFhjXJxUgm8SMfG4P4x0AWuw1KBrmhXD75CubsK_MfWXuEaKSxeK12vjaBGl5SPFs2uQr6u772e4e2iLVO3NfyF2U0ov2jSQpxlmDH_UszIGmPnWwsh8i2vD2ET1dzo4hV6MXZUxEjcKGwo2HiSlvTvE4la9kSfOZ7d5i72CqSpZ_XtuBxobRZwnNmYP9xIBvDXnmV6xljMhgXBFh1tW2dDVO74AcUTVMs93a46bIV1RE1rJ6lPTJiBau1NZTr9DxK_K6OG76fWOB7MNHTwZnIYZfoZUnX3Qh_uhivGN4Yds0fRgwOEsPvULMn0EqEiT1UMGzqrssBRsHrB4BMPPfC4p1X2aqi39FtA78MPSL4R5YslB2oqYNub_yamSEuOk71mlYpZJ5mZ8-4sbh281PO6vOD4hP6R69nnSV9JwUoZgDKpQ_NV-AH4JjFJO2B31IDxL_dxFaGah6k-pRwD36j9F0KGbznA7hChXYO0XJOOi5clYX9xvBt4q3YpGVgjl5NfLK0mqIqkQ9RomoSnFBIRFzCTPA2tLdwLjMAgKE9LbIbGHkqupn40oO9diVrN5koP7nHAbr-9KVIjvF2psJ6X1UmT2Bum4NWQsiZg855c4TkgouWRjPuQ0cKfcBtNhQ8C5GQCx-T7ht3pS_o0UzS-ow4PQ-_kYjsIX0mFouArf8pkL3OhQL9SC9ccgTLb36kOBEp87SrR1oBOESAzdhVGxpvxXpB8gCMjXAX0OIvWl66aL44CtbcGliD3FcijGJ7O0KrnqBErApFRfJ15z3M_Y9cSK5kip5FOmpFMkCHMJIPqLjo5qd4EreeLXR64sBsumV0x09Q4-c5MwNLnW5xPhmaxfqADv3NmSoqQKyMkDGS9_oyzTWHHOI81dMsUr1Jl4F-kczC_ulrcbO_6C_SRMBjidiO4TcGgYynQEaE2XyvcqZ7rGeOZZvks_0UXGuqnK9SsJAiI9IPnDP9MyjVp6nUh1BciE76RWXAKUOT2hE4TU3edGHgVmbvwKkL_Ll1vUJ59HvyQO2DT2SJ0zMkXMiCdht6MrFvF2KzWiV57XLiYiBezGeqm7045IThR_4rhWc5_QZPOE7AX97_HIMlVfyXQyBPSXKagtm2dO9Ilprf304hP_NBjkEzJ0TxYEVNQHr3H-5A0zF1Rt1NE0s5rSlzwgvBv6CCgoYtCGq5DjKLRcvexnoQAZsX8l-GV5M2kTYNRRWXgWDqLF-2i6VhyXhFMcJM5JEaEZi7RMLHV4Wp9RVUZXh37D_TPCejpefVF3RDa9rrgQvJUMxFbTUcwvFhQEC4OUxu9cwlGMW5jJGuT_icSdqgfNI-eel57i68en4gCmSfxGxWzN0_cXLwbQwbjDC8H1Gcsgu-FD7nO9qnnsr_16hwkXC3fAAx-OB-3fRPwop63-kiW-0LaaL5JQs6gATaU0o3-NhTFlUzyoF3zQsFJalfIzHp7YvPFhu7-Pnx_0lG9tT3b9bAIO4J4EsmRoiR_GeHRewLnEH-XVHw5NjsBnVzNoodITb0wwNDqWhAHJ7HQ9gKI3Pq1jt_5vN5pL9JiZCq35cFTtWdT7prTKxsarukA-pzTRjA10Bih9Dv9MYX8VRr_qAOG9uGoBFeWjsftt7dsMR_IEsd0CmkCUajayWmscsoiY4dLqvzP2Xd6f-BtcXPTQ0JquhkAIST5_siJuTbd83SZ--EEHT4Yxi3ioFA7VQ9pBnqFYcBjG-18KGeeVjc4yxJB3KNXmKGeGnG8HlQ8X5CeTrw-aBMnYsnOYfuENanrKS5P4MntDL-ixBhk9wk00zCIjghLcyeUGCSwDMdFvlaGcb95LZyAdqe3zQELJixQvxVKM7D6W-WWaOIhkzgZBIVG9Rr0YdYCzXVo7-CW0Sl32pXx41R4DGZ4qzaq7yaUuzhE69FiOH-S6OhXJFJsDGo-bbj9KZNaMCB2JgvzL9RAwRUZFw76ev-TaqWmV5UTwXZx_Gq2s25N9NkGVF3hIaMzhI0Oqbx0F-5T8pFS67d9Ahai4Nx5IrbP7NWE2QZ2Ph7NmSYljH5VpV5obBi-yJeoIi3O4HbxZWPSavgmGJ65SvjgPMQRBcN92mla2THWZGpfo4Rn0qfytil93ypzEESHdT0FKZVYvVYRYVYNTsTIhaJuQefSDrHyoycrmf9r4MKaruPwItZ8viTLN4onw==",
+   "status": null
+  },
+  {
+   "id": "msg_0401bc95d4139f96006aef24bf4fb087d2945fff026e3cac70",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"system_boundaries\": [],\n  \"actors\": [\n    {\"name\": \"Guest\", \"details\": null},\n    {\"name\": \"Student\", \"details\": null},\n    {\"name\": \"Teacher\", \"details\": null},\n    {\"name\": \"Payment system\", \"details\": null},\n    {\"name\": \"Administrator\", \"details\": null}\n  ],\n  \"use_cases\": [\n    {\"name\": \"Register / Login\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Browse courses\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Sign for course\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Pay for course\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Grade\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Browse grades\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Create course\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Manage users\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Manage courses\", \"abstract\": false, \"extension_points\": [], \"details\": null}\n  ],\n  \"includes\": [\n    {\"base\": \"Sign for course\", \"included\": \"Browse courses\", \"details\": null},\n    {\"base\": \"Sign for course\", \"included\": \"Pay for course\", \"details\": null},\n    {\"base\": \"Grade\", \"included\": \"Browse grades\", \"details\": null}\n  ],\n  \"extends\": [\n    {\n      \"extending\": \"Create course\",\n      \"base\": \"Manage courses\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    }\n  ],\n  \"use_case_generalizations\": [],\n  \"actor_generalizations\": [\n    {\n      \"child\": \"Student\",\n      \"parent\": \"Guest\",\n      \"details\": \"Drawn as a dashed line with a hollow triangular arrowhead pointing to Guest.\"\n    }\n  ],\n  \"associations\": [\n    {\n      \"actor\": \"Guest\",\n      \"use_case\": \"Register / Login\",\n      \"arrow_points_to\": \"use_case\",\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Guest\",\n      \"use_case\": \"Browse courses\",\n      \"arrow_points_to\": \"use_case\",\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Student\",\n      \"use_case\": \"Sign for course\",\n      \"arrow_points_to\": \"use_case\",\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Student\",\n      \"use_case\": \"Browse grades\",\n      \"arrow_points_to\": \"use_case\",\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Payment system\",\n      \"use_case\": \"Pay for course\",\n      \"arrow_points_to\": \"actor\",\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Teacher\",\n      \"use_case\": \"Grade\",\n      \"arrow_points_to\": \"use_case\",\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Teacher\",\n      \"use_case\": \"Create course\",\n      \"arrow_points_to\": \"use_case\",\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Teacher\",\n      \"use_case\": \"Manage courses\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    },\n    {\n      \"actor\": \"Administrator\",\n      \"use_case\": \"Manage users\",\n      \"arrow_points_to\": null,\n      \"multiplicity_at_actor\": null,\n      \"multiplicity_at_use_case\": null,\n      \"details\": null\n    }\n  ],\n  \"notes\": [],\n  \"other_relationships\": [],\n  \"other_dependencies\": [],\n  \"other\": []\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794057416.0,
+ "conversation": null,
+ "max_output_tokens": 25000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "type": "text"
+  },
+  "verbosity": "medium"
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 2107,
+  "input_tokens_details": {
+   "cache_write_tokens": 2104,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1092,
+  "output_tokens_details": {
+   "reasoning_tokens": 97
+  },
+  "total_tokens": 3199
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "presence_penalty": 0.0,
+ "store": true,
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "total_tokens": 0
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ }
+}

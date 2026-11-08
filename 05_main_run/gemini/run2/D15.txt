@@ -1,0 +1,199 @@
+{
+  "system_boundaries": [],
+  "actors": [
+    {
+      "name": "Authentication",
+      "details": null
+    },
+    {
+      "name": "Identity Provider",
+      "details": null
+    },
+    {
+      "name": "Credit Payment Service",
+      "details": null
+    },
+    {
+      "name": "PayPal",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Customer Authentication",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "User Sign-In",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Remember Me",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Single Sign-On",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Checkout",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "View/Update Shopping Cart",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Calculate Total",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Calculate Taxes and Shipping",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Payment",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Payment By Credit",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Payment By PayPal",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [
+    {
+      "base": "Checkout",
+      "included": "Customer Authentication",
+      "details": null
+    },
+    {
+      "base": "Checkout",
+      "included": "View/Update Shopping Cart",
+      "details": null
+    },
+    {
+      "base": "Checkout",
+      "included": "Calculate Taxes and Shipping",
+      "details": null
+    },
+    {
+      "base": "Checkout",
+      "included": "Payment",
+      "details": null
+    },
+    {
+      "base": "View/Update Shopping Cart",
+      "included": "Calculate Total",
+      "details": null
+    }
+  ],
+  "extends": [],
+  "use_case_generalizations": [
+    {
+      "child": "User Sign-In",
+      "parent": "Customer Authentication",
+      "details": null
+    },
+    {
+      "child": "Remember Me",
+      "parent": "Customer Authentication",
+      "details": null
+    },
+    {
+      "child": "Single Sign-On",
+      "parent": "Customer Authentication",
+      "details": null
+    },
+    {
+      "child": "Payment By Credit",
+      "parent": "Payment",
+      "details": null
+    },
+    {
+      "child": "Payment By PayPal",
+      "parent": "Payment",
+      "details": null
+    }
+  ],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Authentication",
+      "use_case": "User Sign-In",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Authentication",
+      "use_case": "Remember Me",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Authentication",
+      "use_case": "Single Sign-On",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Identity Provider",
+      "use_case": "Single Sign-On",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Credit Payment Service",
+      "use_case": "Payment By Credit",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "PayPal",
+      "use_case": "Payment By PayPal",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

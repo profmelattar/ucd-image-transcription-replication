@@ -1,0 +1,111 @@
+{
+ "id": "resp_067f7d8b1ba5d134006aef21108c8087d284dfd155661ede82",
+ "access_programs": null,
+ "created_at": 1794056464.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_067f7d8b1ba5d134006aef2111e00487d2b2cb7693bd522942",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq7yEi04WmbsR9la3waoa3f127tbjL0B1sXvZS4ifo33eCOdzfp0RPGUe4337E7UFE6XZqK4A2Xg89xZVI710P1z2rEnrpvYjo-KeNz6gcfyiLdhuhDWD4wHQUIFHZfhtM24qCIXwmc3S_qIPMNsW6R_H6mDspU5iZewuVQDB6xM3wd3BG6RXr9aMmKlP2LtUmWjaLsiX64RXv2izEgIRuyskPSX91p59gznOVyfFSjt19F5KszbdbOXVPnRszGRMeh1MCkq-Hs3NEH8-HBpJTPjbskC-UvNmfn60CQmy63Hu7jLDsQvVB1Oe31mFD686PZbDm_-gITJTUQ6eSinTI1d7F1iE9tqAOwGV-pDMgozld5Re9fndlVx6D1J48pa4K-8_YV3MtTlaA5LJVSo_xIgtXbZLvlUy9xTpqc_16hMhegtA2NOmSJj-f5CazCsNcrjXsBrcMDTLJPI6nRa8YVuPIDvJRezwK-uoWliRFi6-rLr260_c2OFh-G2Z_2zOHBLL-Rv180eTEefyZomzIMYED8LKABqynvKjNbNkfQ-HWL14-4t2EVO1i-goq2heLQw-rhLeV2tWxPbbBqWWwTPAXmeIbODc_ji5HZDx3mThrnStXERGx35itQW6JDBrDFLeJBRzyExu-9GhUA1Wp5fW4Zmy8DNWLt_kj7fzPBxPBLWywkRBiqx4YFshnvVaYcavtJK34IbHD1-F8ZJMBrfiqd-tYrd433tWhh4MJzjxqDIFlrERxVcKXWnAqyToVnNyacscpPpZ6MA_8CQg2bGlSpGgrdEoFPzniBk13rxWwS5DXRZ90pUHslE9AYmZLTD55fLf51pfS2SB58hTfRkiQ29ZZ3TVxmc5sv8A4N7Qp8hLII_hHot_7oYp3dgrkkMdG543N9MnccRUI4y-XuQSrXUVgLyQm5dtwEMrh3_9V8EmmAStsWq-v_KzTVsEkNhlJ0Dk8UgBjt8TXJrqfu3hvX-Uwp_HLONeqP5wmm7fjGaP3Xi97Gx-qEq9XaQvY6ksyfCvxP3SeAsMdeZ1W9Gw46M4jtefy9NhG1FpEVYti_4jd-3Lm6l-0E0HFrsKIXyoiXRUrSI3YRK-_aCzIsNIWsz4TmAIzoyvj0XxqsmVJJ3au8R1yVZW5GdhUEiJMv27DgnqNER0X9jE2ksOb7geklVx7xdvC4f419hW78elHaQAqUksqlA9s_Tam2vAguE1kkCJzLOVZb0jalnYQycRAqWXsEdB6BN5l-0NycNjQfRajXN9AweNuM2GQHVTmppeJAFozp_GXvGhAXXWbydbKEYbVYRkjnEgBoTeQz5nh_rJNGiTzAf0rOfixlsmnD4skNoI5plQCfhMFD4zjvO6zKYqwvg-h49eT4uR29Brlt2vr3fTc33XUoDr-1N3K9nwuMFdmh5YOKZIwkH3xom5pdnEFINlyF3vc2VY_Ks9A0rUEVY8aoipjiezOVy0wniO_T1vdMV-YzQtOjIb6Cal6t5ShAsix8ReFI4GnWnLAFsytCDv5qLjRjke-VtZN_7d4ca97s0-_w7Pov9N4ZDgFcfTm6KWqAtR4_4ETQAKUOBUmOrWsl6armDVIAkIgYayUQu3wMyxHm71gco5n9cdpvPh2by4-tGG9_dzQK5X5ySjCJ5InGrKVVKALr86S5OfWWCwg8hzO2lymvFbMPI2JzwoLcPJ2umZ_EqTPjpRWrFOO0ABGNXrvB3Mj43iAzn3wOLW_B1DQKNCa-Ox3gKuWHqq0kEeCmKFJ4I-nrEOdcPEMUPCGKqdjC61H65sYlpeFUe-UIlEGSZWRQko2GQ6HIg9QUqpDN75leVeRtnJXPduj0t1iJueEJ5vj66lMv9t5hTmzsKearDpdVqnmBd4ECbnGt6OTgoKm3UYu-zLdxg3KCc__I7EW6ycPLdZusEoRXjBtzSuBCiv_ZkcSDu3q59nFrdq5ATeICGj2CUWkIC-JfN4XYGEXw1zcUyDJYKIRtCXxca2_stO031-dB3mK0jsec4demexEvVad0WC-LxR3kR9OQ3v3_A1bqJY38yQlBvaMTzjC56MtgCXPvwm6_3hiarkzNZALp0SXufaKEEudj_qUajRqsx1qX5Nw8wzXLNek-DBwJhCn-SchlZnEO4ZYREDG2-8EsTE4j46-n74BjBnJl7oFBTuUa9_QyDVPyZe4VgX8ipKwTgG0oejbn7csx6DtSgthyeUaQgy1xvRUWqsx8quQW3Tl5eiRBDpb-RnuSXQ1nrNDus4EPDrb4tumk-Al-O3UtoCJ2czNowqetQOS8DOkPaYNluOOFIPDEVgH_vFObHeGuDJG0lwn-Z-uCqyQ1bH76GrEQG85xwtj27ChzsVHQ3CJNG9EK_8-p5kXEl56KBceH2AVVRBEUeG6lU4o7IsycGeBIza_ONB84DMyHeN_OecONsBrJmDalynCCnDv6IbjbN-VRTNXAoYvQ98wpUugyTQ_L_YDqc-9CfU3wQUlgJQPt5qs5ZdSefiv5KvgzzK5-Y848bT7I8bTh5LSKBcR4VCXfo2bQtoFIG0DNwJwMd9-jEVfBTpHivatjDkvmdniVxTNSAu9BbUyWUbKwWUMeyo6TnjfzGCiNxDE5XDU3WaGRtLxm7ggwpA3em1j_bx5G5OJvWNmf64IEiXgc-a3XOx4YtxceoUNPSybMy1DAzSiKJEIi_3tLJ2lpix-yKrUg3WarKqNIu5bo_lukf3bM3FcbpsgOK-dCQxaYh77Kn5VH_jZr9bLhnhRYzYM_Grr5Luqq4ZiOgxoEMDaw_R_Nx3Gg4vPB2NfiNbRb7NPz0seYDX5m-N-pD3noVbILnRbVB03j2zaXipBGV7BMsCUx7SuhpT9jIvFKfgbF6HLvaLOaLpvgOakPI3wU-RK1FJh8qoMHW3Ak8dYd99enXmcTIV6FCncLkH5RqeuzCcwgdruYmYMiflFGv4FSfwTmii7s_m6IrBx5EP0MeWGt6f1tFKc1DIlxhAnI6ajzXUwKmx0AC4Dr77v4iRG1L2eKC6OOd_ugy_ut5DD2pwn2cfHrJqETIQkpsRvK3hL19MU1j4AYGkUF5jzr28NjFjFjZcrd4ukjgZ8HILm-21YCAIvezW0JzLkavCAH98kkqfVNMtbClxw6AtL0-zNMEBglyx9Z2blz-FN4Q_YdZ5dabRi38HTLyWEo7lpQZeo0SFTlAboF6U1rvk1QJOYWT-Fq4j0mf7iyy-dQ4d5iLH-ekGZh6SFIuE_rUtAZ9I1j0kGP42XorMIwsnoWg5p4Et8GMNkO-MZ5Rxq_v1iam0wbK8f4y5oNhPVSKXk7ASTIXwjOSEuPTzy1mdaSUZA2djNqI4n9e_-sBs402f5Gd7xJKGpz9bJ_U_CEuX9qjCUQpifNr8eqHQQeIgQXZDys1M_gGVVOF_ATEB7o-BEzdk4ca5UnOeACX9u2OmSHPOGEGNvyLYsE-rXrgTyxDRGeAAijD7J0KbLK7tWAWyOFv4agnc3xUWen9h1VI1aJFdz_iwMBTd3GTA-rqPN9uBnGYgdUoM2t7cvJGICV6tHmBxK1KrQqbaloFQEgk9Tiq1h3s8nNijez-MahbfaWXzkittuaKCSft8OHIxFMcxMcpmiUS-Czb5FdNpFDgndiuMlN6HcoEhRtn7a_08xst-8v0ZyYh0urlX9k0CUDDnS3nOh71VhDIuvL9ojDGT4zF0DVjUVreEuDTVqQKke2tDTFGqVVGKn0dkpRYn2WqZnuKLl_tUd_mDwKRYNaJDOv7diUbnBjKrs8RcR8vfukIDS6pwPI4WoPm2bvt2UVQprGi5cGXhOlcQbSLD_qbS8SwpqGeVPty_Eg-63PlH0hMi2vrPCWj4P_uGi8iZtGB8AfN_ttTqHFFkYsqRo_K-mmGPwrhSvUgsWMiyNm2T89wya7pseVrUHhg3juYyG56CiCCeJIEsCGYg54zcvOLLm48dDzadUjpgPOMtU9-tX01UmLw7PzDlvxA8MeiUuXtugcZRSM9OHaGv6tLei8R46w7c80H0XqSXKojQjSiPqTzhA5ipN9fCKqcHVjLuUKUxziJmf4WwK9iBC9XQJrevzHb5cGY1lmRbQTY-xauLBLCh1K_lhnqocXfgSIPauTACMzCn7Zj1MQM52ZeH9a0H_qAv9UDY_gjRmz1vLPu4R9dj-8Kb0icIqe9c-tfm0OxO2W8iJWEmCh4EeGPN2wmNmr9NuC8Th7AHoNbzC2BfJO6oGHE9P5uS_25fHRcXf2nMCXRjga7XAUcL56tuAbXXupsFdCU0Sb75zU8OEaPIk-uoKif3q9mHMyhOvQFnaN5ZuY5A9lsvH2KSDgCPPmisf_EDq94KamXwPMRmece80rmxxjQHpSfxAb7akqajGVfFGU7GYGKaUu02nVfSs4lNO7dN1Z8YUqsGxp5KWdbaQ0pgL-VoAWunG-VQ4DRNBbyGk-Yu0tMmXAhoSp7n2_ga_LzzLAK0KgEAq75lJ-kwNpvlcfKtW8fLfzhXiF4p1n7_LzJrLS3hqNXVc6nisIX2wyWtBJDUj8q98EeGBLsylWckiqBLKBJo6XoaZWrNE049jbZlWAeqDawTwX7Nh3sql4OOJ54lvQNjSY7B1FSPrVWv2CsId_9gdy2vQC5e5w95OilQ4iy9QyTQPLxG7ehP-WkNAl0UXnSe1AvN1j3cAYQf0xgZp2XOZU-09RkNWCFiGGtgqiw_elycL9NALQu7IsYx3NtsKFtvyziSvTxbG9VB4jYa4Aw-8hrHVtegn6blqvVdyCIEZ4EandUL-DTZogtz7SsFUW06I0Xsl8L2K0mVj8uW2zlEj_sbzGio3czBUlibBttziXhWXidwBS6TkmKUee_rYUZmMq9DXrJuq",
+   "status": null
+  },
+  {
+   "id": "msg_067f7d8b1ba5d134006aef211b2ff087d281f511dcfbbda9b0",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"system_boundaries\": [\n    {\"label\": null, \"details\": null}\n  ],\n  \"actors\": [\n    {\"name\": \"Customer\", \"details\": null},\n    {\"name\": \"Email System\", \"details\": null}\n  ],\n  \"use_cases\": [\n    {\n      \"name\": \"Register to Car-to-Share\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": \"The ellipse also contains a separate \\\"Use Case\\\" label.\"\n    },\n    {\n      \"name\": \"Record ID card\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": \"The ellipse also contains a separate \\\"Use Case\\\" label.\"\n    },\n    {\n      \"name\": \"Record drivers license\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": \"The ellipse also contains a separate \\\"Use Case\\\" label.\"\n    },\n    {\n      \"name\": \"Conduct video call for verification\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": \"The ellipse also contains a separate \\\"Use Case\\\" label.\"\n    },\n    {\n      \"name\": \"Record payment method\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": \"The ellipse also contains a separate \\\"Use Case\\\" label.\"\n    },\n    {\n      \"name\": \"Record voucher\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": \"The ellipse also contains a separate \\\"Use Case\\\" label.\"\n    },\n    {\n      \"name\": \"Send confirmation\",\n      \"abstract\": false,\n      \"extension_points\": [],\n      \"details\": \"The ellipse also contains a separate \\\"Use Case\\\" label.\"\n    }\n  ],\n  \"includes\": [\n    {\n      \"base\": \"Register to Car-to-Share\",\n      \"included\": \"Send confirmation\",\n      \"details\": null\n    }\n  ],\n  \"extends\": [\n    {\n      \"extending\": \"Conduct video call for verification\",\n      \"base\": \"Record ID card\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    },\n    {\n      \"extending\": \"Conduct video call for verification\",\n      \"base\": \"Record drivers license\",\n      \"extension_points\": [],\n      \"condition\": null,\n      \"details\": null\n    }\n  ],\n  \"use_case_generalizations\": [],\n  \"actor_generalizations\": [],\n  \"associations\": [\n    {\n      \"actor\": \"Customer\",\n      \"use_case\": \"Register to Car-to-Share\",\n      \"arrow_points_to\": \"both\",\n      \"multiplicity_at_actor\": \"1\",\n      \"multiplicity_at_use_case\": \"1\",\n      \"details\": \"The association is labelled <<communicate>>.\"\n    },\n    {\n      \"actor\": \"Email System\",\n      \"use_case\": \"Send confirmation\",\n      \"arrow_points_to\": \"both\",\n      \"multiplicity_at_actor\": \"1\",\n      \"multiplicity_at_use_case\": \"1\",\n      \"details\": \"The association is labelled <<communicate>>.\"\n    }\n  ],\n  \"notes\": [\n    {\n      \"text\": \"New promo at Easter\",\n      \"attached_to\": \"Record voucher\",\n      \"details\": null\n    }\n  ],\n  \"other_relationships\": [\n    {\n      \"from\": \"Record ID card\",\n      \"to\": \"Register to Car-to-Share\",\n      \"details\": \"Unlabelled solid arrow with a filled arrowhead.\"\n    },\n    {\n      \"from\": \"Record drivers license\",\n      \"to\": \"Register to Car-to-Share\",\n      \"details\": \"Unlabelled solid arrow with a filled arrowhead.\"\n    },\n    {\n      \"from\": \"Record payment method\",\n      \"to\": \"Register to Car-to-Share\",\n      \"details\": \"Unlabelled solid arrow with a filled arrowhead.\"\n    },\n    {\n      \"from\": \"Record voucher\",\n      \"to\": \"Register to Car-to-Share\",\n      \"details\": \"Unlabelled solid arrow with a filled arrowhead.\"\n    }\n  ],\n  \"other_dependencies\": [],\n  \"other\": []\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794056482.0,
+ "conversation": null,
+ "max_output_tokens": 25000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "type": "text"
+  },
+  "verbosity": "medium"
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 2167,
+  "input_tokens_details": {
+   "cache_write_tokens": 2164,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1104,
+  "output_tokens_details": {
+   "reasoning_tokens": 234
+  },
+  "total_tokens": 3271
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "presence_penalty": 0.0,
+ "store": true,
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "total_tokens": 0
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ }
+}

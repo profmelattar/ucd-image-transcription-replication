@@ -1,0 +1,35 @@
+{
+  "system_boundaries": [],
+  "actors": [
+    {"name": "Author", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Suggest Article Idea", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Write Article", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Upload Files", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Notify Editor Article is Ready", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Reply to Comments", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Log In", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Log Out", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Maintain Profile", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [
+    {"base": "Write Article", "included": "Upload Files", "details": null}
+  ],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {"actor": "Author", "use_case": "Suggest Article Idea", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Author", "use_case": "Write Article", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Author", "use_case": "Notify Editor Article is Ready", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Author", "use_case": "Reply to Comments", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Author", "use_case": "Log In", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Author", "use_case": "Log Out", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Author", "use_case": "Maintain Profile", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null}
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

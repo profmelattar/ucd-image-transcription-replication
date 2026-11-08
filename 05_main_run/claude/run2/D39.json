@@ -1,0 +1,158 @@
+{
+ "system_boundaries": [
+  {
+   "label": "ATM",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "User",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Withdraw cash",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Check balance",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Donate money to charity",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Transfer money",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay bills",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Login",
+   "abstract": false,
+   "extension_points": [
+    "Invalid password entered",
+    "Abort triggered"
+   ],
+   "details": null
+  },
+  {
+   "name": "Handle invalid password",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Handle abort",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Withdraw cash",
+   "included": "Login",
+   "details": "Labelled <<Include>>"
+  },
+  {
+   "base": "Check balance",
+   "included": "Login",
+   "details": "Labelled <<Include>>"
+  },
+  {
+   "base": "Donate money to charity",
+   "included": "Login",
+   "details": "Labelled <<Include>>"
+  },
+  {
+   "base": "Transfer money",
+   "included": "Login",
+   "details": "Labelled <<Include>>"
+  },
+  {
+   "base": "Pay bills",
+   "included": "Login",
+   "details": "Labelled <<Include>>"
+  }
+ ],
+ "extends": [
+  {
+   "extending": "Handle invalid password",
+   "base": "Login",
+   "extension_points": [],
+   "condition": null,
+   "details": "Labelled <<Extend>>; the extension point used is not indicated on the arrow"
+  },
+  {
+   "extending": "Handle abort",
+   "base": "Login",
+   "extension_points": [],
+   "condition": null,
+   "details": "Labelled <<Extend>>; the extension point used is not indicated on the arrow"
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "User",
+   "use_case": "Withdraw cash",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "User",
+   "use_case": "Check balance",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "User",
+   "use_case": "Donate money to charity",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "User",
+   "use_case": "Transfer money",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "User",
+   "use_case": "Pay bills",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

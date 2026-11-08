@@ -1,0 +1,40 @@
+```json
+{
+  "system_boundaries": [],
+  "actors": [
+    {"name": "Administrator", "details": null},
+    {"name": "User", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Register", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Login", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Search Database", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Add Data to database", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Logout", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Delete User", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Delete  from database", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {"actor": "Administrator", "use_case": "Register", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Administrator", "use_case": "Login", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Administrator", "use_case": "Search Database", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Administrator", "use_case": "Add Data to database", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Administrator", "use_case": "Logout", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Administrator", "use_case": "Delete User", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Administrator", "use_case": "Delete  from database", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "User", "use_case": "Register", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "User", "use_case": "Login", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "User", "use_case": "Search Database", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "User", "use_case": "Add Data to database", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "User", "use_case": "Logout", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null}
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}
+```

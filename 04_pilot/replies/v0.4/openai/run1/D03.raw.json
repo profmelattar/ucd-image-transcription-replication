@@ -1,0 +1,111 @@
+{
+ "id": "resp_0070d612a6a5f288006aef20c311c087d28d393115ec0206b3",
+ "access_programs": null,
+ "created_at": 1794056387.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_0070d612a6a5f288006aef20c5bb1c87d282cf9b22c7c8fca5",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq7yDUlF8ftuS8WvpWEtxnPMMGLwLg3tJ5vIV-g3GMst0jKzGEKjgbZgVlkD4z1BKCtexegTzkg7AMlTWJd16fRb6Z8Kgz-oH62B0eE7mMuPp2PQhpM4RoN6xdKd5vqF6Bj7aC-4vzPSWxGvpyVEwIOiE-Lcg6Xmq3LOn1Xatd-F4nzo89zVlV-hTKRdelWAN1ZyqfRy5ax0v0dGc4kKotTJgwf0RhN4HPrUHrTx_9734hMlrN4mYHwyX7x3Mr9We7T148S1RXTQQILQVHz6c1J6gqvDC1WYhfe22-Cp8A1xCFQJs_KO1SQj0cuFSe9VoLDzMRZD93cWEzFRIb7EnuCqWmUS141e5vbutnKhYUmW8YBixW-QkSIrHkca5aO62r_YxTMKLnEo3QDppGv4i_GungdWs0E7CiZOXcSKNUdRH6JORxZhLnAi9-aA-2PVTsORr9uYniAIOrzPaq7dlvhYaPHi6lVIQPPAgLmNsLKW-qCKhQ7aI4JGyrsnPTpQJazpK2VNEVqrWaqdfjcZQeiqlrieVwll9RniNYY2f5kf3_lW0yM3d-bn1vcV0a03ZU167yNXd7C5KJBqGs9RHeILtJbL8nIjXz5YMpUGRgPp5VU5yMkqyd9F-TTqkmuu48dc-AWSBMpuBRlZoYu7LwsrfnL4R9RLUDOhw6AbCadA2QiX-j8HfP2PnaRlEcRzm_W7hPtGOWTW77yhbopL_LdwyDrsItJqxZR_6wrcaujbjx_wN292ENNmjNeXXF1HM7LsPIc7Pd9spyXy7xIo33YeI-d89htDadlZXaaDP6Isc39bVjsmJqIpEXUlobzgDJkK1zH1bXRO3zwQ6KeZsL0aw6oTrVT24PCmx62GlslgrK6zYi8Mg2TfwPLRTwoEimnOchVgPa6lDb5cSgB66o5-NfYz4wodTvNEgm6RHfJ5HRct8o72HYPmbjnqdStMk7o8BWX9SLXtLE-VLYuus7fHtAd3QXd4H8hGuZyMAtrHOvnwr_wTuAEaMMTH8fbAcC0v7LiXpPfY9i51wXV8ih6TSxc6S4yVT2i90sel84JEOB8HIQqtn9E8Xuq0avToGk0r3MZ7C9UoEhwZki6jPellKvNrpjEFA4fyaLfEPY-e5uvnzk2VJEn4RZ72zlyWS1Ugl_rARZbvbtY_lICtRnRe9mFO8jR5knZqoC1X84-Cz-7TL2DSXxxr7ujoPF6fpsMTUEYX8MHPvPGZQt2yd_kGdNLqa-fb0cw0hoSOHBSWvRBR8zitjltinNob-aBvrZU-3K__7yEhwtcyKHYj76_AbZsOWbSnNTBEsoq1vVv8wg-hRTehKSAVoK9lUYE6GmkhCzYyrPK8Rk7ZJM-TWMI03X3jVYVU6uAKrekEP0jnsQLzRS_Dn_-uyb2Hfpek8B-yZHvTnZSw4ju2Gtif4IvMZFW3sMD4Bt-_Dqtuzf6c6GjgVjzqyYMvEQYZ7Vn8QPjmVrzDUV7b9OITpiwoYF_yugQaobOoZ1lIwrjnmTDpmRLfHB9ZHOhJ6abHB6Z-ma3ywXaoaMAWMbfhZ_56V8db_UbCPFlzmJAunttuMS0qg2mI87ZirYfbGsXrZ39O7p1KkeqStqHKU_Sv0czoKfMZltivOys1SkbOPiTLtSY7RW-oa93HiMGhPcMdACCmediAzs8-secuBnoQ9D9tWatBcvzmt4I7jec5sqJbZgkgG0SAXR-seaNJ5RxSD6MoXgovSuUNfUSNjVqPP3pfbYoTcfnCWD-pr3WmDWt3nCb7uT8UWw8ubwopaYnADiBa9_kpsmK6EQSZeMhJ2eXoglN-Ir28mc12f0OZiXPaSnP7murb3DpGF4eC4y7N8ZsdJOgYlrP8nUMHwCQU2eQQmuWK2qBJpyilBwt-Jqyv9kuJGbhlcwtiWKqWytHa8A152ZAaoeZTUF5ugyDsEGkQkUiq3Ajdej3cWg4u4Ju8L1uYslHQgkBXyrNT-aOlL7rb7zU2lKnCxZypp_ic3xLsv3K2_hSTi39BsCEIlVkZofZsyGe3pnjHuYCAlXT4XR0cQDXu1zt6uEB_KiKG-7xCtdg6xeEK9GrnntHoILn7agLcg1o675m-5zkcSsHKyBxxkOse7Jv4Rxz6bmY0Gx8sxSAQERsTd-wvz0dSewwqKFXelbUvBtxASRNdCMV09nf9zAWxr9H9YgE9ZHLPL5T5tWdDXU0LU3qFdQPTCHegriHs6ySJY6sS8DLJFWl0AVAZGgxLzr52gQm5-VKX3GJRPaFY3UuWU4afmbY6NIU_NLrHAPHfi8UnrbhSXvcRbEb4lo5Q_vMXPRjf-BFk-k7cd_3tR29E4cV4WZi8vSEYAEjMS9rtxWvEpRebH5bR8PA91ViagydKOmq0Bxq5GuNKGmwVOOzT60uu2zm0dumtTXuECnnon_xt7nO3HM6k7b6tSKP0UL1BgW-ZbkroLT3EYr5pTWWu0ucfTjKzNcepz3ESSpbOH38EIqdf7-B79c1FBQcDY4Q7LIiAFAUjq6LkxOLQ-ik4khlxU5oymhxXcFfLxlKclQzCPG5ahWRuCgmU-O2cuojhjhEVT7hQbG4WGvixcvFPl0108OAng2IP-Scoj61X3os0ZrzQwnAPp3XA1TDBdiRKJ9Xn73laB5U5a89SzsyLr_vjo6HlNC0L6gpaVqybpMH646N0Vwca1yH033CTO7bXjua4QR83Ke6pSgzSQN0fryEGTGii_cSQ01Hver7VklhFCjU_KUsZG-z9_fI_-6RzJGXHMAr708eIUqwrfHsXZm1xZSjlTZyOhIO70-6Qad9QqpTLT1q8RuzChqSXpv-xstRTaLqwB1O_1roJKJXmsKG7EQwcrVn0yZdXK203Wy9mtJYbs2GPWWuDisWrbncN-wN1Bi2mzNQM9pbx1lWF3dx3FOw7YexmQKa7q1qk7-VwShIMHCN8RrAoAxkgpxJWt-EtCZ2H-0D4sIzd1__fqbrXykZR7_eusXS0T6W1pCTLJuCI1PwPkzFxwNZQ0Y9KbM9hKr_15dkizniDjBC_Bz6KAgOrbtfDVdZYMYYcgaqNXvybRQ3CuSmJrtBegEWLKw22aM-fjr34-8pPAYwg==",
+   "status": null
+  },
+  {
+   "id": "msg_0070d612a6a5f288006aef20c971d087d287bd5a7bff225bb1",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"system_boundaries\": [\n    {\"label\": \"Local Legends App\", \"details\": null}\n  ],\n  \"actors\": [\n    {\"name\": \"Content Consumer\", \"details\": null},\n    {\"name\": \"Content Creator\", \"details\": null},\n    {\"name\": \"Web Browser\", \"details\": null},\n    {\"name\": \"MongoDB Atlas\", \"details\": null},\n    {\"name\": \"Google Maps\", \"details\": null}\n  ],\n  \"use_cases\": [\n    {\"name\": \"Consent to GeoLocation\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"GeoLocate User\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Map Nearby Stories\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Read A Story\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Query Story Data\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Add New Story\", \"abstract\": false, \"extension_points\": [], \"details\": null},\n    {\"name\": \"Pick Location\", \"abstract\": false, \"extension_points\": [], \"details\": null}\n  ],\n  \"includes\": [\n    {\"base\": \"GeoLocate User\", \"included\": \"Consent to GeoLocation\", \"details\": null},\n    {\"base\": \"Map Nearby Stories\", \"included\": \"GeoLocate User\", \"details\": null},\n    {\"base\": \"Map Nearby Stories\", \"included\": \"Query Story Data\", \"details\": null},\n    {\"base\": \"Add New Story\", \"included\": \"Query Story Data\", \"details\": null},\n    {\"base\": \"Add New Story\", \"included\": \"Pick Location\", \"details\": null}\n  ],\n  \"extends\": [\n    {\"extending\": \"Read A Story\", \"base\": \"Map Nearby Stories\", \"extension_points\": [], \"condition\": null, \"details\": null}\n  ],\n  \"use_case_generalizations\": [],\n  \"actor_generalizations\": [\n    {\"child\": \"Content Creator\", \"parent\": \"Content Consumer\", \"details\": \"Drawn as a solid line with a filled triangular arrowhead rather than a hollow triangle.\"}\n  ],\n  \"associations\": [\n    {\"actor\": \"Content Consumer\", \"use_case\": \"Consent to GeoLocation\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Consumer\", \"use_case\": \"Map Nearby Stories\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Consumer\", \"use_case\": \"Read A Story\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Creator\", \"use_case\": \"Add New Story\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Content Creator\", \"use_case\": \"Pick Location\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Web Browser\", \"use_case\": \"GeoLocate User\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"MongoDB Atlas\", \"use_case\": \"Query Story Data\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Google Maps\", \"use_case\": \"Map Nearby Stories\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null},\n    {\"actor\": \"Google Maps\", \"use_case\": \"Pick Location\", \"arrow_points_to\": null, \"multiplicity_at_actor\": null, \"multiplicity_at_use_case\": null, \"details\": null}\n  ],\n  \"notes\": [\n    {\n      \"text\": \"standard, but may help you depending on your audience. Standards provide a shared vocabulary so we understand each other, but they are also malleable for different scenarios.\",\n      \"attached_to\": null,\n      \"details\": \"The note is cropped at the top of the image; only the visible text is transcribed.\"\n    },\n    {\n      \"text\": \"Here\u2019s the source code that this diagram corresponds to\",\n      \"attached_to\": null,\n      \"details\": \"A connector extends beyond the bottom edge of the image, so its attachment cannot be determined.\"\n    }\n  ],\n  \"other_relationships\": [],\n  \"other_dependencies\": [],\n  \"other\": []\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794056404.0,
+ "conversation": null,
+ "max_output_tokens": 25000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "type": "text"
+  },
+  "verbosity": "medium"
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 3935,
+  "input_tokens_details": {
+   "cache_write_tokens": 3932,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1179,
+  "output_tokens_details": {
+   "reasoning_tokens": 117
+  },
+  "total_tokens": 5114
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "presence_penalty": 0.0,
+ "store": true,
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "total_tokens": 0
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ }
+}

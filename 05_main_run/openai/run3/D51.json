@@ -1,0 +1,242 @@
+{
+ "system_boundaries": [],
+ "actors": [
+  {
+   "name": "Project Manager",
+   "details": null
+  },
+  {
+   "name": "Sales Person",
+   "details": null
+  },
+  {
+   "name": "Administrative Assistant",
+   "details": null
+  },
+  {
+   "name": "Buyer",
+   "details": null
+  },
+  {
+   "name": "Seller",
+   "details": null
+  },
+  {
+   "name": "Google Wave",
+   "details": null
+  },
+  {
+   "name": "Sales Force",
+   "details": null
+  },
+  {
+   "name": "OpenProj",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Manages Clientes",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Manages Project",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Generates Project Schedule",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Logs Activity",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Manages Team",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Markets Property",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Reports Status",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Shows Properties",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Manage Administrative Tasks",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Query Status",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [
+  {
+   "base": "Manages Project",
+   "included": "Logs Activity",
+   "details": null
+  },
+  {
+   "base": "Markets Property",
+   "included": "Reports Status",
+   "details": null
+  },
+  {
+   "base": "Shows Properties",
+   "included": "Reports Status",
+   "details": null
+  },
+  {
+   "base": "Manage Administrative Tasks",
+   "included": "Reports Status",
+   "details": null
+  }
+ ],
+ "extends": [],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Project Manager",
+   "use_case": "Manages Clientes",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Project Manager",
+   "use_case": "Manages Project",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Project Manager",
+   "use_case": "Generates Project Schedule",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Project Manager",
+   "use_case": "Manages Team",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Sales Person",
+   "use_case": "Markets Property",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Sales Person",
+   "use_case": "Shows Properties",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Administrative Assistant",
+   "use_case": "Manage Administrative Tasks",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Buyer",
+   "use_case": "Query Status",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Seller",
+   "use_case": "Query Status",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Google Wave",
+   "use_case": "Reports Status",
+   "arrow_points_to": "actor",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Google Wave",
+   "use_case": "Query Status",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Sales Force",
+   "use_case": "Manages Clientes",
+   "arrow_points_to": "actor",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "OpenProj",
+   "use_case": "Generates Project Schedule",
+   "arrow_points_to": "use_case",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "OpenProj",
+   "use_case": "Logs Activity",
+   "arrow_points_to": "actor",
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

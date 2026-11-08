@@ -1,0 +1,65 @@
+{
+  "system_boundaries": [],
+  "actors": [
+    {"name": "Actor", "details": null},
+    {"name": "Actor", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Open Account", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Deposit Funds", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Calculate Bonus", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Withdraw Funds", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Update Balance", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [
+    {"base": "Deposit Funds", "included": "Update Balance", "details": null},
+    {"base": "Withdraw Funds", "included": "Update Balance", "details": null}
+  ],
+  "extends": [
+    {
+      "extending": "Calculate Bonus",
+      "base": "Deposit Funds",
+      "extension_points": [],
+      "condition": "Amount over $10,000",
+      "details": null
+    }
+  ],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Actor",
+      "use_case": "Open Account",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Actor",
+      "use_case": "Deposit Funds",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Actor",
+      "use_case": "Open Account",
+      "arrow_points_to": "actor",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [
+    {
+      "text": "Amount over $10,000",
+      "attached_to": "Calculate Bonus <<extend>> Deposit Funds",
+      "details": null
+    }
+  ],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

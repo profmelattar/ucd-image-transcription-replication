@@ -1,0 +1,135 @@
+```json
+{
+  "system_boundaries": [
+    {
+      "label": "Credit Card Validation System",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Customer",
+      "details": null
+    },
+    {
+      "name": "Individual customer",
+      "details": null
+    },
+    {
+      "name": "Corporate customer",
+      "details": null
+    },
+    {
+      "name": "Retail institution",
+      "details": null
+    },
+    {
+      "name": "Sponsoring financial institution",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Perform card transaction",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Process customer bill",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Reconcile transactions",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Manage customer account",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [
+    {
+      "child": "Individual customer",
+      "parent": "Customer",
+      "details": null
+    },
+    {
+      "child": "Corporate customer",
+      "parent": "Customer",
+      "details": null
+    }
+  ],
+  "associations": [
+    {
+      "actor": "Customer",
+      "use_case": "Perform card transaction",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Process customer bill",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Manage customer account",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Retail institution",
+      "use_case": "Perform card transaction",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Retail institution",
+      "use_case": "Process customer bill",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Sponsoring financial institution",
+      "use_case": "Reconcile transactions",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Sponsoring financial institution",
+      "use_case": "Manage customer account",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}
+```

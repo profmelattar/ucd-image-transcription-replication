@@ -1,0 +1,36 @@
+{
+  "system_boundaries": [
+    {"label": "Certification system", "details": null}
+  ],
+  "actors": [
+    {"name": "Student referee", "details": null},
+    {"name": "Referee applicant", "details": null},
+    {"name": "Instructor", "details": null},
+    {"name": "Program administrator", "details": null},
+    {"name": "Referee examiner", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Take referee course", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Apply for referee certification", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Take certification test", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {"actor": "Student referee", "use_case": "Take referee course", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Instructor", "use_case": "Take referee course", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Instructor", "use_case": "Take certification test", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Program administrator", "use_case": "Take referee course", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Program administrator", "use_case": "Apply for referee certification", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Program administrator", "use_case": "Take certification test", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Referee applicant", "use_case": "Apply for referee certification", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Referee applicant", "use_case": "Take certification test", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null},
+    {"actor": "Referee examiner", "use_case": "Take certification test", "arrow_points_to": null, "multiplicity_at_actor": null, "multiplicity_at_use_case": null, "details": null}
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

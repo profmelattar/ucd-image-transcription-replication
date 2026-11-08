@@ -1,0 +1,97 @@
+file,type,tp,n_gt,n_pred
+out\gemini\run1\D03.json,System boundary,1,1,1
+out\gemini\run1\D03.json,Actor,5,5,5
+out\gemini\run1\D03.json,Use case,7,7,7
+out\gemini\run1\D03.json,Abstract use case,0,0,0
+out\gemini\run1\D03.json,Include,5,5,5
+out\gemini\run1\D03.json,Extend,1,1,1
+out\gemini\run1\D03.json,Extension point,0,0,0
+out\gemini\run1\D03.json,Extend condition,0,0,0
+out\gemini\run1\D03.json,UC generalization,0,0,0
+out\gemini\run1\D03.json,Actor generalization,1,1,1
+out\gemini\run1\D03.json,Bidirectional association,8,9,8
+out\gemini\run1\D03.json,Directed association,0,0,0
+out\gemini\run1\D03.json,Note,2,2,2
+out\gemini\run1\D03.json,Other relationship,0,0,0
+out\gemini\run1\D03.json,Other dependency,0,0,0
+out\gemini\run1\D03.json,Other,0,0,0
+out\gemini\run1\D12.json,System boundary,1,1,1
+out\gemini\run1\D12.json,Actor,5,5,5
+out\gemini\run1\D12.json,Use case,9,9,9
+out\gemini\run1\D12.json,Abstract use case,0,0,0
+out\gemini\run1\D12.json,Include,3,3,3
+out\gemini\run1\D12.json,Extend,1,1,1
+out\gemini\run1\D12.json,Extension point,0,0,0
+out\gemini\run1\D12.json,Extend condition,0,0,0
+out\gemini\run1\D12.json,UC generalization,0,0,0
+out\gemini\run1\D12.json,Actor generalization,1,1,1
+out\gemini\run1\D12.json,Bidirectional association,1,2,1
+out\gemini\run1\D12.json,Directed association,7,7,8
+out\gemini\run1\D12.json,Note,0,0,0
+out\gemini\run1\D12.json,Other relationship,0,0,0
+out\gemini\run1\D12.json,Other dependency,0,0,0
+out\gemini\run1\D12.json,Other,0,0,0
+out\gemini\run1\D27.json,System boundary,1,1,1
+out\gemini\run1\D27.json,Actor,5,5,5
+out\gemini\run1\D27.json,Use case,6,6,6
+out\gemini\run1\D27.json,Abstract use case,0,0,0
+out\gemini\run1\D27.json,Include,0,0,0
+out\gemini\run1\D27.json,Extend,0,0,0
+out\gemini\run1\D27.json,Extension point,0,0,0
+out\gemini\run1\D27.json,Extend condition,0,0,0
+out\gemini\run1\D27.json,UC generalization,0,0,0
+out\gemini\run1\D27.json,Actor generalization,0,0,0
+out\gemini\run1\D27.json,Bidirectional association,7,10,9
+out\gemini\run1\D27.json,Directed association,0,0,0
+out\gemini\run1\D27.json,Note,1,1,1
+out\gemini\run1\D27.json,Other relationship,0,0,0
+out\gemini\run1\D27.json,Other dependency,1,1,1
+out\gemini\run1\D27.json,Other,0,0,0
+out\gemini\run1\D38.json,System boundary,1,1,1
+out\gemini\run1\D38.json,Actor,2,2,2
+out\gemini\run1\D38.json,Use case,7,7,7
+out\gemini\run1\D38.json,Abstract use case,0,0,0
+out\gemini\run1\D38.json,Include,1,1,1
+out\gemini\run1\D38.json,Extend,2,2,2
+out\gemini\run1\D38.json,Extension point,0,0,0
+out\gemini\run1\D38.json,Extend condition,0,0,0
+out\gemini\run1\D38.json,UC generalization,0,0,0
+out\gemini\run1\D38.json,Actor generalization,0,0,0
+out\gemini\run1\D38.json,Bidirectional association,2,2,2
+out\gemini\run1\D38.json,Directed association,0,0,0
+out\gemini\run1\D38.json,Note,1,1,1
+out\gemini\run1\D38.json,Other relationship,4,4,4
+out\gemini\run1\D38.json,Other dependency,0,0,0
+out\gemini\run1\D38.json,Other,0,0,0
+out\gemini\run1\D48.json,System boundary,1,1,1
+out\gemini\run1\D48.json,Actor,5,5,5
+out\gemini\run1\D48.json,Use case,20,20,20
+out\gemini\run1\D48.json,Abstract use case,0,0,0
+out\gemini\run1\D48.json,Include,4,4,4
+out\gemini\run1\D48.json,Extend,5,5,5
+out\gemini\run1\D48.json,Extension point,9,9,9
+out\gemini\run1\D48.json,Extend condition,0,0,0
+out\gemini\run1\D48.json,UC generalization,2,2,2
+out\gemini\run1\D48.json,Actor generalization,4,4,4
+out\gemini\run1\D48.json,Bidirectional association,12,12,12
+out\gemini\run1\D48.json,Directed association,0,0,0
+out\gemini\run1\D48.json,Note,0,0,0
+out\gemini\run1\D48.json,Other relationship,0,0,0
+out\gemini\run1\D48.json,Other dependency,0,0,0
+out\gemini\run1\D48.json,Other,0,0,0
+out\gemini\run1\D61.json,System boundary,1,1,1
+out\gemini\run1\D61.json,Actor,1,1,1
+out\gemini\run1\D61.json,Use case,4,4,4
+out\gemini\run1\D61.json,Abstract use case,0,0,0
+out\gemini\run1\D61.json,Include,2,2,2
+out\gemini\run1\D61.json,Extend,1,1,1
+out\gemini\run1\D61.json,Extension point,1,1,1
+out\gemini\run1\D61.json,Extend condition,1,1,1
+out\gemini\run1\D61.json,UC generalization,0,0,0
+out\gemini\run1\D61.json,Actor generalization,0,0,0
+out\gemini\run1\D61.json,Bidirectional association,1,1,1
+out\gemini\run1\D61.json,Directed association,0,0,0
+out\gemini\run1\D61.json,Note,1,1,1
+out\gemini\run1\D61.json,Other relationship,0,0,0
+out\gemini\run1\D61.json,Other dependency,0,0,0
+out\gemini\run1\D61.json,Other,0,0,0

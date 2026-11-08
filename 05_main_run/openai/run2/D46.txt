@@ -1,0 +1,137 @@
+{
+  "system_boundaries": [
+    {"label": "Facebook Socio-health System", "details": null}
+  ],
+  "actors": [
+    {"name": "User", "details": null},
+    {"name": "Young Adults", "details": null},
+    {"name": "Adolescents", "details": null},
+    {"name": "Administrator", "details": null},
+    {"name": "Questionnaire services", "details": null},
+    {"name": "National Suicide Prevention Centre", "details": null}
+  ],
+  "use_cases": [
+    {"name": "Authentication", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Fill out questionnaire", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Invite friends", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Publish on wall", "abstract": false, "extension_points": [], "details": null},
+    {"name": "View results", "abstract": false, "extension_points": [], "details": null},
+    {"name": "Contact window", "abstract": false, "extension_points": [], "details": null},
+    {"name": "High-risk group", "abstract": false, "extension_points": [], "details": null}
+  ],
+  "includes": [
+    {"base": "Fill out questionnaire", "included": "Authentication", "details": null},
+    {"base": "Invite friends", "included": "Authentication", "details": null},
+    {"base": "Publish on wall", "included": "Authentication", "details": null},
+    {"base": "View results", "included": "Authentication", "details": null},
+    {"base": "Contact window", "included": "Authentication", "details": null}
+  ],
+  "extends": [
+    {
+      "extending": "High-risk group",
+      "base": "View results",
+      "extension_points": [],
+      "condition": null,
+      "details": null
+    }
+  ],
+  "use_case_generalizations": [],
+  "actor_generalizations": [
+    {
+      "child": "Young Adults",
+      "parent": "User",
+      "details": "Solid line with a filled triangular arrowhead rather than a hollow triangle."
+    },
+    {
+      "child": "Adolescents",
+      "parent": "User",
+      "details": "Solid line with a filled triangular arrowhead rather than a hollow triangle."
+    }
+  ],
+  "associations": [
+    {
+      "actor": "User",
+      "use_case": "Authentication",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "Fill out questionnaire",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "Invite friends",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "Publish on wall",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "View results",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "User",
+      "use_case": "Contact window",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Administrator",
+      "use_case": "Authentication",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "Questionnaire services",
+      "use_case": "Fill out questionnaire",
+      "arrow_points_to": "actor",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "National Suicide Prevention Centre",
+      "use_case": "High-risk group",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    },
+    {
+      "actor": "National Suicide Prevention Centre",
+      "use_case": "Contact window",
+      "arrow_points_to": "use_case",
+      "multiplicity_at_actor": null,
+      "multiplicity_at_use_case": null,
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

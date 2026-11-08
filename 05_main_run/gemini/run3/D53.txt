@@ -1,0 +1,120 @@
+{
+  "system_boundaries": [
+    {
+      "label": "ATM System",
+      "details": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Customer",
+      "details": null
+    },
+    {
+      "name": "Bank",
+      "details": null
+    },
+    {
+      "name": "Administrator",
+      "details": null
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Withdraw",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Transfer",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Deposit",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Register ATM",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    },
+    {
+      "name": "Read Log",
+      "abstract": false,
+      "extension_points": [],
+      "details": null
+    }
+  ],
+  "includes": [],
+  "extends": [],
+  "use_case_generalizations": [],
+  "actor_generalizations": [],
+  "associations": [
+    {
+      "actor": "Customer",
+      "use_case": "Withdraw",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..1",
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Transfer",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..1",
+      "details": null
+    },
+    {
+      "actor": "Customer",
+      "use_case": "Deposit",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..1",
+      "details": null
+    },
+    {
+      "actor": "Administrator",
+      "use_case": "Register ATM",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..1",
+      "details": null
+    },
+    {
+      "actor": "Administrator",
+      "use_case": "Read Log",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..1",
+      "details": null
+    },
+    {
+      "actor": "Bank",
+      "use_case": "Deposit",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..*",
+      "details": null
+    },
+    {
+      "actor": "Bank",
+      "use_case": "Register ATM",
+      "arrow_points_to": null,
+      "multiplicity_at_actor": "1",
+      "multiplicity_at_use_case": "0..*",
+      "details": null
+    }
+  ],
+  "notes": [],
+  "other_relationships": [],
+  "other_dependencies": [],
+  "other": []
+}

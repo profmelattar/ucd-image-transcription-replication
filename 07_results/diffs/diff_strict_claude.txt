@@ -1,0 +1,372 @@
+D05  Actor  MISSING (in ground truth, not in reply): grade administrator
+D05  Actor  EXTRA (in reply, not in ground truth): grade admistrator
+D05  Bidirectional association  MISSING (in ground truth, not in reply): grade administrator | input student marks
+D05  Bidirectional association  EXTRA (in reply, not in ground truth): grade admistrator | input student marks
+D08  System boundary  EXTRA (in reply, not in ground truth): yes
+D10  UC generalization  MISSING (in ground truth, not in reply): check file→exit presentation
+D10  UC generalization  EXTRA (in reply, not in ground truth): exit presentation→check file
+D16  Bidirectional association  MISSING (in ground truth, not in reply): borrower | search books
+D16  Bidirectional association  MISSING (in ground truth, not in reply): borrower | view book details
+D16  Directed association  EXTRA (in reply, not in ground truth): borrower | search books
+D16  Directed association  EXTRA (in reply, not in ground truth): borrower | view book details
+D21  Actor  MISSING (in ground truth, not in reply): actor 1 (unnamed, left top)
+D21  Actor  MISSING (in ground truth, not in reply): actor 2 (unnamed, left bottom)
+D21  Actor  MISSING (in ground truth, not in reply): actor 3 (unnamed, right top)
+D21  Actor  MISSING (in ground truth, not in reply): testing (right bottom)
+D21  Actor  EXTRA (in reply, not in ground truth): [no name]
+D21  Actor  EXTRA (in reply, not in ground truth): [no name]
+D21  Actor  EXTRA (in reply, not in ground truth): [no name]
+D21  Actor  EXTRA (in reply, not in ground truth): testing
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 1 | deliver airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 1 | pay travel agent
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 2 | pay travel agent
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | book airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | reserve a seat
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | pay for airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [no name] | deliver airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [no name] | pay travel agent
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [no name] | pay travel agent
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [no name] | book airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [no name] | reserve a seat
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [no name] | pay for airline ticket(s)
+D21  Directed association  MISSING (in ground truth, not in reply): actor 1 | book airline ticket(s)
+D21  Directed association  MISSING (in ground truth, not in reply): actor 2 | book airline ticket(s)
+D21  Directed association  EXTRA (in reply, not in ground truth): [no name] | book airline ticket(s)
+D21  Directed association  EXTRA (in reply, not in ground truth): [no name] | book airline ticket(s)
+D22  Actor  MISSING (in ground truth, not in reply): actor (left)
+D22  Actor  MISSING (in ground truth, not in reply): actor (right)
+D22  Actor  EXTRA (in reply, not in ground truth): actor
+D22  Actor  EXTRA (in reply, not in ground truth): actor
+D22  Directed association  MISSING (in ground truth, not in reply): actor (left) | open account
+D22  Directed association  MISSING (in ground truth, not in reply): actor (left) | deposit funds
+D22  Directed association  MISSING (in ground truth, not in reply): actor (right) | open account
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | open account
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | deposit funds
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | open account
+D23  Bidirectional association  EXTRA (in reply, not in ground truth): registrar | enroll in university
+D23  Directed association  MISSING (in ground truth, not in reply): registrar | enroll in university
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D31  Use case  MISSING (in ground truth, not in reply): select registration option
+D31  Use case  EXTRA (in reply, not in ground truth): select registeration option
+D31  Bidirectional association  MISSING (in ground truth, not in reply): admin | select registration option
+D31  Bidirectional association  EXTRA (in reply, not in ground truth): admin | select registeration option
+D40  Other  EXTRA (in reply, not in ground truth): communication diagrams : communication diagram for login
+D40  Other  EXTRA (in reply, not in ground truth): uml 2.0 tutorial page - use cases
+D42  Actor  MISSING (in ground truth, not in reply): parent\teacher
+D42  Actor  EXTRA (in reply, not in ground truth): parent \ teacher
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | maintain question
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | maintain user
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | log on
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | difficulty
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | maintain question
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | maintain user
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | log on
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | difficulty
+D43  Note  EXTRA (in reply, not in ground truth): extends relationship
+D43  Note  EXTRA (in reply, not in ground truth): actor
+D43  Note  EXTRA (in reply, not in ground truth): use case
+D43  Note  EXTRA (in reply, not in ground truth): system boundary
+D43  Note  EXTRA (in reply, not in ground truth): association
+D47  Use case  MISSING (in ground truth, not in reply): search docs – full text
+D47  Use case  EXTRA (in reply, not in ground truth): search docs - full text
+D47  Include  MISSING (in ground truth, not in reply): search docs – full text→download docs
+D47  Include  MISSING (in ground truth, not in reply): search docs – full text→preview doc
+D47  Include  EXTRA (in reply, not in ground truth): search docs - full text→download docs
+D47  Include  EXTRA (in reply, not in ground truth): search docs - full text→preview doc
+D47  Actor generalization  MISSING (in ground truth, not in reply): webmaster→site user
+D47  Bidirectional association  MISSING (in ground truth, not in reply): site user | search docs – full text
+D47  Bidirectional association  EXTRA (in reply, not in ground truth): site user | search docs - full text
+D51  Bidirectional association  MISSING (in ground truth, not in reply): sales force | manages clients
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | generates project schedule
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | logs activity
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | reports status
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | query status
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | manages clients
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | reports status
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | query status
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | logs activity
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | generates project schedule
+D55  Use case  MISSING (in ground truth, not in reply): manage posts (1st, linked to poster)
+D55  Use case  MISSING (in ground truth, not in reply): manage posts (2nd, linked to manager)
+D55  Use case  EXTRA (in reply, not in ground truth): manage posts
+D55  Use case  EXTRA (in reply, not in ground truth): manage posts
+D55  UC generalization  MISSING (in ground truth, not in reply): create posts→manage posts (1st)
+D55  UC generalization  MISSING (in ground truth, not in reply): edit posts→manage posts (1st)
+D55  UC generalization  MISSING (in ground truth, not in reply): delete posts→manage posts (2nd)
+D55  UC generalization  EXTRA (in reply, not in ground truth): create posts→manage posts
+D55  UC generalization  EXTRA (in reply, not in ground truth): edit posts→manage posts
+D55  UC generalization  EXTRA (in reply, not in ground truth): delete posts→manage posts
+D55  Bidirectional association  MISSING (in ground truth, not in reply): poster | manage posts (1st)
+D55  Bidirectional association  MISSING (in ground truth, not in reply): manager | manage posts (2nd)
+D55  Bidirectional association  EXTRA (in reply, not in ground truth): poster | manage posts
+D55  Bidirectional association  EXTRA (in reply, not in ground truth): manager | manage posts
+D56  Use case  MISSING (in ground truth, not in reply): group check-in
+D56  Use case  EXTRA (in reply, not in ground truth): group check- in
+D56  Include  MISSING (in ground truth, not in reply): group check-in→individual check-in
+D56  Include  EXTRA (in reply, not in ground truth): group check- in→individual check-in
+D56  Bidirectional association  MISSING (in ground truth, not in reply): tour guide | group check-in
+D56  Bidirectional association  EXTRA (in reply, not in ground truth): tour guide | group check- in
+D60  Actor  MISSING (in ground truth, not in reply): tutor
+D60  Actor  EXTRA (in reply, not in ground truth): tuto
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | define controversial issue
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | assess argumentation
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | comment on arguments and essay
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | define controversial issue
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | assess argumentation
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | comment on arguments and essay
+D05  Actor  MISSING (in ground truth, not in reply): grade administrator
+D05  Actor  EXTRA (in reply, not in ground truth): grade admistrator
+D05  Bidirectional association  MISSING (in ground truth, not in reply): grade administrator | input student marks
+D05  Bidirectional association  EXTRA (in reply, not in ground truth): grade admistrator | input student marks
+D08  System boundary  EXTRA (in reply, not in ground truth): yes
+D10  UC generalization  MISSING (in ground truth, not in reply): check file→exit presentation
+D10  UC generalization  EXTRA (in reply, not in ground truth): exit presentation→check file
+D11  Directed association  MISSING (in ground truth, not in reply): product manager | browse catalog
+D11  Directed association  EXTRA (in reply, not in ground truth): pointed-haired boss | browse catalog
+D21  Actor  MISSING (in ground truth, not in reply): actor 1 (unnamed, left top)
+D21  Actor  MISSING (in ground truth, not in reply): actor 2 (unnamed, left bottom)
+D21  Actor  MISSING (in ground truth, not in reply): actor 3 (unnamed, right top)
+D21  Actor  MISSING (in ground truth, not in reply): testing (right bottom)
+D21  Actor  EXTRA (in reply, not in ground truth): 
+D21  Actor  EXTRA (in reply, not in ground truth): 
+D21  Actor  EXTRA (in reply, not in ground truth): 
+D21  Actor  EXTRA (in reply, not in ground truth): testing
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 1 | deliver airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 1 | pay travel agent
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 2 | pay travel agent
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | book airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | reserve a seat
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | pay for airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | deliver airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | pay travel agent
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | pay travel agent
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | book airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | reserve a seat
+D21  Bidirectional association  EXTRA (in reply, not in ground truth):  | pay for airline ticket(s)
+D21  Directed association  MISSING (in ground truth, not in reply): actor 1 | book airline ticket(s)
+D21  Directed association  MISSING (in ground truth, not in reply): actor 2 | book airline ticket(s)
+D21  Directed association  EXTRA (in reply, not in ground truth):  | book airline ticket(s)
+D21  Directed association  EXTRA (in reply, not in ground truth):  | book airline ticket(s)
+D22  Actor  MISSING (in ground truth, not in reply): actor (left)
+D22  Actor  MISSING (in ground truth, not in reply): actor (right)
+D22  Actor  EXTRA (in reply, not in ground truth): actor
+D22  Actor  EXTRA (in reply, not in ground truth): actor
+D22  Directed association  MISSING (in ground truth, not in reply): actor (left) | open account
+D22  Directed association  MISSING (in ground truth, not in reply): actor (left) | deposit funds
+D22  Directed association  MISSING (in ground truth, not in reply): actor (right) | open account
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | open account
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | deposit funds
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | open account
+D23  Bidirectional association  EXTRA (in reply, not in ground truth): registrar | enroll in university
+D23  Directed association  MISSING (in ground truth, not in reply): registrar | enroll in university
+D31  Use case  MISSING (in ground truth, not in reply): select registration option
+D31  Use case  EXTRA (in reply, not in ground truth): select registeration option
+D31  Bidirectional association  MISSING (in ground truth, not in reply): admin | select registration option
+D31  Bidirectional association  EXTRA (in reply, not in ground truth): admin | select registeration option
+D40  Other  EXTRA (in reply, not in ground truth): communication diagrams : communication diagram for login
+D40  Other  EXTRA (in reply, not in ground truth): uml 2.0 tutorial page - use cases
+D42  Actor  MISSING (in ground truth, not in reply): parent\teacher
+D42  Actor  EXTRA (in reply, not in ground truth): parent \ teacher
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | maintain question
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | maintain user
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | log on
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | difficulty
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | maintain question
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | maintain user
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | log on
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | difficulty
+D43  Note  EXTRA (in reply, not in ground truth): actor
+D43  Note  EXTRA (in reply, not in ground truth): extends relationship
+D43  Note  EXTRA (in reply, not in ground truth): use case
+D43  Note  EXTRA (in reply, not in ground truth): system boundary
+D43  Note  EXTRA (in reply, not in ground truth): association
+D45  Use case  MISSING (in ground truth, not in reply): fillorders
+D45  Use case  EXTRA (in reply, not in ground truth): fill orders
+D45  Bidirectional association  MISSING (in ground truth, not in reply): shipping clerk | fillorders
+D45  Bidirectional association  EXTRA (in reply, not in ground truth): shipping clerk | fill orders
+D47  Use case  MISSING (in ground truth, not in reply): search docs – full text
+D47  Use case  EXTRA (in reply, not in ground truth): search docs - full text
+D47  Include  MISSING (in ground truth, not in reply): search docs – full text→download docs
+D47  Include  MISSING (in ground truth, not in reply): search docs – full text→preview doc
+D47  Include  EXTRA (in reply, not in ground truth): search docs - full text→download docs
+D47  Include  EXTRA (in reply, not in ground truth): search docs - full text→preview doc
+D47  Actor generalization  MISSING (in ground truth, not in reply): webmaster→site user
+D47  Bidirectional association  MISSING (in ground truth, not in reply): site user | search docs – full text
+D47  Bidirectional association  EXTRA (in reply, not in ground truth): site user | search docs - full text
+D51  Bidirectional association  MISSING (in ground truth, not in reply): sales force | manages clients
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | logs activity
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | reports status
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | manages clients
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | logs activity
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | reports status
+D55  Use case  MISSING (in ground truth, not in reply): manage posts (1st, linked to poster)
+D55  Use case  MISSING (in ground truth, not in reply): manage posts (2nd, linked to manager)
+D55  Use case  EXTRA (in reply, not in ground truth): manage posts
+D55  Use case  EXTRA (in reply, not in ground truth): manage posts
+D55  UC generalization  MISSING (in ground truth, not in reply): create posts→manage posts (1st)
+D55  UC generalization  MISSING (in ground truth, not in reply): edit posts→manage posts (1st)
+D55  UC generalization  MISSING (in ground truth, not in reply): delete posts→manage posts (2nd)
+D55  UC generalization  EXTRA (in reply, not in ground truth): create posts→manage posts
+D55  UC generalization  EXTRA (in reply, not in ground truth): edit posts→manage posts
+D55  UC generalization  EXTRA (in reply, not in ground truth): delete posts→manage posts
+D55  Bidirectional association  MISSING (in ground truth, not in reply): poster | manage posts (1st)
+D55  Bidirectional association  MISSING (in ground truth, not in reply): manager | manage posts (2nd)
+D55  Bidirectional association  EXTRA (in reply, not in ground truth): poster | manage posts
+D55  Bidirectional association  EXTRA (in reply, not in ground truth): manager | manage posts
+D56  Use case  MISSING (in ground truth, not in reply): group check-in
+D56  Use case  EXTRA (in reply, not in ground truth): group check- in
+D56  Include  MISSING (in ground truth, not in reply): group check-in→individual check-in
+D56  Include  EXTRA (in reply, not in ground truth): group check- in→individual check-in
+D56  Bidirectional association  MISSING (in ground truth, not in reply): tour guide | group check-in
+D56  Bidirectional association  EXTRA (in reply, not in ground truth): tour guide | group check- in
+D60  Actor  MISSING (in ground truth, not in reply): tutor
+D60  Actor  EXTRA (in reply, not in ground truth): tuto
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | define controversial issue
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | assess argumentation
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | comment on arguments and essay
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | define controversial issue
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | assess argumentation
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | comment on arguments and essay
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  EXTRA (in reply, not in ground truth): diagra [illegible]
+D60  Note  EXTRA (in reply, not in ground truth): diagra [illegible]
+D60  Note  EXTRA (in reply, not in ground truth): diagra [illegible]
+D60  Note  EXTRA (in reply, not in ground truth): diagra [illegible]
+D70  Note  EXTRA (in reply, not in ground truth): system name
+D70  Note  EXTRA (in reply, not in ground truth): system boundary
+D70  Note  EXTRA (in reply, not in ground truth): include use case
+D70  Note  EXTRA (in reply, not in ground truth): extend use case
+D70  Note  EXTRA (in reply, not in ground truth): extension point
+D70  Note  EXTRA (in reply, not in ground truth): generalization
+D70  Note  EXTRA (in reply, not in ground truth): child use case
+D05  Actor  MISSING (in ground truth, not in reply): grade administrator
+D05  Actor  EXTRA (in reply, not in ground truth): grade admistrator
+D05  Bidirectional association  MISSING (in ground truth, not in reply): grade administrator | input student marks
+D05  Bidirectional association  EXTRA (in reply, not in ground truth): grade admistrator | input student marks
+D08  System boundary  EXTRA (in reply, not in ground truth): yes
+D10  UC generalization  MISSING (in ground truth, not in reply): check file→exit presentation
+D10  UC generalization  EXTRA (in reply, not in ground truth): exit presentation→check file
+D21  Actor  MISSING (in ground truth, not in reply): actor 1 (unnamed, left top)
+D21  Actor  MISSING (in ground truth, not in reply): actor 2 (unnamed, left bottom)
+D21  Actor  MISSING (in ground truth, not in reply): actor 3 (unnamed, right top)
+D21  Actor  MISSING (in ground truth, not in reply): testing (right bottom)
+D21  Actor  EXTRA (in reply, not in ground truth): 
+D21  Actor  EXTRA (in reply, not in ground truth): 
+D21  Actor  EXTRA (in reply, not in ground truth): 
+D21  Actor  EXTRA (in reply, not in ground truth): testing
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 1 | deliver airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 1 | pay travel agent
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 2 | pay travel agent
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | book airline ticket(s)
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | reserve a seat
+D21  Bidirectional association  MISSING (in ground truth, not in reply): actor 3 | pay for airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [unnamed actor 1] | deliver airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [unnamed actor 1] | pay travel agent
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [unnamed actor 2] | pay travel agent
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [unnamed actor 3] | book airline ticket(s)
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [unnamed actor 3] | reserve a seat
+D21  Bidirectional association  EXTRA (in reply, not in ground truth): [unnamed actor 3] | pay for airline ticket(s)
+D21  Directed association  MISSING (in ground truth, not in reply): actor 1 | book airline ticket(s)
+D21  Directed association  MISSING (in ground truth, not in reply): actor 2 | book airline ticket(s)
+D21  Directed association  EXTRA (in reply, not in ground truth): [unnamed actor 1] | book airline ticket(s)
+D21  Directed association  EXTRA (in reply, not in ground truth): [unnamed actor 2] | book airline ticket(s)
+D22  Actor  MISSING (in ground truth, not in reply): actor (left)
+D22  Actor  MISSING (in ground truth, not in reply): actor (right)
+D22  Actor  EXTRA (in reply, not in ground truth): actor
+D22  Actor  EXTRA (in reply, not in ground truth): actor
+D22  Directed association  MISSING (in ground truth, not in reply): actor (left) | open account
+D22  Directed association  MISSING (in ground truth, not in reply): actor (left) | deposit funds
+D22  Directed association  MISSING (in ground truth, not in reply): actor (right) | open account
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | open account
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | deposit funds
+D22  Directed association  EXTRA (in reply, not in ground truth): actor | open account
+D23  Bidirectional association  EXTRA (in reply, not in ground truth): registrar | enroll in university
+D23  Directed association  MISSING (in ground truth, not in reply): registrar | enroll in university
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D25  System boundary  EXTRA (in reply, not in ground truth): yes
+D31  Use case  MISSING (in ground truth, not in reply): select registration option
+D31  Use case  EXTRA (in reply, not in ground truth): select registeration option
+D31  Bidirectional association  MISSING (in ground truth, not in reply): admin | select registration option
+D31  Bidirectional association  EXTRA (in reply, not in ground truth): admin | select registeration option
+D40  Other  EXTRA (in reply, not in ground truth): communication diagrams : communication diagram for login
+D40  Other  EXTRA (in reply, not in ground truth): uml 2.0 tutorial page - use cases
+D42  Actor  MISSING (in ground truth, not in reply): parent\teacher
+D42  Actor  EXTRA (in reply, not in ground truth): parent \ teacher
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | maintain question
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | maintain user
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | log on
+D42  Directed association  MISSING (in ground truth, not in reply): parent\teacher | difficulty
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | maintain question
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | maintain user
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | log on
+D42  Directed association  EXTRA (in reply, not in ground truth): parent \ teacher | difficulty
+D43  Note  EXTRA (in reply, not in ground truth): actor
+D43  Note  EXTRA (in reply, not in ground truth): extends relationship
+D43  Note  EXTRA (in reply, not in ground truth): use case
+D43  Note  EXTRA (in reply, not in ground truth): system boundary
+D43  Note  EXTRA (in reply, not in ground truth): association
+D45  Use case  MISSING (in ground truth, not in reply): fillorders
+D45  Use case  EXTRA (in reply, not in ground truth): fill orders
+D45  Bidirectional association  MISSING (in ground truth, not in reply): shipping clerk | fillorders
+D45  Bidirectional association  EXTRA (in reply, not in ground truth): shipping clerk | fill orders
+D47  Use case  MISSING (in ground truth, not in reply): search docs – full text
+D47  Use case  EXTRA (in reply, not in ground truth): search docs - full text
+D47  Include  MISSING (in ground truth, not in reply): search docs – full text→download docs
+D47  Include  MISSING (in ground truth, not in reply): search docs – full text→preview doc
+D47  Include  EXTRA (in reply, not in ground truth): search docs - full text→download docs
+D47  Include  EXTRA (in reply, not in ground truth): search docs - full text→preview doc
+D47  Actor generalization  MISSING (in ground truth, not in reply): webmaster→site user
+D47  Bidirectional association  MISSING (in ground truth, not in reply): site user | search docs – full text
+D47  Bidirectional association  EXTRA (in reply, not in ground truth): site user | search docs - full text
+D51  Bidirectional association  MISSING (in ground truth, not in reply): sales force | manages clients
+D51  Bidirectional association  MISSING (in ground truth, not in reply): openproj | logs activity
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | reports status
+D51  Bidirectional association  MISSING (in ground truth, not in reply): google wave | query status
+D51  Directed association  EXTRA (in reply, not in ground truth): sales force | manages clients
+D51  Directed association  EXTRA (in reply, not in ground truth): openproj | logs activity
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | reports status
+D51  Directed association  EXTRA (in reply, not in ground truth): google wave | query status
+D55  Use case  MISSING (in ground truth, not in reply): manage posts (1st, linked to poster)
+D55  Use case  MISSING (in ground truth, not in reply): manage posts (2nd, linked to manager)
+D55  Use case  EXTRA (in reply, not in ground truth): manage posts
+D55  Use case  EXTRA (in reply, not in ground truth): manage posts
+D55  UC generalization  MISSING (in ground truth, not in reply): create posts→manage posts (1st)
+D55  UC generalization  MISSING (in ground truth, not in reply): edit posts→manage posts (1st)
+D55  UC generalization  MISSING (in ground truth, not in reply): delete posts→manage posts (2nd)
+D55  UC generalization  EXTRA (in reply, not in ground truth): create posts→manage posts
+D55  UC generalization  EXTRA (in reply, not in ground truth): edit posts→manage posts
+D55  UC generalization  EXTRA (in reply, not in ground truth): delete posts→manage posts
+D55  Bidirectional association  MISSING (in ground truth, not in reply): poster | manage posts (1st)
+D55  Bidirectional association  MISSING (in ground truth, not in reply): manager | manage posts (2nd)
+D55  Bidirectional association  EXTRA (in reply, not in ground truth): poster | manage posts
+D55  Bidirectional association  EXTRA (in reply, not in ground truth): manager | manage posts
+D56  Use case  MISSING (in ground truth, not in reply): group check-in
+D56  Use case  EXTRA (in reply, not in ground truth): group check- in
+D56  Include  MISSING (in ground truth, not in reply): group check-in→individual check-in
+D56  Include  EXTRA (in reply, not in ground truth): group check- in→individual check-in
+D56  Bidirectional association  MISSING (in ground truth, not in reply): tour guide | group check-in
+D56  Bidirectional association  EXTRA (in reply, not in ground truth): tour guide | group check- in
+D60  Actor  MISSING (in ground truth, not in reply): tutor
+D60  Actor  EXTRA (in reply, not in ground truth): tuto
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | define controversial issue
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | assess argumentation
+D60  Bidirectional association  MISSING (in ground truth, not in reply): tutor | comment on arguments and essay
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | define controversial issue
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | assess argumentation
+D60  Bidirectional association  EXTRA (in reply, not in ground truth): tuto | comment on arguments and essay
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  MISSING (in ground truth, not in reply): diagra…" (truncated)
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m
+D60  Note  EXTRA (in reply, not in ground truth): diagra m

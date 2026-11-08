@@ -1,0 +1,4 @@
+D38  Bidirectional association  MISSING (in ground truth, not in reply): customer | register to car-to-share
+D38  Bidirectional association  MISSING (in ground truth, not in reply): email system | send confirmation
+D38  Directed association  EXTRA (in reply, not in ground truth): customer | register to car-to-share
+D38  Directed association  EXTRA (in reply, not in ground truth): email system | send confirmation

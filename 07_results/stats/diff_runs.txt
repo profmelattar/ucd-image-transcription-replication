@@ -1,0 +1,250 @@
+claude	D08	System boundary	STRICT EXTRA BOUNDARY	runs 1,2,3	2
+claude	D10	UC generalization	EXTRA	runs 1,2,3	exit presentation→check file
+claude	D10	UC generalization	MISSING	runs 1,2,3	check file→exit presentation
+claude	D11	Directed association	EXTRA	runs 2	pointed-haired boss | browse catalog
+claude	D11	Directed association	MISSING	runs 2	product manager | browse catalog
+claude	D16	Bidirectional association	MISSING	runs 1	borrower | search books
+claude	D16	Bidirectional association	MISSING	runs 1	borrower | view book details
+claude	D16	Directed association	EXTRA	runs 1	borrower | search books
+claude	D16	Directed association	EXTRA	runs 1	borrower | view book details
+claude	D23	Bidirectional association	EXTRA	runs 1,2,3	registrar | enroll in university
+claude	D23	Directed association	MISSING	runs 1,2,3	registrar | enroll in university
+claude	D25	System boundary	STRICT EXTRA BOUNDARY	runs 1,3	5
+claude	D40	Other	EXTRA	runs 1,2,3	communication diagrams : communication diagram for login
+claude	D40	Other	EXTRA	runs 1,2,3	uml 2.0 tutorial page - use cases
+claude	D43	Note	EXTRA	runs 1,2,3	actor
+claude	D43	Note	EXTRA	runs 1,2,3	association
+claude	D43	Note	EXTRA	runs 1,2,3	extends relationship
+claude	D43	Note	EXTRA	runs 1,2,3	system boundary
+claude	D43	Note	EXTRA	runs 1,2,3	use case
+claude	D47	Actor generalization	MISSING	runs 1,2,3	webmaster→site user
+claude	D51	Bidirectional association	MISSING	runs 1,3	google wave | query status
+claude	D51	Bidirectional association	MISSING	runs 1,2,3	google wave | reports status
+claude	D51	Bidirectional association	MISSING	runs 1	openproj | generates project schedule
+claude	D51	Bidirectional association	MISSING	runs 1,2,3	openproj | logs activity
+claude	D51	Bidirectional association	MISSING	runs 1,2,3	sales force | manages clients
+claude	D51	Directed association	EXTRA	runs 1,3	google wave | query status
+claude	D51	Directed association	EXTRA	runs 1,2,3	google wave | reports status
+claude	D51	Directed association	EXTRA	runs 1	openproj | generates project schedule
+claude	D51	Directed association	EXTRA	runs 1,2,3	openproj | logs activity
+claude	D51	Directed association	EXTRA	runs 1,2,3	sales force | manages clients
+claude	D60	Actor	EXTRA	runs 1,2,3	tuto
+claude	D60	Actor	MISSING	runs 1,2,3	tutor
+claude	D60	Bidirectional association	EXTRA	runs 1,2,3	tuto | assess argumentation
+claude	D60	Bidirectional association	EXTRA	runs 1,2,3	tuto | comment on arguments and essay
+claude	D60	Bidirectional association	EXTRA	runs 1,2,3	tuto | define controversial issue
+claude	D60	Bidirectional association	MISSING	runs 1,2,3	tutor | assess argumentation
+claude	D60	Bidirectional association	MISSING	runs 1,2,3	tutor | comment on arguments and essay
+claude	D60	Bidirectional association	MISSING	runs 1,2,3	tutor | define controversial issue
+claude	D60	Note	EXTRA	runs 2	diagra [illegible]
+claude	D60	Note	EXTRA	runs 3	diagra m
+claude	D60	Note	MISSING	runs 2,3	diagra…" (truncated)
+claude	D70	Note	EXTRA	runs 2	child use case
+claude	D70	Note	EXTRA	runs 2	extend use case
+claude	D70	Note	EXTRA	runs 2	extension point
+claude	D70	Note	EXTRA	runs 2	generalization
+claude	D70	Note	EXTRA	runs 2	include use case
+claude	D70	Note	EXTRA	runs 2	system boundary
+claude	D70	Note	EXTRA	runs 2	system name
+gemini	D03	Bidirectional association	MISSING	runs 1	content consumer | read a story
+gemini	D04	Bidirectional association	EXTRA	runs 1,2	identity provider | log in
+gemini	D04	Bidirectional association	MISSING	runs 3	authentication | complete checkout
+gemini	D04	Bidirectional association	MISSING	runs 1	authentication | log in
+gemini	D04	Bidirectional association	MISSING	runs 2	identity provider | view items
+gemini	D05	Bidirectional association	MISSING	runs 1	financial institution | pay fees
+gemini	D05	Bidirectional association	MISSING	runs 3	post office | distribute information to students
+gemini	D05	Bidirectional association	MISSING	runs 3	registrar | distribute information to students
+gemini	D05	Directed association	EXTRA	runs 3	post office | distribute information to students
+gemini	D08	Directed association	MISSING	runs 1,2,3	client | eat food
+gemini	D08	Directed association	MISSING	runs 1,2,3	waiter | serve food
+gemini	D08	System boundary	STRICT EXTRA BOUNDARY	runs 2,3	2
+gemini	D10	UC generalization	EXTRA	runs 1,2,3	exit presentation→check file
+gemini	D10	UC generalization	MISSING	runs 1,2,3	check file→exit presentation
+gemini	D11	Directed association	EXTRA	runs 2,3	product manager | order robot models
+gemini	D11	Directed association	EXTRA	runs 1,3	product manager | view orders
+gemini	D11	Directed association	EXTRA	runs 1,2,3	sales person | browse catalog
+gemini	D11	Directed association	MISSING	runs 1,3	pointed-haired boss | view orders
+gemini	D11	Directed association	MISSING	runs 1,2,3	product manager | browse catalog
+gemini	D11	Directed association	MISSING	runs 2	sales person | order robot models
+gemini	D11	Directed association	MISSING	runs 1	sales person | sales report
+gemini	D12	Bidirectional association	MISSING	runs 3	administrator | manage users
+gemini	D12	Bidirectional association	MISSING	runs 3	teacher | manage courses
+gemini	D12	Directed association	EXTRA	runs 3	administrator | manage users
+gemini	D12	Directed association	EXTRA	runs 3	teacher | manage courses
+gemini	D12	Extend	EXTRA	runs 2	manage courses→create course
+gemini	D12	Extend	MISSING	runs 2	create course→manage courses
+gemini	D16	Bidirectional association	EXTRA	runs 1	borrower | log in
+gemini	D16	Bidirectional association	MISSING	runs 1	borrower | search books
+gemini	D16	Bidirectional association	MISSING	runs 1	borrower | view book details
+gemini	D16	Directed association	EXTRA	runs 1	borrower | search books
+gemini	D16	Directed association	EXTRA	runs 1	borrower | view book details
+gemini	D21	Bidirectional association	EXTRA	runs 2	 | arrange tour
+gemini	D21	Bidirectional association	EXTRA	runs 1,2,3	 | book airline ticket(s)
+gemini	D21	Bidirectional association	EXTRA	runs 3	 | pay for tour
+gemini	D21	Bidirectional association	MISSING	runs 1,2,3	 | pay for airline ticket
+gemini	D21	Bidirectional association	MISSING	runs 3	testing | pay for tour
+gemini	D21	Directed association	MISSING	runs 1,2,3	 | book airline ticket
+gemini	D21	Extend	EXTRA	runs 3	arrange tour→deliver airline ticket(s)
+gemini	D21	Extend	EXTRA	runs 1,2,3	pay for tour→pay for airline ticket(s)
+gemini	D21	Extend	MISSING	runs 3	deliver airline ticket(s)→arrange tour
+gemini	D21	Extend	MISSING	runs 1,2,3	pay for airline ticket(s)→pay for tour
+gemini	D22	Extend condition	MISSING	runs 1	amount over $10,000 | calculate bonus→deposit funds
+gemini	D23	Bidirectional association	EXTRA	runs 3	registrar | enroll in university
+gemini	D23	Directed association	MISSING	runs 3	registrar | enroll in university
+gemini	D23	Other relationship	EXTRA	runs 1,2,3	enroll family member in university→enroll in university
+gemini	D23	UC generalization	MISSING	runs 1,2,3	enroll family member in university→enroll in university
+gemini	D25	Bidirectional association	EXTRA	runs 2,3	member | join program discussion
+gemini	D25	Bidirectional association	MISSING	runs 2,3	premium member | join program discussion
+gemini	D25	System boundary	STRICT EXTRA BOUNDARY	runs 1,2,3	5
+gemini	D27	Bidirectional association	EXTRA	runs 1,2,3	credit analyst | verify loan application
+gemini	D27	Bidirectional association	EXTRA	runs 3	loan applicant | generate approval
+gemini	D27	Bidirectional association	MISSING	runs 3	loan applicant | produce loan documents
+gemini	D27	Bidirectional association	MISSING	runs 1,2,3	senior loan officer | verify loan application
+gemini	D35	Bidirectional association	MISSING	runs 3	authentication | single sign-on
+gemini	D37	Bidirectional association	MISSING	runs 3	international student | enroll international student
+gemini	D37	Directed association	EXTRA	runs 3	international student | enroll international student
+gemini	D40	Other	EXTRA	runs 1,2,3	communication diagrams : communication diagram for login
+gemini	D40	Other	EXTRA	runs 1,2,3	uml 2.0 tutorial page - use cases
+gemini	D44	Note	EXTRA	runs 2	actor
+gemini	D44	Note	EXTRA	runs 2	private
+gemini	D44	Note	EXTRA	runs 2	relationship
+gemini	D44	Note	EXTRA	runs 2	system boundary
+gemini	D47	Actor generalization	MISSING	runs 1,2,3	webmaster→site user
+gemini	D47	Include	EXTRA	runs 1,2,3	browse docs→preview doc
+gemini	D47	Include	MISSING	runs 1,2,3	preview doc→browse docs
+gemini	D48	Bidirectional association	EXTRA	runs 1	director | treat demand
+gemini	D48	Bidirectional association	EXTRA	runs 1	director | view statistics
+gemini	D48	Bidirectional association	MISSING	runs 3	administrator | modify account
+gemini	D49	Bidirectional association	EXTRA	runs 3	bank database | login
+gemini	D49	Bidirectional association	EXTRA	runs 1,2,3	bank database | pin validation
+gemini	D49	Bidirectional association	EXTRA	runs 1,2,3	user | insert card
+gemini	D49	Bidirectional association	EXTRA	runs 1,2	user | login
+gemini	D49	Bidirectional association	MISSING	runs 3	bank database | client desktop transaction
+gemini	D49	Bidirectional association	MISSING	runs 3	bank database | online transaction
+gemini	D49	Bidirectional association	MISSING	runs 1,2,3	bank database | transaction
+gemini	D49	Bidirectional association	MISSING	runs 1,2,3	user | atm transaction
+gemini	D49	Bidirectional association	MISSING	runs 1,2	user | online transaction
+gemini	D49	Include	EXTRA	runs 1	atm transaction→transaction
+gemini	D49	Include	MISSING	runs 1	atm transaction→insert card
+gemini	D51	Bidirectional association	MISSING	runs 1,2,3	google wave | query status
+gemini	D51	Bidirectional association	MISSING	runs 1,2,3	google wave | reports status
+gemini	D51	Bidirectional association	MISSING	runs 1,2,3	openproj | generates project schedule
+gemini	D51	Bidirectional association	MISSING	runs 1,2,3	openproj | logs activity
+gemini	D51	Bidirectional association	MISSING	runs 1,2,3	sales force | manages clients
+gemini	D51	Directed association	EXTRA	runs 2	buyer | shows properties
+gemini	D51	Directed association	EXTRA	runs 1	google wave | logs activity
+gemini	D51	Directed association	EXTRA	runs 2,3	google wave | manages clients
+gemini	D51	Directed association	EXTRA	runs 3	google wave | manages project
+gemini	D51	Directed association	EXTRA	runs 1,3	google wave | manages team
+gemini	D51	Directed association	EXTRA	runs 1,2,3	google wave | query status
+gemini	D51	Directed association	EXTRA	runs 1,2	google wave | reports status
+gemini	D51	Directed association	EXTRA	runs 1,2,3	openproj | generates project schedule
+gemini	D51	Directed association	EXTRA	runs 1	openproj | manages project
+gemini	D51	Directed association	EXTRA	runs 2	sales force | logs activity
+gemini	D51	Directed association	EXTRA	runs 2,3	sales force | manage administrative tasks
+gemini	D51	Directed association	EXTRA	runs 1	sales force | manages clients
+gemini	D51	Directed association	EXTRA	runs 3	sales force | markets property
+gemini	D51	Directed association	EXTRA	runs 3	sales force | shows properties
+gemini	D51	Directed association	MISSING	runs 2	buyer | query status
+gemini	D55	Use case	MISSING	runs 3	manage posts
+gemini	D60	Actor	EXTRA	runs 1,3	tuto
+gemini	D60	Actor	MISSING	runs 1,3	tutor
+gemini	D60	Bidirectional association	EXTRA	runs 1,3	tuto | assess argumentation
+gemini	D60	Bidirectional association	EXTRA	runs 1,3	tuto | comment on arguments and essay
+gemini	D60	Bidirectional association	EXTRA	runs 1,3	tuto | define controversial issue
+gemini	D60	Bidirectional association	EXTRA	runs 3	tuto | invent argumentation
+gemini	D60	Bidirectional association	EXTRA	runs 1,3	tuto | write up arguments
+gemini	D60	Bidirectional association	EXTRA	runs 2	tutor | invent argumentation
+gemini	D60	Bidirectional association	EXTRA	runs 2	tutor | write up arguments
+gemini	D60	Bidirectional association	MISSING	runs 1,3	tutor | assess argumentation
+gemini	D60	Bidirectional association	MISSING	runs 1,3	tutor | comment on arguments and essay
+gemini	D60	Bidirectional association	MISSING	runs 1,3	tutor | define controversial issue
+gemini	D60	Note	EXTRA	runs 1,2,3	diagra m
+gemini	D60	Note	MISSING	runs 1,2,3	diagra…" (truncated)
+gemini	D61	Extend condition	EXTRA	runs 2,3	condition: {3x wrong pin} | credit card confiscated→authentication
+gemini	D61	Extend condition	MISSING	runs 2,3	{3x wrong pin} | credit card confiscated→authentication
+gemini	D61	Extension point	EXTRA	runs 3	extension point x: card confiscated following wrong pin entered 3x | authentication
+gemini	D61	Extension point	MISSING	runs 3	x: card confiscated following wrong pin entered 3x | authentication
+gemini	D67	Bidirectional association	EXTRA	runs 1,2,3	sponsoring financial institution | reconcile transactions
+gemini	D67	Bidirectional association	MISSING	runs 1,2,3	customer | reconcile transactions
+gemini	D67	Bidirectional association	MISSING	runs 1,2,3	sponsoring financial institution | process customer bill
+gemini	D69	Bidirectional association	EXTRA	runs 3	authentication | make purchase
+gemini	D69	Bidirectional association	EXTRA	runs 3	identity provider | client register
+gemini	D69	Bidirectional association	MISSING	runs 3	authentication | client register
+gemini	D69	Bidirectional association	MISSING	runs 3	identity provider | checkout
+gemini	D70	Bidirectional association	MISSING	runs 1	scheduler | make appointment
+gemini	D70	Note	EXTRA	runs 2	child use case
+gemini	D70	Note	EXTRA	runs 2	extend use case
+gemini	D70	Note	EXTRA	runs 2	extension point
+gemini	D70	Note	EXTRA	runs 2	generalization
+gemini	D70	Note	EXTRA	runs 2	include use case
+gemini	D70	Note	EXTRA	runs 2	system boundary
+gemini	D70	Note	EXTRA	runs 2	system name
+gemini	D74	Bidirectional association	EXTRA	runs 3	user | terms and condition
+openai	D08	System boundary	STRICT EXTRA BOUNDARY	runs 1,2,3	2
+openai	D10	UC generalization	EXTRA	runs 1,2,3	exit presentation→check file
+openai	D10	UC generalization	MISSING	runs 1,2,3	check file→exit presentation
+openai	D23	Bidirectional association	EXTRA	runs 1,2,3	registrar | enroll in university
+openai	D23	Directed association	MISSING	runs 1,2,3	registrar | enroll in university
+openai	D25	System boundary	STRICT EXTRA BOUNDARY	runs 1,2,3	5
+openai	D26	Other	EXTRA	runs 2	© uml-diagrams.org
+openai	D31	Note	EXTRA	runs 1,2,3	admin -custname: string -custage: string -custemail: string -custnumber: int +entercustinfo()
+openai	D31	Note	EXTRA	runs 1,2,3	customers
+openai	D31	Note	EXTRA	runs 1,2,3	system +registeruser() +emailuser() +emailadmin()
+openai	D31	Note	EXTRA	runs 1,2,3	user -login name -password
+openai	D34	Other	EXTRA	runs 1	© uml-diagrams.org
+openai	D40	Other	EXTRA	runs 1,2,3	communication diagrams : communication diagram for login
+openai	D40	Other	EXTRA	runs 1,2,3	uml 2.0 tutorial page - use cases
+openai	D44	Note	EXTRA	runs 1,2,3	actor
+openai	D44	Note	EXTRA	runs 1,2,3	private
+openai	D44	Note	EXTRA	runs 1,2,3	relationship
+openai	D44	Note	EXTRA	runs 1,2,3	system boundary
+openai	D47	Abstract use case	EXTRA	runs 1,2,3	browse docs
+openai	D47	Abstract use case	EXTRA	runs 1,2,3	preview doc
+openai	D47	Actor generalization	MISSING	runs 1,2,3	webmaster→site user
+openai	D49	Bidirectional association	EXTRA	runs 2	web merchant | online transaction
+openai	D49	Extend	EXTRA	runs 1,3	insert card→invalid card
+openai	D49	Extend	EXTRA	runs 1,2,3	login→invalid login
+openai	D49	Extend	EXTRA	runs 1,3	pin validation→invalid pin
+openai	D49	Extend	MISSING	runs 1	invalid card→insert card
+openai	D49	Extend	MISSING	runs 1,2	invalid login→login
+openai	D49	Extend	MISSING	runs 1	invalid pin→pin validation
+openai	D49	Include	EXTRA	runs 3	insert card→atm transaction
+openai	D49	Include	EXTRA	runs 3	insert card→transaction
+openai	D49	Include	EXTRA	runs 3	login→client desktop transaction
+openai	D49	Include	EXTRA	runs 3	login→online transaction
+openai	D49	Include	EXTRA	runs 3	logout→client desktop transaction
+openai	D49	Include	EXTRA	runs 3	logout→online transaction
+openai	D49	Include	EXTRA	runs 3	pin validation→atm transaction
+openai	D51	Bidirectional association	MISSING	runs 1,3	google wave | query status
+openai	D51	Bidirectional association	MISSING	runs 1,2,3	google wave | reports status
+openai	D51	Bidirectional association	MISSING	runs 1,3	openproj | generates project schedule
+openai	D51	Bidirectional association	MISSING	runs 1,2,3	openproj | logs activity
+openai	D51	Bidirectional association	MISSING	runs 1,2,3	sales force | manages clients
+openai	D51	Directed association	EXTRA	runs 1,3	google wave | query status
+openai	D51	Directed association	EXTRA	runs 1,2,3	google wave | reports status
+openai	D51	Directed association	EXTRA	runs 1,3	openproj | generates project schedule
+openai	D51	Directed association	EXTRA	runs 1,2,3	openproj | logs activity
+openai	D51	Directed association	EXTRA	runs 1,2,3	sales force | manages clientes
+openai	D54	Note	EXTRA	runs 1	actor
+openai	D54	Note	EXTRA	runs 1	association
+openai	D54	Note	EXTRA	runs 1	system boundary
+openai	D54	Note	EXTRA	runs 1	use case
+openai	D60	Actor	EXTRA	runs 1,2,3	tuto
+openai	D60	Actor	MISSING	runs 1,2,3	tutor
+openai	D60	Bidirectional association	EXTRA	runs 1,2,3	tuto | assess argumentation
+openai	D60	Bidirectional association	EXTRA	runs 1,2,3	tuto | comment on arguments and essay
+openai	D60	Bidirectional association	EXTRA	runs 1,2,3	tuto | define controversial issue
+openai	D60	Bidirectional association	MISSING	runs 1,2,3	tutor | assess argumentation
+openai	D60	Bidirectional association	MISSING	runs 1,2,3	tutor | comment on arguments and essay
+openai	D60	Bidirectional association	MISSING	runs 1,2,3	tutor | define controversial issue
+openai	D60	Note	EXTRA	runs 1,2,3	diagra m
+openai	D60	Note	MISSING	runs 1,2,3	diagra…" (truncated)
+openai	D70	Note	EXTRA	runs 1,2,3	child use case
+openai	D70	Note	EXTRA	runs 1,2,3	extend use case
+openai	D70	Note	EXTRA	runs 1,2,3	extension point
+openai	D70	Note	EXTRA	runs 1,2,3	generalization
+openai	D70	Note	EXTRA	runs 1,2,3	include use case
+openai	D70	Note	EXTRA	runs 1,2,3	system boundary
+openai	D70	Note	EXTRA	runs 1,2,3	system name
+openai	D71	Abstract use case	EXTRA	runs 1	layout software engineering diagrams

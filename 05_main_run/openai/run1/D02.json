@@ -1,0 +1,193 @@
+{
+ "system_boundaries": [
+  {
+   "label": "System Boundary",
+   "details": null
+  }
+ ],
+ "actors": [
+  {
+   "name": "Waiter",
+   "details": null
+  },
+  {
+   "name": "Client",
+   "details": null
+  },
+  {
+   "name": "Cashier",
+   "details": null
+  },
+  {
+   "name": "Chef",
+   "details": null
+  }
+ ],
+ "use_cases": [
+  {
+   "name": "Order Food",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Order Wine",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Serve Food",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Cook Food",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Serve Wine",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Eat Food",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Drink Wine",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay for Food",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  },
+  {
+   "name": "Pay for Wine",
+   "abstract": false,
+   "extension_points": [],
+   "details": null
+  }
+ ],
+ "includes": [],
+ "extends": [
+  {
+   "extending": "Order Wine",
+   "base": "Order Food",
+   "extension_points": [],
+   "condition": null,
+   "details": null
+  },
+  {
+   "extending": "Serve Wine",
+   "base": "Serve Food",
+   "extension_points": [],
+   "condition": "{if wine was ordered}",
+   "details": null
+  },
+  {
+   "extending": "Drink Wine",
+   "base": "Eat Food",
+   "extension_points": [],
+   "condition": "{if wine was served}",
+   "details": null
+  },
+  {
+   "extending": "Pay for Wine",
+   "base": "Pay for Food",
+   "extension_points": [],
+   "condition": "{if wine was consumed}",
+   "details": null
+  }
+ ],
+ "use_case_generalizations": [],
+ "actor_generalizations": [],
+ "associations": [
+  {
+   "actor": "Waiter",
+   "use_case": "Order Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Waiter",
+   "use_case": "Serve Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Waiter",
+   "use_case": "Pay for Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Client",
+   "use_case": "Order Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Client",
+   "use_case": "Eat Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Client",
+   "use_case": "Pay for Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Cashier",
+   "use_case": "Pay for Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Chef",
+   "use_case": "Order Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  },
+  {
+   "actor": "Chef",
+   "use_case": "Cook Food",
+   "arrow_points_to": null,
+   "multiplicity_at_actor": null,
+   "multiplicity_at_use_case": null,
+   "details": null
+  }
+ ],
+ "notes": [],
+ "other_relationships": [],
+ "other_dependencies": [],
+ "other": []
+}

@@ -1,0 +1,18 @@
+D03  Note  MISSING (in ground truth, not in reply): top-right sticky note (partly cropped): "…standards provide a shared vocabulary so we understand each other, but they are also malleable for different scenarios.
+D03  Note  MISSING (in ground truth, not in reply): bottom-right sticky note: "here's the source code that this diagram corresponds to
+D03  Other  EXTRA (in reply, not in ground truth): here's the source code that this diagram corresponds to
+D12  Use case  MISSING (in ground truth, not in reply): manage courses
+D12  Use case  MISSING (in ground truth, not in reply): manage users
+D12  Use case  EXTRA (in reply, not in ground truth): <<crud>> manage courses
+D12  Use case  EXTRA (in reply, not in ground truth): <<crud>> manage users
+D12  Extend  MISSING (in ground truth, not in reply): create course→manage courses
+D12  Extend  EXTRA (in reply, not in ground truth): create course→<<crud>> manage courses
+D12  Bidirectional association  MISSING (in ground truth, not in reply): teacher | manage courses
+D12  Bidirectional association  MISSING (in ground truth, not in reply): administrator | manage users
+D12  Bidirectional association  EXTRA (in reply, not in ground truth): teacher | <<crud>> manage courses
+D12  Bidirectional association  EXTRA (in reply, not in ground truth): administrator | <<crud>> manage users
+D12  Directed association  MISSING (in ground truth, not in reply): payment system | pay for course
+D12  Directed association  EXTRA (in reply, not in ground truth): pay for course | payment system
+D27  Note  MISSING (in ground truth, not in reply): uml class diagrams – read more about structuring uml class diagrams here. and for additional help, watch this tutorial about basic uml class diagrams.
+D27  Other  EXTRA (in reply, not in ground truth): info card 'uml class diagrams': 'read more about structuring uml class diagrams here. and for additional help, watch this tutorial about basic uml class diagrams.' (references to external documentation and tutorial)
+D61  Extension point  EXTRA (in reply, not in ground truth): x | authentication
