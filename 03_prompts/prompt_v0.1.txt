@@ -1,0 +1,80 @@
+The image attached to this message is a UML use case diagram.
+
+TASK
+List every construct of the types defined below that is drawn in the
+diagram, as completely as possible. Transcribe what is drawn, not what the
+author probably meant. If a symbol or notation is not standard UML but clearly
+stands for one of the construct types below, record it as that type and
+describe the original notation in "details". Anything that does not map to
+one of the types goes under the last three types (other_relationships,
+other_dependencies, other). Copy names exactly as written,
+including spelling mistakes, capitalisation and line breaks (replace a line
+break with a single space). Do not add, merge, correct or rename anything.
+If a label cannot be read, write "[illegible]" and say so in "details".
+
+CONSTRUCT TYPES
+- system_boundaries: each rectangle drawn around use cases. Give the label
+  only if it is written on the rectangle itself; otherwise null. Never use the
+  file name, and never invent or guess a name or domain.
+- actors: each actor (stick figure, box marked <<actor>>, or other symbol).
+- use_cases: each use case (ellipse, or a box marked <<use case>>). Give its
+  name and "abstract" (true only if the name is in italics or
+  marked {abstract}). "extension_points" lists the entries of an "extension
+  points" compartment inside the use case, in order; otherwise [].
+- includes: each arrow labelled <<include>>, from the base use case to the
+  included use case.
+- extends: each arrow labelled <<extend>>, from the extending use case to the
+  base use case. "extension_points" lists the extension points named on that
+  arrow or in a note attached to it; otherwise []. "condition" is the
+  condition text written on the arrow, in a note attached to the arrow, or in
+  a note labelled "Condition:" attached to the arrow; otherwise null. Copy the
+  condition text exactly, with its braces if it has them.
+- use_case_generalizations: each generalization (solid line, hollow triangle)
+  between two use cases, from child to parent.
+- actor_generalizations: each generalization between two actors, from child
+  to parent.
+- associations: each line or arrow between an actor and a use case that is
+  not one of the types above. "from" and "to" are the two ends. If the line
+  has an arrowhead, "from" is the tail, "to" is the arrowhead end and
+  "directed" is true. Otherwise "from" is the actor and "directed" is false.
+  Record any multiplicity written on the line (for example 1, 0..1, *, 1..*)
+  in "multiplicity_at_from" if it is next to the "from" end, and in
+  "multiplicity_at_to" if it is next to the "to" end; otherwise null. Do not
+  guess which end a multiplicity belongs to; if it is not clearly next to one
+  end, write null and describe it in "details".
+- notes: each note (box with a folded corner). Give the text and the element
+  it is attached to, or null.
+- other_relationships: each line or arrow between two use cases that is not an
+  include, extend or generalization and is not drawn as a dashed arrow with a
+  label (for example an unlabelled solid arrow). Give "from" (tail) and "to"
+  (head), and describe how it is drawn in "details".
+- other_dependencies: each dashed arrow whose label is not <<include>> or
+  <<extend>> (for example <<exclude>>). Give "from" (tail), "to" (head) and the
+  label as written, and describe it in "details" if needed.
+- other: any other construct in the diagram that is not covered above and does
+  not map to one of the types (for example hyperlink references or a legend).
+  Give the text or a one-sentence description, and say what it is attached to,
+  or null.
+
+Refer to actors and use cases by their names exactly as transcribed. If a
+type does not appear in the diagram, give an empty list. Use "details" for
+anything unusual about an element; otherwise write null.
+
+OUTPUT
+Reply with one JSON object and nothing else, with no text before or after it
+and no code fences. Use exactly these keys:
+
+{
+  "system_boundaries": [{"label": "...", "details": null}],
+  "actors": [{"name": "...", "details": null}],
+  "use_cases": [{"name": "...", "abstract": false, "extension_points": [], "details": null}],
+  "includes": [{"base": "...", "included": "...", "details": null}],
+  "extends": [{"extending": "...", "base": "...", "extension_points": [], "condition": null, "details": null}],
+  "use_case_generalizations": [{"child": "...", "parent": "...", "details": null}],
+  "actor_generalizations": [{"child": "...", "parent": "...", "details": null}],
+  "associations": [{"from": "...", "to": "...", "directed": false, "multiplicity_at_from": null, "multiplicity_at_to": null, "details": null}],
+  "notes": [{"text": "...", "attached_to": null, "details": null}],
+  "other_relationships": [{"from": "...", "to": "...", "details": null}],
+  "other_dependencies": [{"from": "...", "to": "...", "label": "...", "details": null}],
+  "other": [{"description": "...", "attached_to": null}]
+}
